@@ -1,0 +1,119 @@
+{
+  "labels": [
+    "Prep",
+    "Cut",
+    "Mix",
+    "Cook-Heat",
+    "Bake",
+    "Season",
+    "Plate",
+    "Idle"
+  ],
+  "embedding_model": "all-MiniLM-L6-v2",
+  "prototype_sentences": {
+    "Prep": [
+      "wash the vegetables with water",
+      "rinse the chicken under cold water",
+      "peel the potatoes before cutting",
+      "crack the eggs into a bowl",
+      "measure the flour and sugar",
+      "gather the ingredients on the counter",
+      "dry the fish with a paper towel",
+      "remove the seeds from the pepper",
+      "drain the water from the beans",
+      "prepare the vegetables for cooking"
+    ],
+    "Cut": [
+      "chop the onion into small pieces",
+      "slice the tomato into thin pieces",
+      "dice the carrot into cubes",
+      "cut the chicken into pieces",
+      "mince the garlic finely",
+      "trim the fat from the meat",
+      "grate the cheese into a bowl",
+      "shred the cabbage into strips",
+      "divide the dough into small balls",
+      "cut the sandwich in half"
+    ],
+    "Mix": [
+      "mix the ingredients in a bowl",
+      "stir the sauce until smooth",
+      "whisk the eggs in a bowl",
+      "combine the flour and water in a bowl",
+      "blend the ingredients in the food processor",
+      "fold the batter gently",
+      "knead the dough until smooth",
+      "toss the salad with dressing",
+      "beat the egg mixture well",
+      "mix the salad in a large bowl"
+    ],
+    "Cook-Heat": [
+      "heat some oil in a pan",
+      "cook the chicken in a pan",
+      "fry the chicken in hot oil",
+      "boil the potatoes in water",
+      "simmer the sauce in the pot",
+      "grill the patties on the grill",
+      "steam the vegetables until tender",
+      "melt the butter in a pan",
+      "add the vegetables to the wok and cook",
+      "flip the pancake and cook the other side"
+    ],
+    "Bake": [
+      "preheat the oven to 350 degrees",
+      "bake the dish in the oven",
+      "roast the vegetables in the oven",
+      "put the tray in the oven",
+      "place the baking sheet in the oven",
+      "cook the pizza in the oven",
+      "bake the chicken until cooked through",
+      "roast the meat on a baking tray",
+      "cook the chicken wings in the oven",
+      "bake the cake until golden"
+    ],
+    "Season": [
+      "season the dish with salt and pepper",
+      "add salt and pepper to season the dish",
+      "sprinkle salt over the vegetables",
+      "sprinkle black pepper on the chicken",
+      "rub the meat with salt and spices",
+      "add seasoning to the mixture",
+      "season the potatoes with pepper",
+      "sprinkle spices over the meat",
+      "add a pinch of salt to the bowl",
+      "rub spice powder onto the chicken"
+    ],
+    "Plate": [
+      "serve the dish on a plate",
+      "plate the food before serving",
+      "place the cooked food on a serving plate",
+      "transfer the cooked pasta to a serving bowl",
+      "garnish the dish with parsley",
+      "arrange the vegetables on the plate",
+      "serve the soup in a bowl",
+      "put the cooked chicken on a plate",
+      "place the finished dish on a serving tray",
+      "garnish the plated food with herbs"
+    ],
+    "Idle": [
+      "let the dough rest for ten minutes",
+      "let the mixture sit in the bowl",
+      "wait until the sauce cools down",
+      "repeat the same steps for the remaining pieces",
+      "set the bowl aside",
+      "leave the batter to rest",
+      "allow the cake to cool",
+      "let the meat marinate in the refrigerator",
+      "continue the process with the rest",
+      "keep the ingredients aside"
+    ]
+  },
+  "notes": [
+    "This draft narrows Season around salt, pepper, spices, seasoning, sprinkle, and rub-spice contexts.",
+    "Ingredient-only expressions such as garlic, basil, soy sauce, and curry powder were avoided as Season prototypes.",
+    "Prep removes broad add, place, pour, and coat-style prototypes that pulled container-transfer sentences into Prep.",
+    "Cook-Heat strengthens pan, pot, wok, oil, boil, fry, simmer, grill, and cook contexts.",
+    "Plate emphasizes serve, plate, garnish, serving plate, serving bowl, and finished-dish presentation.",
+    "Idle remains narrow and focuses on waiting, resting, cooling, repeating, and setting aside."
+  ]
+}

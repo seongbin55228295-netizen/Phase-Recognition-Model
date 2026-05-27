@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# 대용량 원본·중간 데이터
+data/videos/*
+data/frames/*
+!data/videos/.gitkeep
+!data/frames/.gitkeep
+YouCookII/features/feat_csv/
+YouCookII/features/feat_dat/
+
+# 모델 체크포인트
+checkpoints/*
+!checkpoints/.gitkeep
+
+# 실험 로그·시각화 산출물 (필요시 선택적으로 커밋)
+reports/logs/*
+!reports/logs/.gitkeep
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 환경 변수
+.env
+.env.local
