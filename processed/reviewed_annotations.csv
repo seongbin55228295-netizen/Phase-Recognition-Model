@@ -1,0 +1,1840 @@
+﻿video_id,subset,recipe_type,segment_id,segment_start,segment_end,sentence,predicted_label
+0H_IfT2sDZ8,training,318,1,50,55,pour the sauce on the ribs,Plate
+0H_IfT2sDZ8,training,318,3,111,133,place the ribs on the grill,Cook-Heat
+0JPDr8uT8xU,training,313,4,125,135,place the fish over the rice,Plate
+0Jkcym1lGBc,training,324,1,13,33,add the udon noodles stir and cook,Cook-Heat
+0ShsPjf9shQ,validation,119,0,15,22,add oats and breadcrumbs to ground beef,Mix
+0VBNakxmATU,training,112,3,35,40,add the cheese and tomatoes to the pasta,Plate
+0VaYabFg-6E,training,222,0,150,180,remove strings from the mussels,Prep
+0hVAuvPAIzA,training,301,0,30,53,add sugar rice wine soy sauce salt chili oil chili powder and chicken stock to a bowl,Season
+0hVAuvPAIzA,training,301,3,120,139,add chicken salt rice wine soy sauce to a bowl and mix,Mix
+0hb6NShH9hY,validation,314,6,179,188,add raw broccoli and shiitake mushrooms to the noodles,Plate
+0hb6NShH9hY,validation,314,10,245,249,take out the wrapped ingredients and add boiling water,Prep
+0qbCigxf_sc,training,419,0,90,94,add yeast to some warm water,Mix
+0qbCigxf_sc,training,419,4,234,256,shape the dough into balls and cover it,Mix
+0qbCigxf_sc,training,419,10,400,424,apply butter sprinkle chat masala and cut the naan into pieces,Cut
+0qbCigxf_sc,training,419,11,439,491,put the naan on a wire mesh and rotate the mesh over heat,Cook-Heat
+1-SJGQ2HLp8,training,205,9,261,280,add grated parmesan and pieces of mozzarella cheese on top,Plate
+1-SJGQ2HLp8,training,205,10,283,288,place basil leaves and olive oil on top,Plate
+17v08qtr8UM,training,101,4,92,95,place the bacon lettuce and tomato on the bread,Plate
+1Vs6LSUz9lA,training,309,3,93,105,place the filling in the center of the wrapper,Plate
+1iv2xhPN3vk,validation,216,1,12,15,add chopped white onion to the tray,Mix
+1iv2xhPN3vk,validation,216,2,16,19,add a cup of butter to the tray,Mix
+1iv2xhPN3vk,validation,216,4,29,36,pour six bottles of beer to the tray,Mix
+1mB0G1AwUPg,training,110,0,42,46,put eggs in boiling water,Cook-Heat
+1r7N-G4kYG8,training,122,9,279,288,turn off the stove and add the roasted red bell pepper to the pan,Bake
+1uoT5TjyWsU,training,113,4,141,154,place a slice of ham sprinkle grated cheese mixture and top it with a bread slice,Plate
+1xjsM-I-KLI,training,325,7,319,321,add canned shiitake mushrooms to the soup,Plate
+1xjsM-I-KLI,training,325,9,330,340,add some carrot and bamboo shoots and cut tofu to the soup,Mix
+2-mxsib6pJo,validation,121,6,155,168,take the bay leaves out,Prep
+2-mxsib6pJo,validation,121,8,202,211,add the clams to the soup,Mix
+29Wkj1LqaK8,validation,410,7,204,223,roll the chapati together into a circle,Idle
+2Q-Nq6kxpfg,training,302,7,99,123,add the mushroom cooked rice and soy sauce,Season
+2RW7l4zbS_k,training,308,8,114,119,put some roe on the rolls,Mix
+2Rn2tM9Rgg8,training,403,4,209,218,add diced tofu,Mix
+2Rn2tM9Rgg8,training,403,6,342,349,add fresh noodles,Mix
+2TSFTzB0AyU,training,416,0,25,45,add sabut urad and red kidney beans,Mix
+2TSFTzB0AyU,training,416,8,260,263,add fresh cream,Mix
+2TSFTzB0AyU,training,416,9,307,315,add tomato puree,Season
+2VzLjiTGU9g,training,204,4,90,100,add the meat and brown,Bake
+2YkYjleJs-0,training,406,2,124,151,lay down stir fried shrimps cooked rice noodles shredded cucumber and carrots and mint leaves,Plate
+2tCWtcoGpCM,training,306,5,110,124,put the shrimp into the oil until it turns golden,Idle
+2tCWtcoGpCM,training,306,6,136,152,remove the shrimp and lobster tails from the oil with tongs,Idle
+33OD9eIiTPI,training,203,6,180,220,pour some pasta sauce to the meatballs and place the lid on,Plate
+3HKIO_gPWQQ,training,225,3,218,224,add pasta to boiling water,Cook-Heat
+3HKIO_gPWQQ,training,225,4,252,307,pour the cooked beans on the pasta and mix it together,Mix
+3WXM2FAueb8,validation,127,7,173,194,add beef and cheese on top of the beans,Plate
+3XKJ07sLiPE,training,416,3,89,97,grind a tomato,Cut
+3dUm-m3iFaI,validation,422,1,83,100,remove the noodles,Idle
+3dUm-m3iFaI,validation,422,4,187,193,remove the wontons,Idle
+3dUm-m3iFaI,validation,422,6,261,280,pour broth and garnish with chopped green onions and dry garlic,Plate
+3meb_5kcPFg,validation,230,1,75,97,roughly chop garlic and peppers and add them to the bowl,Cut
+3o2slUH6UmE,training,301,9,221,240,add the kung pao sauce to the vegetables and mix,Mix
+3rb_cevHS3c,training,201,5,248,272,put some mozzarella cheese on the chicken,Mix
+3rtzSsuJ4Ng,training,101,1,69,74,add olive oil,Mix
+3t0DOJgK1vs,training,421,12,141,144,seal the edges of the cone,Cut
+45mgcWx16mM,training,208,0,37,51,remove the packed sausage from the plastic and place in a dish,Prep
+4JwUCS5JjfY,training,304,0,40,44,place the noodles in hot water,Cook-Heat
+4SnAlRlxlFk,validation,421,9,221,244,seal the edges together so a cone is formed,Idle
+4TjB1J4QoUQ,training,416,7,258,259,add the garam masala to the dal,Season
+4UDMcBe5D3A,training,310,2,109,117,place garnish on ice,Plate
+4Zl5NvXPi-0,validation,213,3,70,75,add more gruyere cheese on the ham and apply dijon mustard on the bread,Season
+4Zl5NvXPi-0,validation,213,4,75,81,put the ham on the bread and pour some bechamel sauce on the bread,Mix
+4apR0YypAGc,validation,324,2,101,110,add some udon noodles to the broth,Plate
+4bEtf7u4YtE,validation,119,7,133,146,add some yellow mustard and some ketchup,Season
+4eWzsx1vAi8,validation,101,7,197,210,add bacon and cover with second bread,Mix
+4if72iBIiJ8,training,116,1,48,73,roll out the dough,Mix
+4if72iBIiJ8,training,116,3,105,113,add mozzarella cheese on top,Plate
+4if72iBIiJ8,training,116,4,114,136,add chopped mushroom and pepperoni on top,Plate
+4nxbRG6-sfw,validation,301,1,46,57,pour the marinade onto the chicken and mix,Mix
+543n2SO_03E,training,214,3,133,137,remove the plastic wrap from the tray,Prep
+543n2SO_03E,training,214,5,156,163,place some of the liver on plastic wrap and roll it,Mix
+543n2SO_03E,training,214,13,254,256,remove the plastic wrap from the liver,Idle
+5B1jpHgRetQ,training,316,4,126,135,add katsuobushi and simmer,Cook-Heat
+5B1jpHgRetQ,training,316,6,173,180,add tofu to the stock,Cook-Heat
+5I-_uJQ0t1o,training,107,0,157,162,remove the head of a squid,Prep
+5Pa79r5Q-ZI,validation,219,1,88,93,weigh the cabbage and add salt,Prep
+5Pa79r5Q-ZI,validation,219,2,97,98,add a capture of lactic bacteria,Mix
+5SMOBHTBPjA,training,425,10,332,359,place the filling in the center and fold the dosa on both sides,Mix
+5_mNozo4yqM,training,119,6,141,160,add two beaten eggs some chopped parsley leaves and some parmesan cheese,Mix
+5_mNozo4yqM,training,119,9,249,275,pour sauce on the loaf,Mix
+5cqJkRqbHrs,training,418,5,222,231,pour in the masala,Season
+5cwg5mURihI,training,201,9,226,233,put some parmesan cheese onto the chicken,Season
+5xogySLxeWQ,training,227,10,306,317,add ground cumin lemon juice and olive oil to the food processor,Mix
+62H65wNWMZo,training,212,1,29,34,add some chopped carrots and onions and cook,Cook-Heat
+62H65wNWMZo,training,212,2,37,50,add the beef water and a stock cube and simmer,Cook-Heat
+67ilysu8CeU,training,401,3,131,158,add the chicken and coat with the sauce,Season
+6IN_mupBjh8,training,106,2,198,235,pour some melted butter beaten eggs seasoned salt and half-half on the dish,Mix
+6KCWzRfFyr4,training,319,8,477,518,add bean sprouts cooked zucchini goshari spinach shiitake mushroom chopped carrots and cooked beef to rice,Mix
+6XBocXgvfTs,validation,230,1,124,141,add the sauce and some raw shrimps to a bag and refrigerate,Idle
+6bZ4ZJtRmaE,training,126,1,126,164,place the beef onto a grill,Cook-Heat
+6jQF0_tuGdU,training,124,8,123,131,put some sauerkraut on the hot dog,Mix
+6jQF0_tuGdU,training,124,9,137,140,add the sauce that was made to the hot dog,Mix
+6uHoTJSLoL8,validation,303,1,74,92,add mince pork and stir,Mix
+6uttmRx2ovo,training,218,9,546,550,spray some oil on the pierogies,Prep
+7-FatJyHj_g,validation,305,5,88,106,transfer to an airtight container and cover with a lid,Idle
+7E8Lj_Ktfok,validation,310,7,177,189,place the apple puree on the tuna,Plate
+7Ui4OCsawAU,training,215,6,217,224,add the escargot inside the shells,Mix
+7Xw2utxQSK8,training,410,3,188,220,roll out the dough,Mix
+7jO6rYyhuJk,validation,113,2,54,62,now place the top layer of the bread slice on it and cook for 3 min,Cook-Heat
+7nH0Y3agsas,training,202,4,129,173,add flour mixture tomatoes herbs and seasoning to the pan and stir,Mix
+83sNHrKGcqY,training,126,2,119,121,add minced garlic,Mix
+83sNHrKGcqY,training,126,6,242,272,put the cooked meat and some sliced avocado tomato sour cream and cheese inside the tortilla,Mix
+86Mb6cYFJig,validation,410,4,100,119,roll out the dough,Mix
+86Mb6cYFJig,validation,410,6,150,153,when air bubbles form flip the bread over,Idle
+86Mb6cYFJig,validation,410,7,177,187,place the bread over high flame,Bake
+891dSjYielI,training,203,0,33,105,add beef egg minced garlic black pepper parmesan cheese parsley bread crumb and mix well,Mix
+891dSjYielI,training,203,3,210,242,add the meatballs to the sauce and simmer,Cook-Heat
+891dSjYielI,training,203,4,273,305,place the meatballs on spaghetti and sprinkle parmesan on top,Plate
+8PFyEtZgSUs,training,218,1,87,93,add in parmesan cheese,Mix
+8XcSP7kKOIo,validation,117,3,29,35,pour vinegar into the boiling water and simmer,Cook-Heat
+8ZX3Lazhkp4,training,117,5,125,135,gently stir the water around the egg,Mix
+8lqdPpg3w08,training,103,5,230,234,place cheese on the patty,Plate
+91z7e22XGy8,training,218,4,141,146,place the filling in the center of the wrapper,Plate
+92cezdsHEwM,training,225,6,386,398,add water to the soup,Mix
+9BNRMHGepS4,validation,119,6,194,240,pour some barbecue sauce on the meat loaf and bake the meatloaf,Bake
+9CLtnYV28bY,training,409,10,392,401,add garam masala and cook,Cook-Heat
+9RRHAydI_xk,training,406,5,135,139,remove the wrapper,Prep
+9cDDAEsdb7A,training,114,8,185,220,keep whisking until the gravy turns to a dark color,Season
+9ekEjxd-A_Y,validation,115,5,226,248,dip the hot dog into the batter,Cook-Heat
+9guuyTr8EUg,validation,302,8,310,314,place the filling on the corner of the wrapper,Idle
+9guuyTr8EUg,validation,302,12,365,372,place the spring rolls in the oil,Cook-Heat
+A8eDWlCYaq8,validation,109,4,141,148,put the chicken in fridge for 20 minutes,Idle
+ACyY0jTrm5c,validation,403,2,94,115,add cooked chicken brocoli carrots cilantro and peanuts,Mix
+AEpS4UBE6ds,training,302,5,233,245,place the spring roll sheets on a damp cloth,Mix
+AFc6KPGfVs8,training,119,5,270,284,pour the sauce on top of the meatballs,Plate
+AGq4lnC_WVo,training,121,1,78,85,add white wine cover a lid and turn on the heat,Mix
+AGq4lnC_WVo,training,121,7,270,284,add the milk and fish stock,Mix
+AGq4lnC_WVo,training,121,12,545,548,add the clams to the chowder,Mix
+ALpzvKkohfQ,training,405,4,236,243,add a little bit of water,Mix
+ALpzvKkohfQ,training,405,5,275,312,add chopped tomatoes stir and put the lid on,Mix
+ALpzvKkohfQ,training,405,6,345,366,add some water and coriander leaves,Mix
+AMBH5L6x3dQ,validation,423,9,232,267,add a can of laksa to the soup and bring the soup to a boil,Prep
+AMBH5L6x3dQ,validation,423,10,281,308,add a little fish sauce sugar and lime juice,Mix
+APKue3kxJmg,training,205,4,353,372,brush some tomato sauce on the pizza and top with some chopped mozzarella cheese dried oregano and fresh basil,Plate
+AcWeYhS3cDs,validation,317,4,65,78,pour the marinade over the beef,Mix
+Afp_1HegZOc,training,213,2,38,55,add some cheese on top and bake the sandwich,Bake
+Afp_1HegZOc,training,213,6,174,195,put the other piece of bread on top and brush some butter on top and bake the sandwich,Bake
+Ap3g0IRcjzU,training,304,10,412,419,add the udon noodles and cook,Cook-Heat
+Ay55c3jSbeI,training,230,2,143,160,squeeze lemon juice on top,Plate
+Ay55c3jSbeI,training,230,7,389,488,place the chicken and vegetables on the skewers,Prep
+BFpJtwAG-8A,training,216,2,181,189,place the bratwursts on the grill,Cook-Heat
+BGCW_PWhY9g,training,317,2,62,75,cut the chicken and combine it with the marinade,Cut
+BTMd6rcevns,training,117,7,85,91,add white vinegar to the boiling water and stir the water,Cook-Heat
+BYoZz07Y_CY,training,307,4,110,128,put the rice into a container and cool,Prep
+C4ROaIjK6Fs,training,314,2,96,101,add sake to the clams,Mix
+C4ROaIjK6Fs,training,314,3,105,137,add sofrito to the clams and stir,Mix
+CIRA1IC9shc,training,223,13,331,332,add the mushrooms to the stew,Plate
+CK_GWBMUXGw,training,214,6,376,395,pour the sauce over the foie gras,Plate
+C_6yMh3tEQk,training,403,4,340,343,add pad thai sauce,Season
+Ck3oNHsLqfk,training,214,0,45,56,score the foie gras,Cut
+Ck3oNHsLqfk,training,214,7,217,227,burn cherry blues using blow torch and make smoke,Cook-Heat
+CotdlwupDSI,validation,313,4,145,162,pour some sauce,Mix
+CrLSUUltW2A,training,421,5,237,283,roll balls flat,Mix
+CrLSUUltW2A,training,421,10,443,482,add filling and seal closed,Mix
+CtAJhyW0j_M,training,324,2,322,328,add a chunk of udon noodles into the soup,Mix
+CvSyuGqTrqk,training,207,5,161,173,dip fish slices into batter,Cut
+D7K6_0gtpHQ,validation,222,5,234,245,pour the cooked milk mixture and the parsley on top of the mussels,Mix
+DBJUD9V-1rQ,training,412,3,140,168,add green beans bell peppers and peas,Mix
+DVW7nZeeVlk,validation,416,0,110,120,place the dal in a pressure cooker with four cups of water,Mix
+DViAejsp_rQ,training,425,3,68,78,place the masala on the dosa,Idle
+Db6SYxAfmPM,training,108,4,150,151,pour honey on top,Plate
+DeP_lwBPvzw,training,406,9,231,279,remove shrimp skin,Prep
+DvAiRex4JlQ,training,113,3,135,149,place the ham on the bread,Plate
+DvAiRex4JlQ,training,113,4,157,161,place a piece of bread on top,Plate
+EHPkhM261nk,training,218,5,211,221,roll the dough into a thin sheet,Mix
+EJm2J0WqRcY,validation,204,2,93,98,pour in vodka,Mix
+ETXVbDoMKbQ,training,228,1,78,88,add tahiti,Mix
+Eci1mvWcQuI,training,216,3,102,109,add sauerkraut and mustard to the bratwurst,Season
+EedEYHqLfP8,validation,106,2,144,167,add evaporated milk water and cheese,Mix
+EizSoy7Ztto,training,314,6,254,260,pour the soup over the noodles,Plate
+EjHxMfOdl1k,training,127,2,122,150,put the chicken black beans green onions cilantro and pepper in the rice,Mix
+Ex2yu23wyHA,training,304,4,188,192,add sesame oil,Season
+EyAdFQJv2LY,training,313,1,19,22,hold the fish in the other hand,Idle
+F-Pgf8bXDpQ,training,215,3,110,112,add an escargot to the shell,Mix
+F-Pgf8bXDpQ,training,215,5,122,125,place the shells in a tray,Plate
+F1hJsAju9IY,training,310,1,36,46,remove big fiber,Idle
+F2qYQZ7Q68s,validation,127,5,100,138,add the moreno to a piece of taco and spread some cheese and roll it up,Mix
+FHvZgt3ExDI,training,205,2,216,301,put some sauce on the pizza dough and top it up with mozzarella cubes and basil leaves,Mix
+FeUEV0a6I5I,training,122,3,91,103,remove the bayleaf and let the mixture cool completely,Idle
+FliMoBfG72Y,validation,307,2,138,179,put mayonnaise fish roe crab meat red lettuce cucumber salmon and avocado on top,Plate
+Fp_d1SlbG_0,training,124,10,244,253,roll the hot dogs in the water,Mix
+FpzbVOkHh_M,training,418,6,407,439,add chana masala dry mango powder pomegranate seeds sugar tamarind paste to the pan and stir,Season
+FtHLUsOntqI,training,325,6,312,322,add mushrooms and spring onions to the soup,Mix
+FtHLUsOntqI,training,325,8,429,436,add sesame chili oil to the soup,Mix
+G-vY8T7pSTM,training,307,3,78,94,add cucumber and avocado,Mix
+G21LXiasKf4,training,103,5,190,228,place some tomato sauce the burger patty the onions on a bun and cover with another bun on,Plate
+G5dAW-jtLhg,training,413,5,242,246,pour soy sauce in the sandwich,Season
+G5dAW-jtLhg,training,413,6,251,267,place cilantro in the sandwich,Plate
+Ghefa-Q18Tg,training,122,3,270,303,add the chicken stock to the soup,Mix
+Ghefa-Q18Tg,training,122,6,349,387,add the roasted tomatoes to the soup and cook for 5 minutes,Cook-Heat
+Ghn26BIbbvE,training,319,2,261,303,add radish to a pan of hot oil with salt pepper garlic green onion sesame seeds and soy sauce,Mix
+Ghn26BIbbvE,training,319,3,314,351,add mushroom salt pepper soy sauce garlic and green onion to a hot pan,Mix
+GmWb7W7m2vs,training,412,3,60,74,add the lid and cook the rice,Cook-Heat
+GmWb7W7m2vs,training,412,12,330,341,add the cooked rice,Mix
+Gq9rHij2z20,training,416,3,262,267,add tomato puree,Season
+Gq9rHij2z20,training,416,5,328,342,add butter and dal water,Mix
+Gq9rHij2z20,training,416,6,393,399,add the dal,Mix
+Gr7E2bhg0iw,training,401,1,185,201,add a little bit water and grind again,Mix
+GrCrG-EMr8g,training,307,1,100,119,take shredded crab meat and add some mayonnaise and mix it well,Mix
+GrCrG-EMr8g,training,307,5,227,268,take the bottom and roll it tightly to seal the edges and roll it,Idle
+H3cnPVPdwTY,training,318,2,335,380,cut the rib into three small pieces add the pieces of the bowl and mix,Cut
+HBUz55JRRm8,validation,212,10,526,570,layer the potatos in the dish,Plate
+HJBQ-NgQ9T0,training,224,9,419,425,place a lemon wedge on top,Plate
+HK92pViSZA0,training,116,6,95,101,add cheese over the sauce,Mix
+HLQ16akzeI8,training,307,3,89,149,add avocado crab and cucumbers and roll the nori paper,Mix
+HLQ16akzeI8,training,307,4,170,183,put rice on the nori sheet and sprinkle it with sesame seeds,Mix
+HdQzPLk_KiA,validation,229,1,105,120,squeeze some lime juice to it and add some olive oil,Season
+HeG0xZ-U_4w,training,116,1,18,50,add oil chopped onion bell pepper mushrooms and garlic to a pan,Mix
+Hu1-l8xvJjU,training,215,5,37,47,add escargots and whipping cream and boil,Cook-Heat
+HvQ7M9ibS_8,training,410,4,210,240,roll the dough out,Mix
+HxehEvClhQI,training,221,3,117,157,add diced tomatoes red wine and beef broth and stir,Mix
+I1JgU6TK-yc,validation,110,1,76,92,pour some of it into a cup and put the rest into a bag with chicken,Mix
+I1JgU6TK-yc,validation,110,7,221,252,cut the cooked chicken and toasted bread and toss into the salad,Cut
+ID2ct1TlVuk,training,323,5,111,140,add sesame oil and soy sauce to the wok and stir,Season
+IDu5czNIM1w,validation,114,1,45,60,put the potatoes in a pot and cover them with cold water add some salt and bring the water to boil,Cook-Heat
+IDu5czNIM1w,validation,114,5,105,125,add butter grated parmesan cheese chopped chives cream cheese and minced garlic,Season
+ILS3z1zpD8k,training,209,2,31,48,scrape vegetables into bowl and add lamb to the skillet,Mix
+ILS3z1zpD8k,training,209,4,55,69,add vegetables flour chicken broth and tomato paste,Mix
+IqD6qnug7tc,training,324,3,73,89,add lemongrass galangal crushed vegetables and tomatoes,Mix
+IqD6qnug7tc,training,324,5,111,125,add the seafood and mushrooms,Mix
+IsyVAXuaCC8,training,230,7,380,456,stack meat onion tomato and green pepper on the skewer,Prep
+J5Tw7KRnSyc,validation,207,10,231,234,put the fish in a cone,Mix
+J6j0B9hK2Sk,training,112,6,113,122,add in minced garlic and the prepared shrimp and crab,Mix
+JAF3Bpy-AsY,training,318,7,298,319,place the ribs on the grill,Cook-Heat
+JPbFE731Y0c,validation,216,2,80,110,place the bratwurst on the grill and cook them until brown for about 10-15 minutes,Cook-Heat
+JQl2zaUGNSU,training,201,5,220,248,add cheese on top of the chicken and cover,Plate
+JXCmp1jMi0w,training,105,6,189,206,add some water ketchup and garlic powder while whisking,Mix
+JdDL-ekwq2A,training,401,2,108,119,add diced tomatoes and cover to cook,Cook-Heat
+JdDL-ekwq2A,training,401,6,192,196,add some water,Mix
+JeLdTWqLUY0,training,216,3,167,172,place the brats in the roll,Mix
+JrOs3kkSZ48,training,325,5,125,144,add the vegetables chicken and garlic to the soup,Mix
+JxCBGlPgr5o,validation,103,3,122,129,roll the dough out,Mix
+JxCBGlPgr5o,validation,103,5,139,151,brush the circles with egg washa and sprinkle with sesame seeds,Season
+JxCBGlPgr5o,validation,103,8,194,204,roll the beef out,Mix
+K6Uk5vNi1_Q,training,401,5,294,298,add in the tomatoes,Mix
+K6Uk5vNi1_Q,training,401,8,391,399,add in water,Mix
+K8cfa-hIT-8,training,324,2,153,168,add carrots and broccoli and stir,Mix
+K8cfa-hIT-8,training,324,5,240,245,add in the udon noodles,Mix
+K8cfa-hIT-8,training,324,6,274,294,place some roasted turkey on top,Bake
+K8cfa-hIT-8,training,324,8,335,412,take the noodles out pour some soup in and garnish with chopped green onions,Plate
+KDwsw3XLhUo,training,209,1,91,124,add minced lamb and stir,Mix
+KIvxQGWU5KU,training,211,1,99,104,add tea to it and braise,Cook-Heat
+KTQeLdmlzBo,validation,127,2,206,218,add guacamole cheese lettuce and olive on top,Plate
+KUL6f9Q5ER4,training,412,3,216,224,add steamed rice chopped onion and pineapple,Mix
+KUL6f9Q5ER4,training,412,6,267,285,add some cooking sauce and stir,Cook-Heat
+KYoelaJY5LA,validation,225,2,97,103,add the collard greens to the soup,Mix
+KchBiFT7Vlg,training,202,7,124,134,add minced garlic and tomato puree and chopped tomatoes and saute,Cook-Heat
+KchBiFT7Vlg,training,202,9,144,147,add the pasta,Mix
+KmqfNQG1BXk,training,314,5,108,109,put the eggs in the marinated pork liquid,Mix
+KpzFf81iax8,training,401,9,349,364,add beaten curd,Mix
+Krmi9Is522c,training,421,6,368,491,apply water to the edges make a cone stuff it with the filling and seal it,Mix
+L-NOPLU4JOQ,training,419,6,260,277,roll balls flat on surface,Mix
+L3x9HDsfpBY,training,126,7,212,220,squeeze some lime juice in it,Season
+L5IxNIODQkc,training,117,2,110,121,put the salmon on top of the bread,Plate
+L8ZRBTdq3mE,training,226,1,165,208,add lemon juice apple cider vinegar pomegranate syrup and olive oil and mix,Mix
+LA6DXaQ5vGQ,training,416,4,137,143,add in the cream,Mix
+LA6DXaQ5vGQ,training,416,5,153,155,add in the garam masala,Season
+LMoGwLqPM64,training,324,4,96,106,remove the foam then cover,Idle
+LMoGwLqPM64,training,324,8,144,146,add the noodles,Mix
+LQDP3xm8aRk,validation,208,0,40,53,put potatoes and salt into a pot of water and boil,Cook-Heat
+LQDP3xm8aRk,validation,208,1,56,80,fill second pot with peas mint salt sugar and water and boil,Cook-Heat
+LQDP3xm8aRk,validation,208,8,210,230,add chopped tomato to onions and mix,Mix
+LRjJqoeprqg,training,213,5,360,394,pour sauce onto the sandwich and top with a slice of cheese,Plate
+LfSYF1N5i_Q,validation,122,2,95,126,add chicken stock tomato paste and diced tomatoes,Mix
+LhrmwGxTLAE,training,218,13,494,497,spray pierogis with nonstick spray,Season
+Lky6MPtNJto,training,119,4,144,160,add some beef broth and whisk,Mix
+LpBsoQ6TAL0,validation,204,4,194,206,add vodka to the sauce,Mix
+M0aQH3SpfhU,training,227,1,134,153,add olive oil and stir thoroughly,Mix
+M1HPY6_IEqU,training,119,4,72,80,add the sauce to the top of the loaf,Mix
+M6gouTbPn70,training,115,4,114,121,put the batter in a tall cup,Mix
+MCtF5tRCRUk,validation,117,6,205,235,layer ham on the english muffins,Mix
+MCtF5tRCRUk,validation,117,7,235,255,place the poached egg on the layer of ham,Mix
+MIt0YvVC2iY,training,406,2,66,74,place the noodles on the wrapper,Mix
+MPCU71Hg-i4,validation,116,4,29,33,place cheese and pepperoni on the bread,Plate
+MPCU71Hg-i4,validation,116,8,42,43,place bread on top of the sandwich,Plate
+Mc3pEWN0sTs,training,413,1,33,65,add the shallots sugar fish sauce oyster sauce five spice powder black pepper and oil to a bowl and mix,Mix
+Mm6Ay5ez6Ig,training,302,9,228,232,place the filling on the wrapper,Idle
+Mm6Ay5ez6Ig,training,302,11,246,250,seal the spring roll with water,Mix
+MtWNUAUmGpU,training,202,0,42,106,pour olive oil into a pan and add garlic bay leaves oregano celery seed onion tomato and tomato paste,Cook-Heat
+MxIBrXGWFw0,training,201,4,168,220,place the cooked chicken on the sauce and add some more pasta sauce on top of it,Plate
+MxIBrXGWFw0,training,201,5,221,228,put the smoked provolone cheese on top of the chicken pieces,Plate
+N1-rqFfCm9M,validation,422,5,88,100,clean the chicken and throw the bones in a pot of boiling water,Cook-Heat
+NAMZY2LbeFY,validation,225,5,228,230,add the pasta,Mix
+NB-5FHq_vL4,training,105,5,481,555,add the chicken into the bag seal it and shake to cover the flour on the chicken,Mix
+NK2tAXi3cT4,validation,126,2,258,395,add condensed tomato soup salsa water and the chopped tortillas to the cooked beef,Mix
+NLZO6xY1DXs,training,307,4,150,155,place it upside down on a bamboo sushi rolling mat,Mix
+NRovp9c9e-4,validation,401,1,220,365,add grated onion and cook until the onion turns brown,Cook-Heat
+NTyhMGmuWik,validation,124,5,279,323,place frankfurter in middle of bun cover sausage with chili prepared earlier top with mustard sauce garnish with chopped onions,Plate
+NkCbbwxEdXU,training,418,4,125,137,add tomatoes to onion paste and cook,Cook-Heat
+NkU9HSI1S9k,training,325,3,190,199,add chicken cherry tomatoes and mushrooms,Mix
+NktYVXNREVY,training,221,5,470,570,add the homemade goulash soup and dark beer,Mix
+Ns8su84olsQ,training,403,6,334,380,add bean sprouts scallians peanuts and gently stir,Mix
+NwiypvZAymk,training,401,8,404,450,add 500gms of chicken breast cubes to the prepared sauce,Mix
+Nz9EAqTBrNw,training,307,0,59,76,wrap the bamboo mat with the wrapping paper,Idle
+O0dbSxAKljk,training,120,6,368,383,when the bottom turns brown flip the hash browns,Bake
+OEfzgobszUA,validation,127,0,14,21,take 2 peppers and 1 green bell pepper take out the seeds and cut it into half,Cut
+OEfzgobszUA,validation,127,6,76,83,add 1 can of kidney beans and 1 can of refried beans and mix it well,Mix
+OEfzgobszUA,validation,127,11,144,168,put the leftover filling on top and some sauce and some more cheese,Plate
+OF-Zh5FrxGc,validation,204,9,362,368,add cream to the sauce,Mix
+OKyOqfAeARQ,training,409,8,221,226,add milk to the top of the rice,Mix
+OMJvrjWEjC0,training,204,4,104,121,add tomato sauce and water to the sauce,Mix
+OMJvrjWEjC0,training,204,6,150,159,add the pasta too the sauce,Mix
+OsYU9W14guU,training,308,7,202,212,roll up into a cone,Mix
+P7bsYTDILps,training,119,4,130,136,pour the sauce on the meat and add soaked bread crumbs mixture,Mix
+PHpk4ITk-SE,validation,126,4,91,112,remove the air and lock the cover,Idle
+PHpk4ITk-SE,validation,126,9,326,331,wrap it along with other vegetables to make tacos,Mix
+PLqTyxMYgBg,training,107,11,272,281,take some lettuces in a bowl pop the cherries off in to the it and add the calamari,Mix
+POgIE_9QuYA,training,422,3,200,215,transfer the noodles to a cold water bath and return to the hot water,Cook-Heat
+PPWGxMrCKHo,training,216,2,48,60,turn the brats occasionally to cook them on all sides evenly for 20  30 minutes without burning them,Cook-Heat
+PQ97HXmsFR0,validation,302,14,474,487,once the rolls turn brown remove and place them on a plate with paper towels and serve,Plate
+PRSzKHcYXrk,training,229,4,140,168,form the mixture into balls and cool in the fridge,Idle
+PTpRTJKAEoI,validation,110,7,168,172,put 2 tsp of olive oil add cut bread dices and fry,Cook-Heat
+PTpRTJKAEoI,validation,110,9,194,204,add roasted bread crumbs crispy bacon slices of parmesan cheese  shaved  to seasoned greens and pour dressing blend on top,Bake
+P_eepz1z7H8,training,406,2,67,80,place the shrimp on the other side of the paper,Idle
+QISvGTL2VDc,validation,423,0,56,63,slice the fish cakes bean curd and boiled eggs,Cut
+QKjmdrMA2t8,validation,203,7,181,216,take out meat balls put them to pasta sauce mix well bring to boil and let simmer for 30 minutes,Cook-Heat
+QRUXnp4mDUQ,training,308,0,59,68,place the nori down with the textured side up,Idle
+QS0I7mLQIgc,training,122,1,58,74,add finely chopped garlic give a stir and cook for a minute,Cook-Heat
+QVIrvIjknv4,training,305,2,95,120,pour the salt water into the container with the chopped cabbage and let the cabbage soak for 2 hours,Mix
+QWhn9Ncvvso,training,101,5,171,180,place the tomato slices on top of the lettuce sprinkle some grated pepper,Plate
+Qh_rtJaCpXs,training,203,7,189,193,now add the fried meatballs to the sauce and mix,Mix
+QpDxIXV6VTE,training,121,3,229,232,pour the clam stock into a jar,Mix
+Qsgz9Vr-5aU,training,209,9,320,380,layer butternut squash on bottom of dish sprinkle basil into meat mixture and layer on top of squash mashed potatoes,Plate
+Qy366zq9vws,training,219,5,114,128,put a cloth on top of the jar to cover and tie a rope around tight,Plate
+R4ZerUrULLk,training,416,1,46,60,add cumin seeds and chopped onion,Mix
+R4ZerUrULLk,training,416,5,104,114,add kasoori methi and garram masala,Season
+RFE7qdhjgXc,validation,404,1,58,65,add in some flour and baking soda to the chicken too and mix it well,Bake
+RWtVm_5_D2s,validation,205,0,20,33,add yeast and oil to the water,Mix
+RY10IUcz3bk,validation,106,5,242,348,add layers of macarnoni and cheese,Mix
+RllWJUvrxEY,validation,113,9,241,245,place the wrapped sandwhich on the grill,Cook-Heat
+RoLhMa9SHsI,training,113,3,90,118,add the pickles slices of jalapeno tomatoes and the chadders on top,Plate
+RqgN6iWMkb0,validation,314,10,244,261,place pork corn an egg and green on the noodles,Plate
+SIRq4vM7zLQ,training,303,2,249,310,add tofu salt soy sauce chicken broth cover it and cook,Cook-Heat
+SRIffPRdq_M,training,204,3,141,154,pour in vodka,Mix
+SRIffPRdq_M,training,204,9,274,284,add basil to the sauce,Season
+SZ7TtauNFRU,training,229,10,510,535,add vegetables and garlic sauce to the pita,Plate
+SZ7TtauNFRU,training,229,11,537,546,place the falafel on the sandwich,Plate
+SjA7PFoZcNQ,validation,423,1,105,110,strain oil and discard shells,Idle
+SjA7PFoZcNQ,validation,423,8,296,300,add coconut milk and bring to a simmer,Cook-Heat
+SjA7PFoZcNQ,validation,423,10,335,345,add bok choy and remove from heat after 30 seconds,Idle
+SkPvNb9P7XQ,training,214,7,131,136,layer the foie gras pudding and apple,Plate
+SqLOMJ2D_SM,training,316,0,18,34,put the kombu in boiling water for 30 min,Cook-Heat
+SqLOMJ2D_SM,training,316,1,60,75,shave the bonito and put the flakes in the water,Prep
+T2lxCGJ9ekg,training,126,8,219,226,fill a taco shell with the mixture cheddar cheese and chopped iced lettuce,Plate
+TFJ6oR89Vb8,training,104,1,56,65,add feta cheese basil and cherry tomatoes to the eggs,Mix
+TFRrKVTcWnI,training,127,8,440,468,put cheese on tortilla first and then add beans salsa and guacamole,Mix
+TGY3iP4X34c,training,127,11,284,301,add beans enchiladas sauce onion and cheese to the center of the tortilla,Mix
+TMpt-41UTOk,validation,218,6,257,270,in the food processor add flour and salt,Mix
+TO_W2RYL2mA,validation,314,4,72,85,add some chopped cucumber and red chilli,Mix
+TO_W2RYL2mA,validation,314,6,97,105,take the soup out with some boiled ramen to serve,Plate
+T_o_T3LEYLY,validation,406,5,320,330,remove the rolls from the oil and serve with a sauce,Plate
+T_o_T3LEYLY,validation,406,7,373,387,place the filling on one end of the sheet and roll,Mix
+TmbdrTVJ_Mo,training,213,4,214,238,put some grated swiss cheese on top and cover the top with another mustard applied toast,Season
+Tq_nqORh6hs,training,401,2,146,189,add cut chicken pieces to the fried onion mixture and fry,Cook-Heat
+Tq_nqORh6hs,training,401,5,242,269,now add the curry base stir it cover the lid and simmer,Cook-Heat
+Tq_nqORh6hs,training,401,6,271,307,open the lid and add garam masala and fenugreek leaves,Idle
+TvKIeO1kmR4,training,116,8,314,357,add sauce mixture and spread over entire pizza add pepperoni on top,Season
+TvQjlIaAssw,training,225,4,77,87,add the pasta and beans to the soup,Mix
+TyR6QO1pVCo,training,323,2,142,182,add frozen peas pork pepper and soy sauce to the pan and stir,Mix
+U8Mb5cr7JDQ,training,219,4,114,142,place the cabbage to a jar and press it firmly to the bottom,Plate
+UHmKlQ2OkTM,training,106,6,346,368,add some cheese and keeps whisking until it starts to melt,Mix
+UUlfKJ9M_pQ,training,121,2,74,91,take the bacon out add onion and celery and cook,Cook-Heat
+UUlfKJ9M_pQ,training,121,5,205,230,add cream and the clams and cook,Cook-Heat
+UZGqsSB9cSQ,training,317,4,139,155,add the chopped green onion and sesame seeds to the beef and mix,Mix
+UZGqsSB9cSQ,training,317,6,198,216,place the beef and ssamjang paste onto a piece of lettuce,Plate
+U_2DFd2ZMfs,validation,412,4,212,278,add chicken peas salt and soy sauce to the pan and fry,Cook-Heat
+U_yVc8Dl048,validation,325,5,100,117,add the mushroom and the leftover water to 5 cups of boiling chicken stock,Mix
+U_yVc8Dl048,validation,325,7,146,165,add the scallions bamboo shoots and the tofu and simmer for five min,Cook-Heat
+UtVDwLyQz08,training,105,3,50,65,dip the chicken legs in it and marinate for about 5-6 hours keeping it in the fridge,Season
+VJh-hIt_Oc0,training,103,0,32,46,add bread crumbs onion and egg to the ground beef,Mix
+VJh-hIt_Oc0,training,103,6,171,187,add tomato onion lettuce mustard ketchup and relish on top,Plate
+VSrY0ORD394,training,309,6,196,200,place the filling in the center of the wrapper,Plate
+VcIF3HOI9wI,training,101,6,164,185,take the toasted bread spread some mayonnaise on both the slices,Plate
+VcIF3HOI9wI,training,101,7,192,215,place the bacon pieces on one toast,Cook-Heat
+Vi9BxQvpdpQ,training,418,6,205,236,add chana masala and cook for 2 minutes,Cook-Heat
+Vi9BxQvpdpQ,training,418,9,381,405,after 4 hours divide dough in small balls,Cut
+VmaEuPzlPII,validation,403,0,39,44,scramble the egg,Cook-Heat
+VmaEuPzlPII,validation,403,8,160,173,add water from the jar of sauce,Mix
+Vyrq2i3R_Sk,training,209,5,186,222,add lamb stock tomato puree and lea and perrins and warm water,Mix
+W0jVkPYQjEo,training,103,0,40,102,make the burger patties into round and thick shape and make a little indentation in the center,Plate
+W2xZWTltJ10,training,418,10,577,592,add kasuri methi,Mix
+W4nvDoCtdHM,training,213,1,130,144,take the bread slice and spread french mustard and place a slice of ham and add mimolet on top of it,Plate
+W4uSf0d5yhw,training,228,8,342,361,add citric acid to the hummus,Mix
+W882NYaaiEs,training,106,7,331,355,add breadcrumbs and parmesan on top,Plate
+WAevYUItUAY,training,216,0,26,38,place the brats on the preheated grill,Cook-Heat
+WAevYUItUAY,training,216,1,70,78,turn the brats,Bake
+WDIf2Jo9EiQ,training,124,0,100,117,take the bacon pieces and wrap each hotdog in bacon,Prep
+WDIf2Jo9EiQ,training,124,4,280,294,place jalapenos on the hot dogs,Plate
+WO4EXX5DJHQ,training,223,0,39,45,place flour and beef in a bag,Prep
+WQlMXudBGT4,validation,228,1,28,44,squeeze a lemon and add the juice to the food processor,Mix
+WWwcQ6kiKtA,training,126,5,403,416,add the meat to the center of the tortilla,Mix
+WWwcQ6kiKtA,training,126,6,418,429,add the onion and cilantro to the taco,Mix
+WZu2ZAHzjbg,training,418,0,16,110,add oil seeds flour tomatoes and garlic seasoning to a pan and stir,Mix
+WZu2ZAHzjbg,training,418,5,159,160,remove the lid,Idle
+WcNepcoPYmA,training,201,4,147,161,add spaghetti sauce and mozzarella cheese,Mix
+We4NsM_moJQ,training,413,9,284,311,put mayo meat prepared vegetables cilantro and green chili between the buns,Mix
+WlkaUxBwURQ,validation,211,5,165,187,scoop the mixture on a plate and garnish with chopped parsley,Plate
+Ws7JgPJsVjs,validation,308,4,93,110,place tuna on top of the roll,Plate
+X19GtsFLeUU,training,109,2,85,106,pour the marinate mixture on top of the wings mix it and refridgerate,Season
+X1e5zsLlbZo,training,304,9,194,205,pour soy sauce onto the noodles,Mix
+X4GOx3EW3Rw,validation,319,7,191,211,add the marinated pork and cook while stirring until the pork cooks through,Cook-Heat
+X4GOx3EW3Rw,validation,319,10,248,259,finally top the rice with spicy pork bibimbap and serve drizzling little bit of sesame oil on top,Plate
+XAHNVoKV1Bc,validation,203,1,100,108,put 28 ounces of tomato into the processor and puree,Mix
+XAHNVoKV1Bc,validation,203,8,482,491,add 3 ounces of spaghetti into boiling water,Cook-Heat
+XNbfYAZ__iU,training,409,4,240,256,add the green beans and mix it,Mix
+XXUmUPDosYQ,validation,404,0,32,101,add red bell pepper green onion and garlic to a hot pan and stir,Mix
+XXrVZ-bhQEw,training,116,1,8,14,place pepperoni on it and mozzarella cheese sticks on the pepperoni,Plate
+XZIiNz19HWA,training,307,4,67,91,place the crab meat sticks on the nori sheet,Mix
+XZIiNz19HWA,training,307,5,92,107,add some cucumber and avocado along with the meat,Mix
+XZIiNz19HWA,training,307,6,109,146,roll the nori sheet using the rolling mat,Mix
+XbTA0SGOdwk,validation,203,9,226,231,place the meatballs in the sauce,Plate
+XbTA0SGOdwk,validation,203,10,237,248,add basal leaves to the sauce,Mix
+XlAZJB-uAO0,training,203,3,139,162,add minced onions breadcrumbs and parmesan cheese and mix it well,Mix
+XudXzmE1E80,training,319,4,95,97,place an egg in the middle of the rice,Plate
+YLmAvKNX0mI,training,301,7,385,398,add peanuts and serve,Plate
+YhevdroG7a4,validation,401,3,91,110,add chicken and mix everything well together so that chicken gets coated properly,Season
+YnSPiFBZiRI,training,110,5,231,250,now add fried chicken bacon croutons cooked eggs slices of parmesan cheese and dressing on top and serve,Plate
+Z6c8hIW7bhI,training,325,10,392,420,add diced tofu more water and salted vegetables stir and serve garnishing with chopped onion springs on top,Plate
+Z6coaaI77PY,training,409,5,179,199,add yogurt to the vegetables and mix,Mix
+ZGLv-uyeQWU,training,126,4,323,394,take out the meat mash it add the sauce to it mix together and serve topping with salad and guacamole,Mix
+ZTU_etWv0L8,training,412,2,100,134,add roasted shirmps sliced tomatoes and mix well,Bake
+ZazBiZ6ktfk,training,314,4,320,340,place roast pork green onion egg chili pepper and nori in the soup,Bake
+_5T4SAo7S-E,training,422,5,304,369,wrap the shrimp mixture in a wonton pastry slices and place it on a plate,Cut
+_5T4SAo7S-E,training,422,7,393,435,add some salt and sesame oil in two bowls add spicy sauce into one bowl,Season
+_7biIt2WwFA,training,224,8,221,226,squeeze lemon juice on top,Plate
+_HtTUAmEqts,training,203,1,50,70,add garlic and cook,Cook-Heat
+_SYj8e0ghqA,training,323,8,434,447,add meat and vegetables to the rice,Mix
+_b5ZFYRGFDg,training,323,3,204,207,add bbq pork,Mix
+_b5ZFYRGFDg,training,323,5,287,298,add green onion peas and carrots,Mix
+_bICKhr9AGo,training,413,0,40,62,place pieces of pork shoulder dark and light soy sauce chinese rice wine cinnamon sticks and water to a pot,Prep
+_eUYGNVVUD0,training,223,3,179,198,remove cooked meat and add second batch,Cook-Heat
+_eUYGNVVUD0,training,223,8,300,336,add beef broth thyme and wine,Mix
+_eUYGNVVUD0,training,223,9,366,389,add oil onions and mushrooms,Mix
+_eUYGNVVUD0,training,223,10,398,413,add beef stock to bot and mix,Mix
+_ilIn1kmNSA,validation,222,12,108,110,pour the soup on the mussels,Mix
+_pwC3oNzQT8,training,105,3,232,274,dip the chicken in the flour marinade and the bread crumbs,Prep
+a3ZvOvo49WE,training,216,5,310,355,place the bratwurst on direct heat on the grill let it grill until cooked on both side,Cook-Heat
+a473xRKrDYU,training,109,3,128,148,dip the wings in sauce,Season
+a4RwXrA1hiE,validation,324,4,88,99,add the tofu and cook until the liquid is gone,Cook-Heat
+a6tBjoYxbYQ,training,313,3,87,113,roll sushi using the mat,Mix
+aEXmWHuxdO4,training,317,1,99,124,add sesame seeds sesame oil and soy sauce,Season
+aSLQ9Ow-wMA,training,303,0,73,112,finely chop ginger green onion and cilantro,Cut
+aYjy__xnegM,validation,318,3,167,194,place the beef onto a grill,Cook-Heat
+aYyh8axyDg8,training,324,3,263,274,add some chopped lettuce in the soup and cook them,Cook-Heat
+awQYyYgulLw,validation,202,4,93,103,add the macaroni and let it cook for 8 minutes,Cook-Heat
+awlqmed2nwU,training,401,7,260,262,add the garnish,Plate
+b34VwqSkRE0,training,309,5,100,108,place the filling in the center of the wrapper,Plate
+b34VwqSkRE0,training,309,6,108,117,moisten the edge of the wrapper,Idle
+bQ3QYyFglc0,training,101,6,89,100,put some avocado on top,Plate
+bY4_F8J8HOM,validation,419,4,363,400,roll out the dough,Mix
+bpogVeh1pRw,training,318,2,138,162,put the beef rib and marinate mixture in plastic bag using chamber sealer seal it and refrigerate,Season
+bqmkNRNd5yw,training,201,3,195,254,dip the chicken breast in flour egg coat and bread crumbs,Season
+bxgdUWKOwtQ,validation,421,9,450,471,add stuffing to cone and use some water to seal the top edges,Idle
+c87PnAWDbOA,training,325,1,67,75,when it boils cover and simmer gently for twenty minutes,Cook-Heat
+c87PnAWDbOA,training,325,5,100,106,when the soup is boiling add prawns and simmer gently for two minutes,Cook-Heat
+c8ehb0s3gtQ,training,223,5,280,322,add bacon fat beef bacon red wine chopped garlic tomato paste and marjoram  and stir,Mix
+c9eELn4axpg,validation,101,8,241,255,place few leaves of spring greens over the avocado spread slightly press them and add sliced tomatoes on them,Plate
+c9eELn4axpg,validation,101,10,286,289,place sunny side egg over the top and serve,Plate
+cMzyB4m3VHY,validation,116,2,102,145,pour and spread the sauce on the pizza base and add a layer of grated mozzarella cheese and top with pepperoni,Plate
+cVUMbDi51ZQ,training,406,5,515,577,place shrimp accross middle and add all other ingredients,Plate
+coYqrXsDPdU,training,106,8,177,208,pour the mixture to the macaroni and season with more cheese,Season
+dB4SW9-y13U,training,321,2,108,145,add cooking wine soy sauce an egg and garlic to a bowl of chicken and mix,Cook-Heat
+dB4SW9-y13U,training,321,8,265,271,add corn starch slurry to the sauce and mix,Mix
+dEBUJ6MZ6e0,training,206,0,12,30,grate some pecorino cheese and beat the eggs,Cut
+dMhoqii0Cq0,validation,213,2,111,117,put the other piece of bread on the one with ham,Mix
+dXhZKrEUHEI,training,310,7,307,352,put baby coriander avocado mousse salmon fish eggs and the dressing with it and serve,Plate
+davq4bio878,training,314,7,120,130,put noodles into the stock,Mix
+dg47TZzD2GM,training,204,2,142,150,add cream and the vodka,Mix
+dkvHu_2X9rs,training,116,5,100,122,place the dough on a hot grill and flip,Cook-Heat
+dkvHu_2X9rs,training,116,7,133,179,add sliced tomatoes basil parmesan cheese mozzarella cheese turkey pepperoni cream cheese and olives to the crust,Mix
+dnrZJQmC05c,training,211,3,119,163,add onion to cabbage and stir,Mix
+e-LKNWrv6TQ,training,204,5,208,227,add some cream,Mix
+e-LKNWrv6TQ,training,204,6,235,240,add vodka to the sauce,Mix
+e7sUV8nqs3k,training,419,0,40,53,add sugar to warm water and yeast,Season
+e7sUV8nqs3k,training,419,2,93,110,add oil and knead,Mix
+e7sUV8nqs3k,training,419,6,200,220,roll small ball of dough flat and cover with garlic spread,Mix
+eHk6NSLGAkc,validation,202,2,54,66,add minced garlic,Mix
+eQZEf3NCCo4,validation,307,3,141,150,wrap the mat with plastic,Idle
+eWBSMD3BiHM,validation,412,10,411,430,pour the sauce in the center of the rice,Plate
+eWR6fgNWfqw,training,309,4,181,197,place the filling on the wrapper,Idle
+eX2r9gvdt1o,training,120,4,108,133,place the mixture in rings and place the rings on a grill,Cook-Heat
+eYOn2ZVB4nc,validation,227,2,66,76,remove the leaves from stalks of mint chop finely and add to the parsley,Cut
+efnHOsT7k9s,validation,205,3,133,135,place the pizza on the stone,Idle
+eyfZZWZwDOY,training,215,7,367,368,place escargots and garlic butter on the pastry,Plate
+eyfZZWZwDOY,training,215,11,410,421,brush the pastry with butter,Season
+fIhIyOWIIz0,training,307,2,37,55,add crab avocado cumumber and roll it over,Mix
+fOPF3x6c2WI,training,101,3,53,63,put some strips of crispy bacon on top,Plate
+ffyHeyRpYvo,validation,208,9,344,353,remove the lid and check if the sausages are done,Idle
+fnbXolhuE7k,validation,416,9,352,363,add garram masala and cilantro to the dal,Season
+fqqpdOpgkdc,training,126,2,269,276,put the sauce on the taco,Mix
+fr_02xrchH0,training,213,4,109,116,pour the sauce on a piece of ham on each bread and pour some shredded cheese on the ham,Mix
+g0KDpc1kSjo,training,302,0,112,117,place the filling on the wrapper,Idle
+g0KDpc1kSjo,training,302,2,132,144,tuck the sides of the wrapper in and roll,Mix
+g0KDpc1kSjo,training,302,3,146,154,seal the spring roll with water,Mix
+g1jFJYtQ9_s,training,410,5,209,239,roll the dough out,Mix
+g1jFJYtQ9_s,training,410,7,260,263,when bubbles form flip the bread over,Idle
+g1jFJYtQ9_s,training,410,8,279,290,place the bread on the flame,Cook-Heat
+g6eV_7U5HX8,validation,127,2,52,70,on a new preheated pan add the flour tortilla and heat on both sides,Bake
+g6eV_7U5HX8,validation,127,5,124,150,roll the burrito up and use sour cream to seal it up,Mix
+gB6Fd4D697s,training,304,6,273,320,add in cabbage spring onion and bean sprouts and cook until everything is ready,Cook-Heat
+gC5pQUpJBtM,training,223,11,266,284,take out beef pieces leaving herbs and vegetables,Idle
+gEYyWqs1oL0,validation,310,4,147,150,place wasabi next to the tuna,Plate
+gTqhgReBDw0,validation,210,6,156,170,let it cook for 2-3 minutes on both side until golden and serve,Cook-Heat
+gYWqhml_YJQ,validation,403,3,124,135,add some chopped green onions and rice noodles,Mix
+gYWqhml_YJQ,validation,403,4,137,155,pour some lime juice brown sugar and fish sauce,Bake
+gZuDMKXWU_E,validation,103,9,335,353,layer lettuce the patty onion tomato pickle mustard ketchup and the top bun onto the bottom bun,Plate
+gbkXkxwlYjw,training,323,5,271,309,add mirin soy sauce and black vinegar to the wok and stir,Season
+gbkXkxwlYjw,training,323,6,324,384,crack an egg in the center of the wok and stir,Plate
+gswKIbddBHw,training,309,2,113,116,place the filling in the center of the wrapper,Plate
+hM3j1SlUQd8,training,308,0,64,67,place the seaweed sheet down,Plate
+hM3j1SlUQd8,training,308,2,88,97,lay strips of tuna in a line on the sheet,Plate
+hnxHxJ1BKXA,training,115,3,175,182,insert a bamboo skewer lengthwise into the center of each hot dog,Plate
+ho2JlRJp9rk,training,103,6,256,306,put lettuce sliced tomato patty sauce and fried ingredients in the buns,Mix
+hs2h7nb5PHQ,validation,121,3,176,202,add the vegetable mixture and the clam meat,Mix
+i0qYuhtSQHI,validation,213,6,148,164,add a layer of cheese and top with bread,Plate
+iX5UqDbD9YE,training,316,1,90,97,add dashi and miso paste,Mix
+i_wZnw6f5Fw,training,122,7,345,367,when the soup boils turn the heat down and let it simmer for three to four minutes,Cook-Heat
+imfl-NXiU8g,training,214,4,249,257,remove the vein from the foie gras,Cut
+imfl-NXiU8g,training,214,12,403,409,add some beef stock to the apples,Mix
+j2HzT9LHiUE,training,309,1,17,44,add cold water sesame oil and salt and stir,Season
+j2HzT9LHiUE,training,309,7,160,166,put the mixture into the fridge,Mix
+j878b3cSqEw,training,425,8,245,246,add ghee to the center of the dosa,Mix
+jGC0VhFCk5Y,training,210,5,83,112,form the boxty into a ball,Idle
+jgeZjmXCDiw,training,119,9,329,346,lay the meatloaf on the try,Plate
+jkFDlNHAXsU,training,418,2,117,180,add cumin and onion paste and fry till golden,Cook-Heat
+jxMQRNpUsXc,training,206,4,132,136,take the spaghetti out and garnish with basil,Plate
+k7EVFW1nCNI,training,110,0,125,293,put mayonnaise parmesan lemon juice worcestershire sauce olive oil mustard anchovy paste garlic pepper salt and sugar in the food processor,Mix
+k89aq4jtiNM,training,403,4,180,188,add fish sauce and oyster sauce,Mix
+k89aq4jtiNM,training,403,5,195,210,add some garlic chives sprouts and pickled daikon,Mix
+kAD8FSnkm50,training,218,3,115,131,roll the dough out,Mix
+kEpB-PVlvVk,training,325,3,126,160,add the simmered tofu mushrooms and bamboo shoots,Mix
+kEpB-PVlvVk,training,325,4,179,185,add all the seafood to the soup,Mix
+kSyFQ1hWBLU,training,215,1,70,78,place the lemon grass in the shell,Plate
+kSyFQ1hWBLU,training,215,3,92,102,place the shells in the steamer,Cook-Heat
+kTVcpmqpXJ8,training,324,4,132,138,add the udon noodles to the soup,Mix
+kWLYcM3uVVc,validation,116,5,50,55,replace the top of the french loaf,Idle
+k_PX3Pa5GdY,training,302,3,146,154,take off heat and transfer to a bowl to cool,Idle
+k_PX3Pa5GdY,training,302,5,166,175,place spring roll wrapper down,Mix
+k_PX3Pa5GdY,training,302,7,183,189,place filling on the wrapper,Idle
+k_PX3Pa5GdY,training,302,10,216,221,bush a little bit of egg on the top and seal roll,Mix
+l2E5jHfAENY,training,224,0,79,125,pound the veal,Idle
+lBguj96fa5w,validation,422,4,286,341,add soy sauce and sesame oil to a pot of boiling water and add the wontons,Cook-Heat
+lBnuFn9q3Xs,training,406,3,116,122,place the filling on the wrapper,Idle
+lKm5Ji1Fr4U,validation,122,1,83,89,add some chopped celery chopped bell pepper to the mixture in the pan,Cook-Heat
+lYiKwaclCZQ,training,423,4,144,154,add a little curry powder a chicken stock cube and water,Mix
+lgg6luYfQ1w,training,116,6,260,295,place pepperoni on top of the pizza,Plate
+lhSHtL-fMYA,training,318,12,456,463,wrap everything up with lettuce,Idle
+lqDgvgDkphY,training,409,6,182,191,add the rice,Mix
+luDzsPatsGw,validation,214,1,168,184,wipe the foie gras,Idle
+m3kFrdCHitg,validation,413,4,49,72,place lettuce onions chicken jalapenos basil on top of the bread,Plate
+m88rF0rwHo8,validation,403,2,110,122,add dry noodles to the pan and fish sauce,Mix
+mV3m2svj3XE,validation,412,0,53,59,add fish sauce to a bowl,Mix
+mixdagZ-fwI,training,126,5,259,345,place the beef and toppings in the shell,Idle
+nF67_d1HHnI,training,113,9,364,389,brush the bread with butter and place the sandwich on the pan,Cook-Heat
+nRageCYhbO8,training,406,8,296,314,roll up and fold edges,Mix
+nVERaEFJWLQ,validation,416,1,156,163,add the lentils and cover,Mix
+nbiOaHaKuKs,training,101,4,87,104,put chicken and cheese on top the bread,Plate
+nbiOaHaKuKs,training,101,6,111,139,put bacon vegetables and dressing on top of the bread,Plate
+nfJ8Hsh7L_c,training,209,5,175,189,place the cauliflour on top,Plate
+nfO0YS2dSdw,training,121,2,71,86,put some diced celery and minced garlic and stir,Mix
+noS_n5k3oxM,validation,317,6,368,414,add garlic ginger brown sugar and chopped onion and mix it well,Bake
+ntiGX3X-spA,validation,301,7,248,269,pour in some cooking wine oyster sauce soy sauce give stir and cook in high flame,Cook-Heat
+ny7G1uw36J0,training,413,4,328,340,pour the sauce on top,Plate
+nzH74JoLMPI,training,418,11,222,229,add the cilantro to the chana masala,Season
+o2H6KyYNy3s,training,218,3,103,115,roll out the dough,Mix
+o4gTZoW0SXI,training,412,0,80,98,take a bowl of cooked rice and add crushed garlic and light brown sugar and soyasauce and some white ground,Bake
+o4gTZoW0SXI,training,412,3,160,180,add the cooked rice and mix it well with vegetables abd shrimp for 2-3 minutes,Mix
+o9kndEZvsnY,validation,324,1,60,97,open 6 udon noodles,Idle
+oAE7nqQeMBQ,validation,117,0,14,18,add grease to a cooking tray,Cook-Heat
+oAE7nqQeMBQ,validation,117,1,19,33,add milk to a bowl of eggs green onions onion powder and salt,Mix
+oDsUh1es_lo,validation,113,4,51,57,place cheese on the bread,Plate
+oDsUh1es_lo,validation,113,5,57,60,place the bread on top of the bread,Plate
+oP6PR4KfH0A,training,102,4,137,147,add flour into a tray,Mix
+oR2QDpoatcQ,validation,202,3,187,205,add in the kidney beans and butter,Mix
+oRMqGMnK5mk,training,204,5,291,314,turn the heat low and add marinara sauce,Idle
+oYeWU0dyanY,training,206,6,278,329,take cooked bacon off the stove add drained pasta to it and pour sauce to it and mix well,Idle
+oaOdliOVL6g,training,206,1,76,86,slice and fry the bacon,Cook-Heat
+obixe3__Sjk,training,212,8,184,191,pour the filling into a tray,Mix
+odLBmYsUaHI,training,201,5,163,174,put some parmesan cheese and mozzarella cheese on the chicken,Mix
+on8-O_f69ys,training,206,4,161,198,take eggs lightly whisk then add grated parmesan cheese grated pepper thick cream and whisk thoroughly to make sauce,Mix
+on8-O_f69ys,training,206,6,229,236,take some water from the boiling pasta and keep it aside,Cook-Heat
+p-PFp1c0FKs,validation,121,8,110,133,add the clams,Mix
+p2GVwIauFks,training,404,2,99,113,add little worcestershire sauce schezwan sauce  mix it and let it marinate for 5 min,Season
+p2GVwIauFks,training,404,8,338,390,add green onion curry powder fried shrimps chicken stock and mix well,Mix
+pS5T4dCCclQ,training,228,0,15,18,add chickpeas to a fodd processor,Mix
+pTjoGIvSfE8,validation,225,6,430,465,add drained pasta and beans to tomatoes and cook additional 10-15 minutes on low,Cook-Heat
+paiJGvLILKE,validation,413,6,328,342,put the cooked beef in between,Mix
+paiJGvLILKE,validation,413,7,349,441,add herbs and carrot daikon and hot sauce in between and serve,Plate
+pvGBm2epEo0,training,226,6,266,272,add 3-4 tbsp of olive oil,Mix
+pz1pXfa208Y,training,117,5,102,105,place an egg on the salmon,Idle
+qOB709GWcE8,training,124,5,220,239,place slices of tomato in the edges and pickle and 2 pepper on top,Plate
+qaDMnLE6NBU,training,406,0,66,86,add the sauce and peanut butter into food processor and process it adding little bit of sugar water garlic powder,Mix
+qaDMnLE6NBU,training,406,2,110,150,add sugar into measuring cup add hot water stir squeeze in some lime chopped garlic stir add chili pepper,Mix
+qndZKzNHpwc,training,308,0,114,164,place a ball of rice onto the seaweed and spread out,Idle
+qndZKzNHpwc,training,308,3,219,224,place scallians in a line on the seaweed,Idle
+qpxPlQ0IfLk,training,110,6,108,131,add olive oil parmesan cheese and anchovy paste to it,Mix
+qqiJM4fV074,training,422,4,101,105,put the wontons in the soup to boil,Cook-Heat
+qxSUbk742Ag,training,222,2,210,215,add white wine,Mix
+qxSUbk742Ag,training,222,4,259,270,add mussels and cover,Mix
+r4VSQuNE6D4,training,108,2,42,47,pour the batter into the bottles,Mix
+r9AtdDfDVmo,validation,413,11,370,379,add sriracha sauce to the sandwich,Mix
+rLBQ2Wglw6Y,training,419,10,302,320,spray buns with oil and top with sesame seeds,Plate
+rMaWiWAg2tE,training,127,0,4,10,add diced onion and minced garlic stir on low heat until translucent,Mix
+rMaWiWAg2tE,training,127,3,27,29,place the lid on and simmer,Cook-Heat
+rT3Esab9zmU,training,127,5,119,139,add meat substitute to the sauce and mix it together,Mix
+rTVN7NN-m2Q,training,308,2,136,144,place the tuna mixture on the rice,Plate
+rlHZ8xe9G10,training,209,8,400,480,layer the mashed potatos in the dish,Idle
+s9r-CxnCXkg,training,104,3,110,123,put the scrambled eggs on a piece of toast to serve,Plate
+sTTECSIiL6I,training,308,3,177,189,lay the cut tuna meat on the spread rice,Plate
+sTTECSIiL6I,training,308,7,368,382,add sauce on the top,Mix
+shG7q7jqfsY,training,216,2,60,70,put the punctured brats in the hot beer and cook for 15 minutes,Cook-Heat
+shG7q7jqfsY,training,216,4,94,97,put the cooked brats in the bun add some mustard and sauerkraut and serve,Plate
+skrWT6xHVoI,training,120,3,114,132,add the diced onions and mix,Mix
+svgC7Pcu3_0,training,308,4,344,425,add some avocado on the tuna and roll the sushi,Mix
+t6PFNTZdkwo,training,314,12,377,416,add noodles bean sprouts eggs bamboo pork and leeks to the soup,Mix
+tGGrOrIqB8U,training,117,0,20,45,place eggs into the cups of an egg poacher,Idle
+tKAWmB7gaYk,training,127,2,165,202,add hot sauce and cheese on top,Plate
+tKWl-njXhP0,training,218,6,215,270,shape to dough to cover the filling and seal it,Mix
+tXfLb2JyZI0,training,410,1,50,88,roll the dough out,Mix
+tXfLb2JyZI0,training,410,4,150,160,place the roti on the flame so that it puffs out,Cook-Heat
+tYg3lQ5aZv8,validation,309,3,71,86,take off the skin of shallots and finely mince,Cut
+tZF_WIdSQHM,training,305,9,506,603,transfer the kim chi to an air tight container,Idle
+tlGFRoMj4uE,training,218,6,389,483,wrap them up to pierogi shape,Mix
+tqA5LByjh_Y,training,124,6,170,218,place the sausage on the grill and grill it along with the onion and bell pepper pan,Cook-Heat
+tqA5LByjh_Y,training,124,7,220,235,place the provolone cheese on the sausages let grill it on indirect heat,Cook-Heat
+trSnVJl6Q_k,training,203,2,34,66,add the beef bread crumbs parmesan cheese parsley basil and garlic to the bowl,Mix
+u2U7VkXHtMU,training,227,3,159,184,add 1 cup lemon juice and 3 tbsp olive oil,Mix
+u95xkc4DfAs,validation,304,5,108,132,add the chopped vegetables,Mix
+u95xkc4DfAs,validation,304,6,136,144,add the boiled udon noodles,Mix
+uKoGb20Ngcs,training,405,2,156,246,add finely chopped onions and fry till it turns golden brown,Cook-Heat
+uKoGb20Ngcs,training,405,9,467,475,open the lid after the pressure settles down and turn on the heat,Idle
+uUqFphdLQ6g,training,121,9,264,270,add hot sauce and clams to the soup,Mix
+uXbkxyyOEr4,training,306,1,55,99,adds prawns fish sauce soy sauce teriyaki sauce sesame oil minced garlic to a bowl and mix,Mix
+u_EbTnpbHRk,training,203,2,57,103,add an egg bread crumbs onion powder garlic powder and salt and mix,Mix
+u_EbTnpbHRk,training,203,9,283,335,add tomato sauce meatballs and then parmesan cheese to the pasta,Mix
+ueGKsfUW-PM,training,229,6,310,370,make falafel patties with the mixture,Idle
+ukfCQQpZ0k4,training,423,1,57,71,add the prawns and cook,Cook-Heat
+ulTKMWIQR30,training,116,1,18,60,put the filling in the wonton wrappers,Mix
+v-GtKLHLmsU,training,101,1,260,291,place the bacon on the bread,Plate
+v-GtKLHLmsU,training,101,2,291,300,place tomato on the sandwich,Idle
+v-GtKLHLmsU,training,101,3,300,307,place the lettuce on the sandwich,Idle
+v7U70gPylBA,training,221,4,131,133,add 1 cup of water,Mix
+v7U70gPylBA,training,221,9,256,276,add 2 cups of water stir and cook,Cook-Heat
+vEiWZHn2OiE,training,206,3,147,149,keep some water boiling aside,Cook-Heat
+vEiWZHn2OiE,training,206,5,183,189,turn off the heat when the prosciutto is crispy and add the pasta to the boiling water,Cook-Heat
+vTE9fobspEw,training,115,3,87,98,place a hot dog piece onto the batter,Idle
+vUhoMXc7FJM,training,227,2,711,717,add quinoa and cover and reduce heat,Mix
+vUhoMXc7FJM,training,227,7,865,893,roll lemon on cutting board and cut and remove seeds,Cut
+vVZsj1t9R70,validation,325,2,149,203,add soy sauce corn starch and sesame oil and mix,Season
+vZariS25PF8,training,126,7,260,291,add the meat to the shell and top with cheese tomato lettuce and salsa,Plate
+vcfNpDtVqOw,training,205,0,1,9,add yeast and sugar to water,Season
+vow-kxTPatc,training,419,0,104,113,add yeast to warm water,Mix
+vow-kxTPatc,training,419,4,161,179,add the water and yeast,Mix
+vw9FgztLKFc,training,215,3,258,276,pour the rest of the sauce on them,Mix
+vyDO2t9m0H8,training,101,8,107,117,place the tempeh and slaw on the bread,Plate
+wR8Ybxpnbwc,validation,308,8,115,122,roll the bamboo sheet over the nori while adding pressure,Mix
+wSXkTrTvI5o,training,213,1,56,86,put ham between bread and spread butter on top,Plate
+wURtxtH7i-Y,training,211,3,88,92,remove the kale,Idle
+woTrhsB_bcA,validation,215,1,115,117,add chopped apples and cook,Cook-Heat
+woTrhsB_bcA,validation,215,2,136,173,add snails without shells stir and cook,Cook-Heat
+wqpqx-Qm7lk,validation,119,2,140,186,add ground beef tomato sauce a1 sauce soy sauce ketchup onion and garlic to a bowl,Mix
+x2O99s2EOXg,training,421,0,75,100,add oil cumin seeds garlic ginger and onion to a pan,Mix
+xDp6cWoPMzo,training,209,1,54,61,dice and blanch the rutabaga,Cut
+xDp6cWoPMzo,training,209,4,101,103,finely chop the rosemary,Cut
+xDp6cWoPMzo,training,209,9,194,210,cut boil and mash the potatos,Cook-Heat
+xDp6cWoPMzo,training,209,11,225,238,layer the meat and potatos in a dish,Idle
+xHuaYMXGTnc,training,113,5,154,165,take it out to serve when the other side is also done,Plate
+xOWHUi9fdBs,training,214,4,144,146,place the slaw on top of the foie gras,Plate
+xOWHUi9fdBs,training,214,5,152,170,add balsamic vinegar papaya compote onion marmalade and the foie gras between two burger buns,Mix
+xkKuIlYSMMU,validation,115,3,118,124,pour the batter over the hot dog,Mix
+xm5OTacqk0E,training,227,5,105,115,add the quinoa to the vegetables and mix,Mix
+xwQBrf2CAvc,validation,215,4,44,53,add some garlic paste and chopped leeks and cover to cook,Cook-Heat
+y0c17Wxj_TI,training,102,6,247,267,add the rings into bread crumbs to coat it well,Season
+y4y22RQH05c,validation,103,8,307,317,put the grilled onions on top of the ketchup and mustard sauce,Season
+yBsMxYO8fZo,training,302,10,207,213,place the filling on one end of the pastry,Idle
+yDZvPCG51zw,training,230,2,92,124,add paprika pepper garlic salt and oil to the bowl and stir,Season
+yLJMpYQg_gA,training,224,1,107,160,take the ponded slice of seasoned ham cover it with flour dip it in eggs and into the bread crumbs,Cut
+yQzUEWyn6SM,training,229,5,306,337,put falafel salad and tahini sauce into the pita bread and serve,Plate
+ycapN0_D2RA,training,214,6,165,175,place the duck on top of the bread,Plate
+ycapN0_D2RA,training,214,7,177,178,place another piece of bread on top,Plate
+yizxI2Gf_ww,validation,419,2,134,152,take the dough in a separate bowl and let it aside for 30-40 minutes in a warm place,Idle
+yxjnWx6TaQ8,validation,115,3,67,73,insert wooden skewers into frankfurters,Idle
+z4vmfgk1My8,training,213,6,172,185,once the sandwich is cooked turn off the heat take it out cut it into 2 equal pieces and serve,Plate
+zF3TOfktwd4,validation,308,6,197,249,roll it up  sprinkle some more sesame seeds and cover with a plastic wrapper,Mix
+zF3TOfktwd4,validation,308,7,252,274,use a bamboo mat to press it firmly,Idle
+zJoy52YuVXs,training,205,3,94,114,add parmesan and mozzerella to the top of the pizza,Mix
+zW4yoTwjtJs,training,318,4,102,113,in a bowl add  cup soy sauce 2 tbsp cooking wine 1  tbsp minced garlic 3 finely chopped green onions,Cook-Heat
+z_ZHVTqbSZo,training,421,2,58,75,add chopped onions and fry until brown,Cook-Heat
+zqTXQ-YqrgQ,validation,205,7,126,133,add parmesan and tomato sauce,Mix
+zqTXQ-YqrgQ,validation,205,8,133,141,add mozzarella cheese on top,Plate
+zukEQgbWdsY,training,101,7,233,240,add the swordfish on top of the bread,Plate
+zukEQgbWdsY,training,101,8,241,246,add pieces of bacon on top of the fish,Plate
+zwbCD3CUFIs,training,404,11,309,329,add the prawns vegetables egg and soy sauce to the wok and stir,Mix
+zwbCD3CUFIs,training,404,14,366,387,taste the noodles,Idle
+0VaYabFg-6E,training,222,3,323,342,add the curry powder to the pot and stir,Season
+0VaYabFg-6E,training,222,4,360,365,add white wine to the pot,Mix
+0hVAuvPAIzA,training,301,9,229,235,add roasted peanuts to wok and mix,Bake
+0hVAuvPAIzA,training,301,10,236,241,add black vinegar and stir the wok,Season
+0rkJ9RFLaIE,training,225,6,270,275,add penne pasta to the pot,Mix
+0uaKitJaqmI,validation,212,10,350,365,sprinkle the top of the potatoes with the grated cheddar cheese,Mix
+10dZTHlkb8w,validation,101,5,210,215,add basil to the bread slices,Mix
+17v08qtr8UM,training,101,2,60,66,place the bread on the pan,Cook-Heat
+1Ihxcua2HBc,validation,218,6,148,176,add potato mixture to wrapper and seal shut,Mix
+1MOHn-ARnD4,training,423,2,50,63,add coconut milk and water to the wok,Mix
+1NAoA1R8uZI,training,229,0,115,118,add chickpeas to a food processor,Mix
+1uoT5TjyWsU,training,113,2,112,120,sprinkle mixed grated irish cheddar and gruyere cheese on one piece and top with a bread slice,Plate
+2ICT6R4XpG8,training,317,4,274,303,put the squid on the pan and cook them,Cook-Heat
+4u1Cxoke6Co,training,207,0,50,55,add tabasco sauce to a bowl of buttermilk,Mix
+5oz8ys_Y1_0,training,209,8,194,208,place the lamb and potatoes in a small bowl,Idle
+5xogySLxeWQ,training,227,9,298,301,add the chopped parsley and mint leaves to the food processor,Mix
+62H65wNWMZo,training,212,8,123,138,sprinkle rest of the cheese on the top and place the dish in the oven,Cook-Heat
+6KCWzRfFyr4,training,319,3,176,207,add zucchini sesame oil and salt and remove from the heat,Idle
+6c7WtnF5XWg,training,208,3,225,240,place the sausages on top of the potatoes on a plate and add gravy,Season
+6seOEuK0ojg,validation,401,12,391,401,add garam marsala and sugar,Season
+720an9dDfkY,training,211,6,234,236,add the cabbage and onions to the bowl,Mix
+7Fd7DjXMeaQ,training,418,0,136,169,add the cumin seeds cardamom and bay leaves to the pot,Season
+7Fd7DjXMeaQ,training,418,2,206,213,add the tomato puree to the pot,Mix
+7Fd7DjXMeaQ,training,418,3,244,254,add garbanzo beans to the pot,Mix
+7R5MVNE-ePU,validation,121,6,157,179,add flour clam broth and a bay leaf to the pot,Mix
+7oyGV_6UBJs,training,216,0,25,37,add chopped onions and peppers and sliced mushrooms to a bowl,Mix
+7oyGV_6UBJs,training,216,5,140,186,remove the bratwurst out of the pot,Idle
+7oyGV_6UBJs,training,216,6,215,240,add the grilled bratwurst to the pot,Mix
+8Aw2iv6edkk,training,204,3,40,70,add cream and tomato sauce to the pan and stir,Mix
+8PFyEtZgSUs,training,218,4,223,255,place the mashed potatoes in the dough,Idle
+9iH8GK1pcEM,validation,116,4,84,96,sprinkle flour on the pizza peel and place the pizza crust on it,Mix
+A4pTxrrBtMU,training,215,3,99,106,remove pan from heat and transfer snails to bowl,Idle
+AGq4lnC_WVo,training,121,6,237,265,add flour cumin and fennel spices and stir,Mix
+Avx4fwzRYX4,training,423,4,146,155,add sugar to the pot,Season
+BFpJtwAG-8A,training,216,1,128,145,place the bratwursts in the pan,Cook-Heat
+BFz-pqB2Opw,training,301,5,183,196,add roasted peanuts green onions and lemon juice to wok and stir,Bake
+BGCW_PWhY9g,training,317,4,94,98,sprinkle the chicken with green onions and serve,Plate
+BL8oJSnL4EE,training,208,4,108,117,add gravy to the pot on onions,Mix
+BPgpTaUH6t0,training,215,5,150,181,remove from pan and place into toasted bread,Idle
+Ba2xxUXJ90w,training,206,10,140,154,add the pasta to the pan,Mix
+BgndHaHcHE0,training,116,1,93,106,add the salt starter dough and mix,Mix
+Bts6MvK8f9k,training,425,9,145,151,add the potato masala in the middle of the dosa,Mix
+C67CT1mdkzI,training,410,6,173,185,place the dough onto a pan over heat,Cook-Heat
+C73qiF138VU,validation,119,5,100,108,place the mixture in a meatloaf pan,Idle
+COKrOqleb1k,training,410,6,162,211,place the roti into a hot pan and flip every thirty seconds,Idle
+DvAiRex4JlQ,training,113,1,90,97,place the bread on the pan,Cook-Heat
+EA4EWlv6HUM,training,323,2,91,99,add the rice to the wok,Mix
+EN1Qf9vcnN0,training,419,6,198,209,place the bread on the pan,Cook-Heat
+ETXVbDoMKbQ,training,228,0,55,68,add chickpeas to a food processor and run,Mix
+EizSoy7Ztto,training,314,1,170,178,add the pork ginger and green onion to the pot of water,Mix
+FfyOV00sXEY,training,122,9,297,320,add some mixed herbs to the soup and wait for 2 minutes,Mix
+FpzbVOkHh_M,training,418,7,537,567,add methi leaves onion and ginger to the pan,Mix
+G-AUY-jWzck,validation,221,1,42,117,add onions garlic and spices to the pot and fry,Cook-Heat
+Gf4eEhDpxgk,training,104,1,105,116,add salt and pepper to the bowl and mix,Season
+GgM8IIglBLw,validation,122,5,159,165,add some peeled and chopped potatoes to the soup,Mix
+GridojtCXDE,training,409,7,195,207,add the yogurt and paneer to the pan,Mix
+HF49t8uVJOE,validation,306,3,82,92,add the shrimp to the pot,Mix
+HJHV2nYz1L8,validation,404,6,188,231,add oil to a hot pan and add the vegetables and mix with pepper,Mix
+HXqC_xWsKkY,training,221,5,92,114,add diced tomatoes beef broth worcester sauce and minced garlic to a pan and stir,Mix
+J5Tw7KRnSyc,validation,207,5,141,146,remove and drain the potatoes from the fryer,Idle
+J5Tw7KRnSyc,validation,207,12,242,246,remove and drain potatoes from fryer,Idle
+J5Tw7KRnSyc,validation,207,14,255,261,place potatoes in the cone with the fish,Idle
+JPbFE731Y0c,validation,216,3,111,139,transfer the bratwurst into the pan and cover it with aluminum foil and let it cook for 20 minutes,Cook-Heat
+JylDlRtH9Tc,validation,303,1,85,118,add bean paste beans and garlic to the pan and stir,Mix
+KAQ6pA9r4wk,training,423,9,111,118,add rice noodles to the pot,Mix
+KIvxQGWU5KU,training,211,8,345,363,add the cooked cabbage to the mashed potatoes and mix well,Mix
+KP-sFwyyi2k,training,303,3,74,76,add bean paste to the wok,Mix
+LVHGaXH_7nc,training,111,3,210,236,add sugar and salt and stir,Season
+LqCDIssigHo,training,119,9,158,180,spread a little mixed sauce on top of the meat and cook in oven for 30 minutes,Cook-Heat
+MPCU71Hg-i4,validation,116,3,27,29,place the bread on the pan,Cook-Heat
+MxcI4wQLvK4,training,314,10,251,258,sprinkle some toasted sesame seeds on top,Plate
+NGaMA8-Qn8o,training,404,10,415,446,add the sauce to the wok and toss the noodles,Mix
+NGaMA8-Qn8o,training,404,11,446,462,add the shrimp and vegetables to the wok,Mix
+NXnQys_ejeg,validation,409,7,436,475,pour the rice into the pot with the vegetables and stir,Mix
+NkU9HSI1S9k,training,325,0,72,154,add kaffir lime leaves and lemon grass stalks to a pot of stock,Mix
+NwiypvZAymk,training,401,12,675,702,cover it and cook for 5 minutes more and garnish with coriander leaves,Cook-Heat
+Nxt9F9WjdcU,training,306,4,190,197,add the remaining tempura flour to a pan,Mix
+OEfzgobszUA,validation,127,5,61,74,take a pan and put some ground beef and add some chopped onions and garlic,Idle
+OKyOqfAeARQ,training,409,4,93,115,add green peppers and mixed vegetables to the pan,Mix
+QISvGTL2VDc,validation,423,4,86,98,place the noodle bean sprout prawn fish cake and eggs into a bowl and pour the gravy over,Idle
+QYl_wwBKt18,validation,120,1,94,98,spray 9x12 inch casserole dish with nonstick spray preferably gluten free,Idle
+QqepsJSi5fs,training,323,2,115,133,add onions carrots and celery to the wok,Mix
+QuHIxCOkTAo,training,418,2,50,54,add black cumin seeds to the pan,Season
+SRdsaqpnfd4,training,204,3,89,106,add crushed pepper to the chopped garlic and saute slowly,Cook-Heat
+SzapdQ4U1pA,training,323,4,290,310,cover with a lid and cook,Cook-Heat
+T0WX6UJQna8,training,409,5,328,337,add the rice to the wok,Mix
+TmbdrTVJ_Mo,training,213,5,244,303,pour some cheese sauce  bechamel  grated cheese and herbs de provence,Mix
+TvKIeO1kmR4,training,116,7,267,313,place slices of provolone and mozzarella cheese on bottom of pan,Idle
+TvQjlIaAssw,training,225,3,69,73,add basil to the soup,Mix
+U1eHoriT_aI,training,423,3,124,130,add vermicelli noodles to a pot of boiling water,Cook-Heat
+U5Eyu9IyG-I,training,230,1,182,187,add the garlic to the bowl with chicken breast,Mix
+UHhuaRTF1UY,validation,321,6,362,376,sprinkle green onions on top,Plate
+UmJk0WSl9Uc,validation,106,5,348,385,add macaroni to the pan and then pour the cheese sauce on,Mix
+V9GsyAcKk_c,training,211,3,76,95,add some green onions add the cooked cabbage and potatoes and smash all the ingredients,Mix
+VSrY0ORD394,training,309,2,65,78,add cabbage green onion and carrots to the bowl,Mix
+VwtkHIturro,validation,211,3,100,116,add the cabbage to the mashed potatos,Mix
+Vyrq2i3R_Sk,training,209,4,160,180,put potatos into cold salted water and bring to boil,Cook-Heat
+W2xZWTltJ10,training,418,9,515,562,add the cooked chana into the pan and mix,Cook-Heat
+W6DgS0s0qcI,validation,425,2,160,174,add dosa batter to the pan and spread into a big circle,Mix
+XUyqiWN8WFI,validation,212,4,144,172,add some diced vegetables and ground beef to a sauce pan,Mix
+XbTA0SGOdwk,validation,203,3,112,123,add pasta to the pan,Mix
+YMYNv3cZ9SE,validation,210,4,87,100,add some salt and pepper to the milk and whisk around,Mix
+Z1ajYx0UIxo,training,108,10,155,172,serve the pancakes or warm them in the oven,Plate
+ZcsshMf0NTI,training,227,3,124,139,put the grated cauliflower to a bowl add some lemon juice and mix and massage by hands,Mix
+ZvIXsbEUCa0,training,222,4,132,142,add diced tomatoes to the pot,Mix
+ZvIXsbEUCa0,training,222,7,177,184,add the mussels to the pot,Mix
+_AZ5jo3y7V4,training,210,0,55,90,add the onions and potatoes to a food processor and process them,Mix
+_GTwKEPmB-U,validation,210,1,47,64,add flour to the potatoes and mix,Mix
+_H0Mmr15_zA,training,301,4,255,287,add the noodles and cover the pan to cook until it is ready to serve,Cook-Heat
+_SYj8e0ghqA,training,323,1,150,158,add onions to the wok,Mix
+__5RJw4UP1Y,training,203,1,31,39,add the beef parsley and bread crumbs to a bowl,Mix
+_ilIn1kmNSA,validation,222,2,18,20,add garlic pieces into the pot,Mix
+_ilIn1kmNSA,validation,222,7,51,66,add wine stock and simmer into the pot,Cook-Heat
+_j-0ElzS88Q,training,229,1,35,37,add chopped garlic to the bowl,Mix
+_j-0ElzS88Q,training,229,6,52,54,add serrano chiles to the bowl,Mix
+aSLQ9Ow-wMA,training,303,2,180,231,add ma po sauce chili bean sauce and water to a small bowl,Mix
+bpsKpmyexUs,training,222,5,385,415,cover the lid and cook until all the mussels are widely open,Cook-Heat
+btikV_DUoCM,validation,209,10,450,535,transfer the meat to a bowl top with a layer of mashed potatoes and grate some cheese,Cut
+cDk1MIsIiQ4,training,208,4,221,238,remove sausages from the pan,Idle
+cF45-iVw--w,validation,204,2,163,183,add tomato paste and cream to the pot,Mix
+cFcLgFsiZUE,training,109,1,26,39,put some chicken wings in a bowl and coat them well with the sauce,Season
+cFcLgFsiZUE,training,109,4,72,85,put chicken in a bowl and coat with more sauce,Season
+cVDsNLn2zc4,training,214,5,309,320,place pieces of bread into the pan and grill on both sides,Cook-Heat
+cxijjHcz70Q,training,425,4,196,227,add tumeric and potatoes,Mix
+d2askKEBmKo,training,226,6,151,165,add sumac pomegranate molasses salt olive oil to the salad and toss,Mix
+dB4SW9-y13U,training,321,1,72,94,add minced garlic and ginger to the pan and stir,Mix
+davq4bio878,training,314,6,102,119,add japanese bbq sauce and mix well,Mix
+dl4NvSA3hRI,training,412,4,278,297,add rice to the wok and stir,Mix
+dn1qrAHh7k0,training,113,1,54,60,place the bread on the pan,Cook-Heat
+e2t_1Atddaw,training,319,8,211,220,place some steamed rice in a bowl,Idle
+e8S1vFC8zYk,validation,106,6,109,125,sprinkle cheese onto the macaroni,Mix
+eWR6fgNWfqw,training,309,2,132,157,add the ingredients in the pan and green onions to a food processor,Cook-Heat
+edX_xmX6q0s,training,205,2,77,96,add tomatoes to a food processor and pulse,Mix
+fAfk3DJ5Diw,training,321,6,245,285,add 5 chinese pepper corns spring onions and add the chicken and stir fry,Cook-Heat
+fetFXsc6G5s,training,419,5,116,122,dust the work top with some plain flour and also rub some flour on the hands,Plate
+ffhliBglDhY,validation,226,4,116,127,remove the bread from the pan and add the remaining pita bread to the pan,Idle
+ffyHeyRpYvo,validation,208,10,354,389,add finely chopped fresh rosemary and stir put the lid on and cook in low heat for 8-10 minutes,Cook-Heat
+fn9anlEL4FI,validation,405,1,69,86,add the lamb to the pot,Mix
+gTqhgReBDw0,validation,210,2,69,104,add a little salt white pepper stir and add milk in batches to form a batter,Mix
+gbkXkxwlYjw,training,323,2,103,130,add shredded cabbage and green onions to the wok and stir,Mix
+hkVfzjA1HA0,validation,308,4,249,299,transfer the tuna and salmon to different bowls and mix with sriracha sauce soy sauce lime juice and chopped chives,Mix
+i4ZAwUoP8c4,training,221,3,69,74,remove the pot from the heat and add 2 tbsps of paprika and mix well,Idle
+iDMXdB88oQI,training,226,0,74,89,add diced cucumbers chopped red bell peppers and chopped tomatoes to a bowl,Season
+iEDDZvKZLMk,training,301,6,89,93,add chopped peanuts to the dish,Mix
+ijQMlWG0qd8,training,112,0,100,128,place the cooked pasta in a large bowl add 1 cup of sweet corn,Idle
+imfl-NXiU8g,training,214,6,287,318,place the seasoned foie gras in the pan and cook until it is golden brown and,Cook-Heat
+imfl-NXiU8g,training,214,11,385,399,add cider vinegar and sweet cider to the apple,Season
+ioXqgVYG7Xc,training,404,4,146,155,add the mushrooms and turmeric to the pan and stir,Mix
+j2HzT9LHiUE,training,309,3,66,94,add meat garlic and chopped prawns to bowl,Mix
+k-aTILi_nLY,training,120,2,32,37,add the potatoes to the bowl,Mix
+lFdRibsuiRk,training,202,5,91,93,add basil to the soup,Mix
+lKm5Ji1Fr4U,validation,122,7,256,272,add some sugar and cream,Mix
+lQXNAjrNzus,training,212,6,158,169,add milk and butter to the potatoes and parsnips and mash,Mix
+lQXNAjrNzus,training,212,7,185,200,add the meat to a bowl add the mash and top with cheddar cheese,Mix
+lhSHtL-fMYA,training,318,11,418,435,add mozzarella cheese to the pot,Mix
+luS_76U4OCw,training,223,6,170,175,sprinkle some flour into the pan,Mix
+luS_76U4OCw,training,223,9,221,240,add red wine beef stock tomato paste bay leaves and garlic to the pot,Mix
+mNhj7SA7c4g,validation,401,0,60,78,add the onion ginger and garlic to the pan,Mix
+mV3m2svj3XE,validation,412,8,189,194,add the onion and broccoli to the wok,Mix
+mV3m2svj3XE,validation,412,9,194,198,add the green onions to the wok,Mix
+mygg-vW_pRM,training,119,2,158,204,put the mixture on the oven pan and shape the mixture,Cook-Heat
+nfJ8Hsh7L_c,training,209,6,190,195,sprinkle cheese and bread crumbs on top,Plate
+nfO0YS2dSdw,training,121,4,107,131,add cubed potatoes mix it well and let it simmer,Cook-Heat
+nfVXBQwOCMc,validation,204,4,237,254,add the vodka to the pot,Mix
+nrsFW3HE7yo,training,303,10,388,395,add the green onions to the wok,Mix
+nzH74JoLMPI,training,418,4,96,102,add garam masala to the pot and stir,Season
+oDsUh1es_lo,validation,113,1,31,34,place the bread in the pan,Cook-Heat
+oHISYcjakpk,training,301,2,76,81,add a pinch of ajinomoto and sugar,Season
+oYeWU0dyanY,training,206,0,90,102,take some water in a deep pan adding salt and add spaghetti when comes to boil and toss them,Cook-Heat
+oYeWU0dyanY,training,206,2,158,213,add some finely chopped onions and crushed black pepper and cook,Cook-Heat
+on8-O_f69ys,training,206,7,237,259,put the cooked pasta directly into the pan and toss,Cook-Heat
+on8-O_f69ys,training,206,8,260,269,pour cooked pasta into a bowl,Mix
+p-PFp1c0FKs,validation,121,11,194,203,add the potatos,Mix
+p-gN4cbmunQ,validation,410,1,111,123,sprinkle water on top cover the lid and let it aside for 15 minutes,Plate
+pOWe4zB-E-4,training,425,7,244,256,place the potato mixture on the dosa,Idle
+q65WrXiHpoo,training,215,1,72,92,add a cup of chopped parsley 1tbsp of dijon mustard and 3 large minced garlic cloves to a blender,Season
+qH6kSDQMiFA,training,318,3,51,52,add a few cloves of garlic in the blender,Mix
+qH6kSDQMiFA,training,318,5,78,83,add sake to the blender,Mix
+qRSZEN6g8jY,validation,314,1,63,73,add bonito flakes seaweed and green onion to the pot and boil,Cook-Heat
+qkluMpILLdQ,validation,211,0,65,83,add the cabbage and water to a pan,Mix
+qmoqJRP5N6E,training,103,3,50,61,pour noodles into pan wrap cover press it using another pan remove it and keep in fridge for 15 minutes,Prep
+rD33y9PjqU8,training,211,1,37,50,add some seasoning and cook until the potatoes are tender onions are translucent and cabbage is soft,Cook-Heat
+rMaWiWAg2tE,training,127,6,50,54,add 1 tsp of lemon juice to the avocado and mix it well,Mix
+ruKDS_jExs8,training,409,0,30,41,add water salt and sugar to mixed vegetables,Mix
+sLFCqYYhrZM,training,110,3,244,289,add some pepper and salt to the dressing and mix well,Season
+skrWT6xHVoI,training,120,4,133,155,spread the mixture loosely on the cooking sheet with olive oil and place in the oven,Cook-Heat
+so-RuJQY1d0,validation,409,11,450,503,sprinkle saffron oil over it and finally top it with fried onions and cilantro,Mix
+tqA5LByjh_Y,training,124,10,285,302,place the sausage in the roasted bread roll and stuff it with onions and bell pepper mix,Bake
+uAzzevo-FME,validation,306,4,227,231,remove the shrimp from the pan,Idle
+uKoGb20Ngcs,training,405,11,528,540,transfer the curry to a bowl and garnish with chopped coriander leaves,Plate
+uq1uP-b7KxY,training,104,3,58,106,pour the beaten eggs onto a different pan heat and whisk it continuously for about and minute,Mix
+v1WYthMcMRI,training,204,2,364,394,add penne pasta to the pan and toss it to mix and serve,Plate
+v7U70gPylBA,training,221,11,395,415,pour the soup into a serving bowl and sprinkle cilantro,Plate
+vDDeMg2dhEM,validation,302,10,346,353,put the rolls on a baking plate and cover it with a plastic wrap and freeze them,Bake
+vSRZRp2Ovqc,validation,206,4,105,114,add the pasta to the pan,Mix
+vXlmXrKC0FE,validation,321,8,206,220,add chopped celery and half an onion into the pan and mix,Cook-Heat
+vmHAOH5UMFY,training,205,3,44,50,place the basil leaves in the center,Plate
+vpRz4jPFCmo,training,203,5,150,175,add tomato paste beef stock and diced tomatos to the pot,Mix
+x2O99s2EOXg,training,421,3,145,152,add the potatos,Mix
+x3if1znl5Fg,validation,305,4,292,300,add sugar to the cabbage,Mix
+xDp6cWoPMzo,training,209,7,139,148,add garlic meat and worcestershire sauce to the pan,Mix
+xfiIOUS6FpQ,training,127,6,100,105,remove the skillet from heat and mix 2 tsp of chopped fresh cilantro leaves,Idle
+ysRLGUndzgg,validation,325,0,120,148,add carrots onions bell peppers and cabbage to the pot and stir,Mix
+zYMelEXKars,training,216,0,41,62,add sliced jalapeno bay leaves garlic and sliced onion to a pot,Mix
+zZysbuDEtWY,training,117,8,142,157,place the bread on a plate and top with ham egg and hollandaise sauce,Plate
+zia8N3EN69s,training,325,1,75,90,cover with a lid and cook,Cook-Heat
+0-OWf7eul6w,training,214,3,96,101,serve the goose liver with the boiled vegetables,Plate
+01lB162koHA,training,224,4,144,164,coat the veal in bread crumbs,Season
+0H_IfT2sDZ8,training,318,5,157,177,flip the ribs over and brush with sauce,Idle
+0Jkcym1lGBc,training,324,6,118,130,stir the noodles and drain,Idle
+0Mz4NTozNXw,training,102,4,89,97,coat the onion rings in the batter,Season
+0O4bxhpFX9o,training,101,4,192,195,top the sandwich with bread,Idle
+0VaYabFg-6E,training,222,2,261,268,stir and heat the mixed vegetables,Mix
+0Y8z5xbGKqI,training,410,4,61,73,spread oil onto the chapati and fold into a triangle,Mix
+0_Ifseq4Eg8,training,111,9,227,235,slice an apple and add to the salad,Cut
+0lkjIf5hZT4,training,127,6,78,83,stir the ingredients and add one tin of kidney beans,Mix
+0uaKitJaqmI,validation,212,1,128,134,saute until the onion is soft and translucent,Cook-Heat
+10dZTHlkb8w,validation,101,8,260,264,cook the sandwiches on the grill,Cook-Heat
+1U5GzTal-2Y,training,308,0,25,58,spread rice onto the seaweed,Idle
+1m17Yoh73uU,training,213,5,111,120,cook the sandwich on a pan and cover,Cook-Heat
+29Wkj1LqaK8,validation,410,6,185,200,fold the chapati like a fan,Mix
+2SxbO4VAgN8,validation,201,2,137,191,coat the chicken breast with flour eggs and seasoned bread crumbs,Season
+2VzLjiTGU9g,training,204,9,174,192,drain the pasta and add the pasta to the sauce,Idle
+2bGOopmLtk4,training,114,1,63,78,salt the water and put the lid on and heat to a boil,Cook-Heat
+2fPWPaNrUEM,training,410,7,203,215,flip the roti over,Idle
+2iqRbyd1ylg,training,212,6,214,225,spread the potatoes on top,Plate
+3S1tnRkJ5OI,training,223,4,183,220,fry mushrooms on a pan and add onions salt and pepper,Cook-Heat
+3rb_cevHS3c,training,201,6,333,373,mix the pasta with sauce and pecorino cheese,Mix
+3z_QhNnSFtM,validation,318,3,130,147,grill the ribs,Cook-Heat
+543n2SO_03E,training,214,2,114,127,cover the tray with plastic wrap,Idle
+5FOX31OK_pU,training,307,1,91,93,flip the seaweed over,Idle
+5MiUA4iaKbA,training,230,2,116,123,cook all sides of the kebabs,Cook-Heat
+61gEpXMWTi0,training,211,7,225,240,top with chives and spring onion,Plate
+6nVIgasiUtw,validation,425,8,187,194,spread the masala on the dosa,Idle
+6nVIgasiUtw,validation,425,10,206,213,fold the dosa over,Mix
+7E8Lj_Ktfok,validation,310,1,78,97,mix wasabi soy sauce sesame oil and chives,Mix
+7Xw2utxQSK8,training,410,4,271,284,flip the roti when bubbles form,Idle
+7dUpBLA2C6I,training,213,5,86,103,top it with the previous sauce and some cheese and bake until cheese melts,Bake
+7ghf2NpsdcM,training,301,5,140,190,mix wine soy sauce sesame oil cornstarch water chili paste vinegar and brown sugar,Bake
+7h70U1m5hFg,training,127,4,101,119,top tortillas with the beans some cheese tomatoes lettuce green onions and some sour cream,Idle
+7nH0Y3agsas,training,202,5,182,187,garnish with parsley,Plate
+7rXq0DYdPjs,training,126,1,103,110,cook chopped onion and garlic with taco seasoning,Cook-Heat
+84i8Qdnyd0k,validation,114,3,135,145,mash the potatoes well with a hand masher,Mix
+8Aw2iv6edkk,training,204,8,148,165,chop some parsley and sprinkle on top of the pasta,Cut
+8QCW0qWbNeI,training,206,4,187,203,whisk those eggs and add parmesan cheese to the eggs season with black pepper,Season
+8XcSP7kKOIo,validation,117,9,73,82,top the eggs with hollandaise sauce chives and black pepper,Idle
+8ZX3Lazhkp4,training,117,0,18,20,crack an egg over a slotted spoon,Idle
+92cezdsHEwM,training,225,8,497,503,drizzle olive oil on top of the soup,Plate
+9BNRMHGepS4,validation,119,2,51,75,chop the bread and add salt and pepper to the salted vegetables,Cut
+9CLtnYV28bY,training,409,7,275,305,spread a layer of rice  gravy fried cashews and fried onions,Idle
+9CLtnYV28bY,training,409,8,306,332,spread a layer of rice cashews vegetables gravy cashews and fried onions,Idle
+9CLtnYV28bY,training,409,9,333,370,spread rice and top it with cashews onions coriander leaves and  ghee and cover,Idle
+9GIPE0aeVNI,validation,110,0,15,24,whisk an egg and olive oil,Mix
+9GX8f5EwwE4,validation,212,8,135,142,mash the potatoes until smooth,Mix
+9guuyTr8EUg,validation,302,7,283,290,heat the paste in the microwave,Idle
+9guuyTr8EUg,validation,302,13,372,394,cook the spring rolls until golden brown,Cook-Heat
+9rS18VIXt1w,training,403,2,141,155,toss the noodles,Idle
+9vs5PjAzc4c,training,307,0,40,58,spread the rice on the nori and sprinkle seseame seeds on top,Plate
+9vs5PjAzc4c,training,307,1,65,80,flip the nori over,Idle
+A4pTxrrBtMU,training,215,7,151,168,grill snails and serve,Cook-Heat
+A68bBM_5wUY,training,421,0,49,61,mix flour salt and carron seeds together,Mix
+ACyY0jTrm5c,validation,403,3,116,120,toss the noodles,Idle
+AEpS4UBE6ds,training,302,1,107,118,stir fry ginger,Mix
+APQ_KEVYbBw,training,124,1,106,126,boil the sausages in water and steam the bread,Cook-Heat
+Afp_1HegZOc,training,213,0,6,15,toast two pieces of bread to golden and brown on one side,Bake
+Ay55c3jSbeI,training,230,0,95,121,mix garlic soy sauce olive oil brown sugar and pepper corn together,Bake
+B7-kMmC8Tj8,training,321,3,92,102,coat the chicken in the mixture,Season
+BFpJtwAG-8A,training,216,3,224,230,cover the grill,Cook-Heat
+BUhMeYMzydE,training,121,7,187,195,garnish with green onion,Plate
+BYoZz07Y_CY,training,307,8,201,203,flip the nori over,Idle
+Ba2xxUXJ90w,training,206,9,120,140,whisk the eggs,Mix
+Bts6MvK8f9k,training,425,8,135,144,spread dosa batter on the pan in a circle,Idle
+C0gWH2E4lWg,training,114,8,289,295,garnish the mashed potatoes with chard leaves,Plate
+C2cNcOXGyZA,training,201,8,205,211,bake the chicken,Bake
+C67CT1mdkzI,training,410,7,186,190,flip the roti to the other side,Idle
+CElmXCveb48,training,208,2,40,52,peel and cut the potatoes into pieces,Cut
+CazGUhhclEY,training,103,4,253,301,spread blue cheese on the buns and place mushrooms patty lettuce and the bun on top,Plate
+CgbEMrfzmQQ,training,112,1,44,52,cook the pasta in the water,Cook-Heat
+Cgyi5kaU7Qc,training,412,1,65,70,mix the chicken with hands,Mix
+Ck3oNHsLqfk,training,214,9,275,278,cover the dish with smoked lid,Plate
+CkMGWQG-SaU,training,413,6,265,286,cut the cooked chicken into small pieces and place them inside the bread,Cut
+D4AnZ0ymfzw,training,325,2,72,85,stir and cook until the soup boils,Cook-Heat
+DBgap0YANhs,validation,409,2,224,240,mix the potatoes and onions in,Mix
+DErbTrN8v1M,training,127,5,484,493,spread mashed sweet potato in the center of the tortilla,Plate
+DKk5IVcIWW8,training,109,2,34,51,combine flour and paprika and coat the wings,Season
+DViAejsp_rQ,training,425,1,31,46,drizzle oil on the dosa,Cook-Heat
+DViAejsp_rQ,training,425,4,78,87,fold the dosa over,Mix
+Db6SYxAfmPM,training,108,1,40,72,top the batter with blueberries,Idle
+DrXVuj1Qowo,validation,418,4,146,159,separate the water and the channas do not discard the water,Idle
+DrXVuj1Qowo,validation,418,11,340,424,mix occasionaly and cover and allow the channas to cook,Cook-Heat
+DvAiRex4JlQ,training,113,0,50,86,spread butter on the bread,Plate
+EHPkhM261nk,training,218,3,175,178,mash the potatoes with a masher,Mix
+EOc8Xiezg8U,training,117,1,47,51,whisk for 1 to 2 minutes,Mix
+EP2OBrPPWtU,training,102,5,101,114,coat the onion rings in the batter,Season
+EZKU6KK7e-4,training,319,0,36,43,marinate tofu in sesame oil ginger and lemon juice,Season
+EcPsOyNjKYE,training,210,0,49,104,mix the potato egg onion flour salt and pepper together,Mix
+Eci1mvWcQuI,training,216,1,71,92,cook the bratwursts on the grill,Cook-Heat
+EnP2j1caRVs,validation,318,5,96,125,cook the short ribs,Cook-Heat
+Epl4sPuetO0,training,423,3,31,39,cook noodles in a pot,Cook-Heat
+F564e476ULM,validation,115,8,365,369,plate the lobster corndogs with honey mustard,Plate
+F5NsOgJgz64,training,204,3,155,186,wait for the flame off and add marinara sauce and some cream to the pan and cook for some seconds,Cook-Heat
+FSWZXBbEyFw,validation,110,5,166,179,grill the chicken on both sides and let it rest on a plate,Cook-Heat
+FTdfwoxgMTU,training,112,2,209,248,combine the mixture and refrigerate it for 4 hours before serving,Idle
+G-spzGkKIHM,validation,425,1,42,63,spread chutney on top,Plate
+G-vY8T7pSTM,training,307,2,69,71,arrange crab in a line,Idle
+G3k0rnWXK_c,training,213,0,14,21,spread the butter onto the bread and flip over,Plate
+GAKI57aE3Yo,training,119,0,47,63,saute diced onions and bell peppers on the pan using olive oil,Cook-Heat
+GCwrUPndL4g,training,120,0,19,25,peel and chop shred the potatoes,Cut
+GCwrUPndL4g,training,120,2,51,60,grate an onion and add to the potatoes,Cut
+GaxyzK2mHqw,training,113,0,87,93,spread butter on the bread,Plate
+Ghefa-Q18Tg,training,122,0,55,117,cut some tomatoes into halves spread olive salt and pepper on top and roast them in the oven,Bake
+Ghefa-Q18Tg,training,122,8,441,477,drain the soup and pour the liquid back to the pot,Idle
+Gs7Bg6hLo84,training,120,3,64,68,shred the potatoes and sweet potatoes to a bowl and add the cooked onions,Cut
+HWdaqQP5460,training,412,1,303,337,break one egg on the pan and scramble the egg,Idle
+I8ckIq2-j0k,training,207,5,205,224,coat pieces of fish in the batter,Season
+IvDEV7eROm4,training,122,2,223,275,spread some pepper sugar vinegar basil and olive oil on top,Plate
+IvDEV7eROm4,training,122,7,534,537,heat the bread on a pan,Idle
+JAF3Bpy-AsY,training,318,0,43,71,wash the blood off the ribs,Prep
+JAF3Bpy-AsY,training,318,5,158,205,mix the puree sesame oil salt and sauce together,Mix
+JGp_1OQ_XC8,training,222,4,90,103,garnish with green onion,Plate
+JXCmp1jMi0w,training,105,5,181,188,beat some eggs and whisk them well,Mix
+JeLdTWqLUY0,training,216,0,67,71,prepare the grill fire,Cook-Heat
+Kbrkj7wZ4UA,training,419,7,343,346,flip the naan to the other side and cover the lid,Idle
+KchBiFT7Vlg,training,202,2,75,85,peel the tomatoes and roughly chop them,Cut
+KfAq4KRIVs4,training,405,5,499,505,garnish with chopped coriander,Plate
+KoKkf5qEW8w,training,324,2,115,130,heat some sesame oil in a pot and add the chopped onions,Idle
+L-NOPLU4JOQ,training,419,10,358,380,pat with butter and serve,Plate
+L4tdvpago7s,training,318,1,67,81,peel and cut the apple and kiwi,Cut
+LEqqsROtG-I,training,319,4,31,35,cut some mushroom and add sesame oil soy sauce garlic and pepper to it,Cut
+LEqqsROtG-I,training,319,10,124,132,crack an egg on the top and spread some sesame seeds and cook it on the stove,Cook-Heat
+LMoGwLqPM64,training,324,5,111,119,cook the noodles,Cook-Heat
+LRjJqoeprqg,training,213,3,273,294,spread dijon mustard on half of the bread,Plate
+LYj5-CdRIz0,validation,302,2,85,99,stir and then add red bell pepper carrot bean sprouts and cabbage,Mix
+LjfTvZ-cmzs,validation,210,8,246,267,plate boxty cooked bacon and fried egg,Plate
+M1HPY6_IEqU,training,119,0,10,36,mix an egg worcester sauce mustard ketchip pepper onion bell pepper garlic salt and bread crumbs,Mix
+MBDYDoIbt5M,training,124,0,76,86,peel carrots and cut off the tops,Cut
+MC7IWjamNYI,training,114,0,14,32,boil some peeled and chopped potatoes in water,Cook-Heat
+MC7IWjamNYI,training,114,2,55,64,mash the potatoes with a masher,Mix
+MPCU71Hg-i4,validation,116,1,18,25,spread butter on the bread,Plate
+MPCU71Hg-i4,validation,116,5,33,36,spread marinara sauce on top,Plate
+MPCU71Hg-i4,validation,116,7,41,42,spread marinara sauce on top,Plate
+Mc3pEWN0sTs,training,413,9,234,239,spread some butter on one side of the bread,Plate
+Mm6Ay5ez6Ig,training,302,7,170,180,chop up the cilantro and add it and sprouts to the pan,Cut
+NGaMA8-Qn8o,training,404,3,229,253,mix the brown sugar soy sauce curry powder and chili sauce,Bake
+NHFmZV7XNzc,training,229,10,187,192,spread the cucumber sauce on the falafel,Idle
+NRovp9c9e-4,validation,401,7,643,645,garnish with chopped coriander,Plate
+NTyhMGmuWik,validation,124,4,222,278,steam frankfurters for 4 minutes in same steamer place the hot dog buns and steam for a couple of minutes,Cook-Heat
+NYhsc9ikk4I,validation,109,6,280,287,mix hot sauce and melted butter together,Mix
+NYhsc9ikk4I,validation,109,7,287,318,coat the wings in sauce,Season
+Nxt9F9WjdcU,training,306,0,51,126,peel and devein the shrimp and place in a pan,Cut
+Nz9EAqTBrNw,training,307,4,129,148,spread and pat the rice across the nori and sprinkle sesame seeds,Idle
+O0dbSxAKljk,training,120,1,63,92,grate the potato,Cut
+O7nS_uu3CZo,training,214,3,73,123,cook until the foie gras is cooked in the center,Cook-Heat
+OUhxy5BANfk,validation,425,2,89,98,spread the batter in the pan,Idle
+OUhxy5BANfk,validation,425,5,215,230,fold the sides of the dosa over,Mix
+P1OuArzyUl8,training,112,5,74,105,mix everything up and serve,Plate
+PKt_za_XfF8,training,120,0,14,25,boil the potatoes until it is half done then peel the skin and grate,Cook-Heat
+PNlctwVmbLY,validation,305,5,230,268,mix the paste with the rind,Mix
+PRSzKHcYXrk,training,229,5,174,189,drizzle with olive oil,Mix
+PTUxCvCz8Bc,validation,105,2,104,132,coat the chicken wings with both mixture,Season
+PTpRTJKAEoI,validation,110,0,59,83,tear raw kale leaves in bite size pieces add lemon juice and salt and massage thoroughly keep it aside,Season
+P_eepz1z7H8,training,406,3,80,88,fold the sides of the paper in,Mix
+Pk88LQ7hxbg,validation,324,0,38,46,mix brown sugar soy sauce and mirin,Bake
+Pk88LQ7hxbg,validation,324,10,163,168,garnish with furikake,Plate
+PuOc9u9GjWU,training,107,0,32,38,cut large calamari into rings and put them in a bowl,Cut
+QLaA91I4t3U,training,111,2,63,71,chop the grapes in half and them add the bowl,Cut
+QepadF9vOdA,training,206,1,89,104,boil water in a big deep pan add salt to it and dunk spaghetti in it and toss,Cook-Heat
+Qy366zq9vws,training,219,2,61,70,cut fresh dill herbs and add it to the massaged veggie and mix,Cut
+R96CUaMwGME,training,318,4,59,68,cook the meat on the grill,Cook-Heat
+RE3QHbz2SH4,training,210,2,35,39,mash the potatoes with a hand masher,Mix
+RFE7qdhjgXc,validation,404,4,163,182,wash the pan and cook ginger garlic carrot bean sprouts and broccoli in the pan with oil,Cook-Heat
+RFE7qdhjgXc,validation,404,5,186,200,cover it to cook and then add in the noodles,Cook-Heat
+RKhfv-spUaI,validation,124,8,260,280,spread the bun with mustard,Plate
+RUxugNYxFqg,validation,319,4,212,228,mix soy sauce and sesame oil with the bean sprouts and spinach,Mix
+Rig-KeXvcyk,training,213,0,30,50,spread butter onto a piece of french bread,Plate
+Rig-KeXvcyk,training,213,5,96,110,spread butter on the top piece of bread,Plate
+RoLhMa9SHsI,training,113,0,40,51,spread the butter on two pieces of bread,Plate
+RoLhMa9SHsI,training,113,4,131,138,top it off with the other piece of bread,Plate
+S07Fr83GcBI,validation,113,1,84,101,spread some butter on two slice of sourdough bread,Plate
+S07Fr83GcBI,validation,113,3,122,126,spread some more coconut sugar on top,Plate
+S8BAT46vJJs,training,127,5,337,347,garnish the baked burritos with cilantro,Plate
+SSmpg5gmTzc,training,126,3,195,254,chop the beef and soak it in the broth,Cut
+SVo2W3ux1pU,validation,101,0,65,94,spread mayonnaise on top of one slice of toast,Cut
+Sh33vaPTI0Q,training,201,0,76,106,coat sliced chicken in flour beaten eggs and bread crumbs,Season
+TAXAVvroOgk,validation,111,5,34,44,serve it over a layer of chopped lettuce,Plate
+TMpt-41UTOk,validation,218,13,446,460,boil the wrapped pierogies in boiling salted water,Cook-Heat
+T_fPNAK5Ecg,validation,208,3,391,437,mash the potatoes with a masher,Mix
+TfITvKr5M3k,validation,227,0,72,82,cook bulgur wheat in boiled water,Cook-Heat
+TsEyXJqB4vk,training,413,0,127,161,grate one piece of chicken,Cut
+TvnrmFuz0G8,training,229,4,151,177,blend the chickpeas and herbs,Mix
+UHmKlQ2OkTM,training,106,2,185,200,stir the macaroni up until it is seasoned well and set it aside,Mix
+UkqQAynrM2g,validation,112,12,310,317,mix pasta green beans tomatos zucchini corn onion and parsley,Mix
+UoP9ZJKqAh4,training,114,1,28,40,mash the potatoes with a masher,Mix
+VJh-hIt_Oc0,training,103,7,187,191,top with a bun,Plate
+VcIF3HOI9wI,training,101,4,136,138,toast 2 slices of bread in a toaster,Cut
+Vuy2nrJz0Zw,training,104,1,73,99,whisk the eggs,Mix
+VwBJ230pjSk,training,419,2,43,76,mix yeast with water and wait until yeast becomes active,Mix
+Vyrq2i3R_Sk,training,209,8,266,273,cover meat with mashed potatos,Plate
+WO4EXX5DJHQ,training,223,6,223,226,cook the noodles,Cook-Heat
+WXj9wVPWmj0,training,213,0,8,93,slice the bread and apply olive oil and cheesy sauce on the bread,Season
+WcNepcoPYmA,training,201,0,40,47,cut the chicken breasts into half and set them on a baking sheet,Bake
+We2CzpjPD3k,validation,208,4,383,415,mix boiled potato butter milk mustard and mash them,Mix
+WlHWRPyA7_g,validation,302,7,155,180,fold roll and seal the wrapper,Mix
+WqfselLH4MQ,validation,109,5,353,374,coat the wings with sauce,Season
+WrJ_Xj9FArM,training,207,0,26,52,peel and slice the potatos,Cut
+Ws7JgPJsVjs,validation,308,0,54,62,spread rice onto the sheet and flip over,Idle
+XOwypmUT5cc,training,321,0,77,98,mix sesame seeds with chicken breast,Mix
+XOwypmUT5cc,training,321,3,201,264,combine chicken stock dark soy sauce cooking wine hoisin sauce black vinegar sugar and sesame oil,Cook-Heat
+XOwypmUT5cc,training,321,6,513,579,fry some minced garlic roasted red chilli and the sauce,Cook-Heat
+XUyqiWN8WFI,validation,212,0,45,51,boil peeled potato and sweet potato in water,Cook-Heat
+XeXQ23fgS38,training,318,9,132,155,mix gook gnajang sesame oil minced garlic pepper and green onions with the moo,Mix
+XkH9lXa6ykU,training,107,5,177,190,drain the oil from the squid,Idle
+XrhAUrmnjaA,training,403,6,144,151,chop the chili pepper and garlic,Cut
+Y4GVder8xwE,training,230,4,132,183,grill the kebab,Cook-Heat
+Y9eViE3LY6U,training,110,0,22,36,boil peel and cut up an egg,Cook-Heat
+Y9eViE3LY6U,training,110,3,79,113,combine mayonnaise crushed garlic chopped anchovy fillets and lemon juice,Mix
+YgFwFoqglKc,training,412,0,37,76,combine the chicken cornstarch sugar soy sauce grape seed oil and water and mix together,Mix
+YnSPiFBZiRI,training,110,2,104,157,cut chicken breasts bacon and croutons bake them one after the other,Bake
+YuY7aqO0HxU,training,413,0,68,112,peel the skin of 1 daikon  wash it and slice it into thin long strips,Cut
+YuY7aqO0HxU,training,413,1,123,192,peel the skin of 1 carrot  wash it and slice it into thin long strips as same as daikon,Cut
+YuY7aqO0HxU,training,413,11,562,570,drizzle little margie sauce or soy sauce and serve,Plate
+ZBKyj1frrAU,training,313,3,69,95,heat the sushi with a blowtorch,Cook-Heat
+ZFCc4B5Jj_4,training,321,4,124,155,saute chopped green onions and red chilies adding olive oil and the liquid mixture to it and cook,Cook-Heat
+ZGLv-uyeQWU,training,126,0,70,110,heat some oil in  a pan and fry some boneless short rib meat until they brown on all the sides,Cook-Heat
+ZcsshMf0NTI,training,227,6,209,235,chop some cherry tomatoes and arrange the tomatoes around the dish place the bell pepper and herbs as garnishing and serve,Plate
+Zi0Ou5dfsWs,training,110,9,393,422,slice a cooked chicken breast and place on top of the salad,Cut
+ZsAfIadkwj8,training,228,0,27,39,soak cook and mash chickpeas,Cook-Heat
+_EtwHSuT4LA,training,302,10,296,307,flip the egg rolls over,Cook-Heat
+_mL1gihKDw0,validation,305,2,88,116,combine the cabbage and salt water,Mix
+_z1nplx1HdY,training,318,1,67,98,combine pineapple soy sauce sugar pepper sesame oil and vinegar,Mix
+a33P6Woqnsk,training,223,1,64,69,drain marinade and separate beef,Idle
+a6tBjoYxbYQ,training,313,1,64,70,flip sushi upside down onto sushi mat,Idle
+a6tBjoYxbYQ,training,313,6,143,151,cover sushi with clean film and press down using sushi mat,Idle
+aSLQ9Ow-wMA,training,303,1,126,159,drain the water from the tofu box and slice the tofu into cubes,Idle
+abfhnSaZFlA,validation,309,2,196,225,mix in some peanuts freshly chopped cilantro and fried vegetables,Mix
+asoMkznFaCU,training,215,0,57,63,mix some chopped parsley garlic and butter,Mix
+bmZB3aszZlA,validation,203,6,240,266,coat the meatballs and spaghetti with the sauce,Season
+bmxWJNbqCk8,validation,208,5,108,118,mash the potatos and top with sourcream and chives,Mix
+c00gy-NVzaw,validation,421,0,80,93,crush coriander seeds and fennel seeds and put it in a bowl,Cut
+cVUMbDi51ZQ,training,406,6,580,615,fold up tight and roll up,Mix
+cwsDQ7M5OTI,training,225,0,22,30,saute chopped celery carrots and onion,Cook-Heat
+dC9gJsXAXGU,training,307,1,67,92,flip the sheet over and put on avocado and crab salad on it,Mix
+dXhZKrEUHEI,training,310,6,266,281,cut some tuna slices and put to a plate,Cut
+danq5zt1zlQ,training,122,2,117,143,cut the tomatoes into pieces and remove the seeds,Cut
+dn1qrAHh7k0,training,113,0,28,52,spread butter on the bread,Plate
+e2t_1Atddaw,training,319,6,164,179,stir fry the spinach with sesame oil and add a little oyster sauce,Mix
+eWR6fgNWfqw,training,309,5,201,213,fold the wrapper over and seal the edges,Idle
+erExuKpqrAs,training,406,5,73,85,chop two leaves of lettuce,Cut
+fAfk3DJ5Diw,training,321,1,60,95,marinate the chicken with  cup of soy sauce for about 30 minutes,Season
+fOPF3x6c2WI,training,101,0,11,19,prepare a pair of buns,Prep
+fSY-uG_uayI,training,422,5,262,294,cook the vegetables in the pan quickly and remove,Cook-Heat
+ffyHeyRpYvo,validation,208,11,399,409,plate some mash potatoes add canned peas over it and top with the banger gravy on top and serve,Mix
+fpPQcbr5VC0,validation,310,2,88,136,arrange the tuna slices along with the seaweed and sprinkle some sesame seeds over it,Cut
+fq37BTAjPHk,training,105,1,186,198,cover the chicken and refrigerate it for few hours,Idle
+fznTL6TzsqI,training,305,8,377,403,cut the radish in to slices and put in the blended apple pear,Cut
+gZuDMKXWU_E,validation,103,8,288,291,top the patties with cheese,Plate
+hJzPVZf6JVo,training,303,0,89,123,dice the tofu,Cut
+hM3j1SlUQd8,training,308,3,97,104,spread sriracha sauce onto the tuna,Plate
+hXkepSgN_zo,training,105,2,68,128,coat chicken pieces in flour and place on a wire rack,Season
+hcAM69dhawM,training,106,0,14,23,boil pasta in water,Cook-Heat
+i2bQ88Ci5p4,training,109,1,32,38,soak the chicken in the brine mixture,Prep
+i8BjqgemuXo,training,213,1,53,62,shred some cheese in it and add salt and pepper to it,Cut
+i8BjqgemuXo,training,213,5,181,196,heat the croque monsieur on the pan with a baking sheet on bottom,Bake
+iq7aiv9MPvA,validation,126,0,158,231,cook beef cube steak chopped yellow onion red enchilada sauce cheese beans in a pot,Cut
+ivCUhv6Cm0Q,training,307,0,83,101,spread rice onto the nori sheet,Idle
+ivLLGfX0YUs,training,416,8,240,268,stir while cooking until it is ready to serve,Cook-Heat
+ixaY3TcKFFA,training,105,3,210,238,coat the chicken in the flour mixture,Season
+j878b3cSqEw,training,425,9,247,250,fold the dosa into a triangle,Mix
+jGnz9f_2A2Y,training,306,3,240,277,combine sweet chili sauce rice wine vinegar fish sauce sesame seeds coriander and mint and blend together,Mix
+jGnz9f_2A2Y,training,306,6,348,350,grate lemon zest,Cut
+jnewhlK2USg,validation,308,3,221,260,spread some cooked rice on seaweed sushi wrapper,Plate
+jxMQRNpUsXc,training,206,3,106,131,drain the spaghetti and add the cooked garlic bacon and the sauce,Idle
+k3nRPKCyyVg,training,318,2,79,93,coat the beef well with the sauce,Season
+k89aq4jtiNM,training,403,6,215,227,saute the noodles,Cook-Heat
+kD25U-pM1Qw,training,307,1,66,91,spread the rice on a piece of seaweed sushi wrapper,Plate
+kEpB-PVlvVk,training,325,1,92,102,simmer tofu black mushrooms and bamboo shoots,Cook-Heat
+kSyFQ1hWBLU,training,215,4,102,107,steam the shells,Cook-Heat
+kTVcpmqpXJ8,training,324,0,48,58,boil some udon noodles in a pot and drain the noodles,Cook-Heat
+kchoaU2HL-o,validation,115,2,235,252,coat the sausage with the batter,Season
+khmRPBMz6do,training,308,4,115,131,cook the sushi rice,Cook-Heat
+l6Wblq6yIk0,training,321,3,124,136,steam the broccoli,Cook-Heat
+lC8B_Yx6Qzg,validation,226,7,261,267,toss everything well and serve,Plate
+lMNneVHjxk8,training,323,1,81,95,marinate the pork with the sauce,Season
+lMNneVHjxk8,training,323,2,109,112,roast the pork and drain them,Bake
+lRwMt_eHjxU,validation,401,0,14,37,heat some oil add some combined spice and stir,Mix
+lRwMt_eHjxU,validation,401,7,287,291,season the dish with some chopped green onion,Season
+lYiKwaclCZQ,training,423,2,93,104,marinate the shrimp with the paste,Season
+lhSHtL-fMYA,training,318,0,47,71,chop the green onion cabbage enoki mushrooms sweet potato garlic perilla and chicken,Cut
+lhSHtL-fMYA,training,318,4,259,265,soak the chicken in the sauce,Season
+lrx9H0-W2Kk,training,224,3,94,107,cover the meat with flour,Prep
+luDzsPatsGw,validation,214,7,442,463,drizzle cognac on the marinated foie gras,Plate
+m6Fuxu5LjYg,training,105,4,157,174,coat the chicken in the flour mixture,Season
+m7eR6vTPCxE,training,203,0,31,44,mince onions and add ground beef to a bowl with them,Cut
+mZwK0TBI1iY,validation,201,5,96,102,spread sauce over the chicken,Plate
+mZwK0TBI1iY,validation,201,6,102,107,top the chicken with mozzarella cheese,Plate
+mga0jybosxE,training,114,0,14,53,peel and cut potatoes,Cut
+nQLUK4aKsg0,training,210,5,90,98,cook the pan cake with the lid covered,Cook-Heat
+nfJ8Hsh7L_c,training,209,1,52,59,cook the lamb in the pot,Cook-Heat
+o25fLmZsWzw,training,126,0,105,145,heat a pan and add olive oil then add onions and 4 cloves of chopped garlic,Cook-Heat
+o2H6KyYNy3s,training,218,11,214,218,garnish with onions and parsley,Plate
+oAE7nqQeMBQ,validation,117,4,77,82,sprinkle paprika into the tray,Season
+oUvPl-uaqdE,training,205,3,78,101,spread tomato puree mixed with some salt and olive oil on the dough,Mix
+oVPr2LAyhRM,training,111,5,87,100,cook the endive on a grill,Cook-Heat
+oaOdliOVL6g,training,206,3,99,131,whisk the eggs,Mix
+odLBmYsUaHI,training,201,0,51,71,toss some brussel sprouts with 1 tbsp of extra virgin olive oil and sprinkle some kosher salt on it,Season
+pOWe4zB-E-4,training,425,0,5,78,mix the maida rice flour suji curry leaves salt cumin seeds and hing,Mix
+pOWe4zB-E-4,training,425,4,190,205,spread the batter in the pan,Idle
+pOWe4zB-E-4,training,425,6,228,235,flip the dosa over,Idle
+pOWe4zB-E-4,training,425,8,256,263,fold the dosa over,Mix
+pTjoGIvSfE8,validation,225,4,396,410,reduce heat to low and simmer for 15-20 minutes until seasonings and tomatoes are well blended,Cook-Heat
+pYhiIrlXY7I,training,120,4,149,196,stir a bit and cook until browned and crust forms,Cook-Heat
+p_UKXct35jY,training,230,12,130,133,cover the skewers loosely with foils to keep them warm,Bake
+qRUbmEZ6oiA,training,319,5,286,309,mix the beef egg vegetables and some cooked rice,Mix
+qndZKzNHpwc,training,308,2,208,219,flip the seaweed over,Idle
+qq0Wu8fJQLI,training,113,4,185,195,combine 2 slices of bread and let it cook on the grill,Cook-Heat
+rAvuiOAC-V8,training,216,6,133,171,spread mustard on bread and place sausage onion bacon and sauerkraut to bun,Plate
+rKtI8FQGhHo,validation,229,2,55,85,cut the onions and potatoes mince 4 cloves of garlic and squeeze 2 tsp of lemon juice,Cut
+rTVN7NN-m2Q,training,308,1,122,136,spread rice on half the seeweed,Mix
+sZ2NyyKVf7A,training,121,12,173,183,stir in the minced clams,Mix
+soLZjUyn0CI,validation,124,0,54,67,mix some chilli powder salt turmeric powder and tomato paste on a plate,Mix
+soLZjUyn0CI,validation,124,1,67,76,coat the halal hotdogs with the mixture on the plate,Season
+sv8jRCmi3Ro,validation,227,1,28,50,spread the tomatoes on a baking sheet and add oil and salt,Bake
+t9ry6TkD598,training,313,3,93,96,flip the piece of sushi over,Idle
+tYg3lQ5aZv8,validation,309,11,166,182,fold the pot sticker and pleat the edges,Mix
+tZF_WIdSQHM,training,305,5,313,387,blend ginger onion and garlic in a food processor,Mix
+tZF_WIdSQHM,training,305,6,392,457,mix porrige mixture fish sauce pepper flakes onions garlic and ginger in a bowl,Mix
+tasuUgO6m3c,training,405,3,133,147,add bay leaves diced carrot onion tomato potato green chilli and pepper and garlic to a baking tray,Bake
+tfZ7g7yr-0k,training,418,5,252,280,mash some of the chickpeas,Mix
+trSnVJl6Q_k,training,203,0,12,28,saute chopped onion and garlic with oil,Cook-Heat
+trSnVJl6Q_k,training,203,6,169,190,mix the meatballs and sauce in the spaghetti,Mix
+u8mJfN9TBkY,training,207,5,139,142,mix some more flour and salt and pepper,Mix
+uFbAiNoQYQE,training,114,8,287,294,chop up the chives and add to the mashed potatos,Cut
+uHv9xRooPMc,validation,313,1,57,77,stuff the sushi rice inside the meat slice and place them on a baking sheet in a row,Bake
+uI-vgcqOioU,training,405,7,264,280,cover the pan to cook for 15 minutes,Cook-Heat
+uI-vgcqOioU,training,405,10,364,397,cover to cook for another 40 minutes and garnish with more coriander leaves,Cook-Heat
+umveZyJ1h1s,training,219,5,262,279,grate the carrots and transfer it to the big bowl,Cut
+uxEhH6MPH28,training,105,4,113,134,coat the chicken in the seasoned flour,Season
+uyr2mXqn3Yo,training,228,3,158,175,blend garlic and the bell pepper in a food processor,Mix
+v7xUF6_YFcc,training,119,2,350,389,add tomato ketchup on the beef and bake the mixture in the oven,Bake
+vDDeMg2dhEM,validation,302,7,156,190,add the bean sprouts season with soya sauce and transfer everything on a baking sheet and spread them,Bake
+vEiWZHn2OiE,training,206,9,268,275,toss the mixture and add parmesan and black pepper to taste,Season
+vL2hqbnR5HY,training,208,2,120,131,cook the sausages on a grill,Cook-Heat
+v_dkYNq8G9Y,validation,321,3,156,172,cover the chicken in flour,Prep
+vmHAOH5UMFY,training,205,1,25,37,spread the special ginas sauce on top,Plate
+vwtelJNe7ls,training,410,5,472,488,spread butter on the bread,Plate
+w0FBc7-Acs8,training,419,8,265,283,cook the dough on top of the pan,Cook-Heat
+wHWDBQ9_7FU,validation,207,5,86,96,peel and cut up the potato,Cut
+wR8Ybxpnbwc,validation,308,7,105,114,flip the nori over and add the tuna mixture to the other side,Mix
+x2O99s2EOXg,training,421,10,260,282,fold the the samosa four times,Mix
+xS78EktJZZA,training,210,1,89,94,grate uncooked potatoes into a bowl,Cut
+xhXcJ6bhX2w,validation,106,1,75,88,stir while cooking pasta and drain,Cook-Heat
+yBsMxYO8fZo,training,302,6,113,123,mix soy sauce sesame oil honey and cilantro,Mix
+yTPJ_u_qxDU,validation,318,4,327,467,grill the marinated ribs well and serve with chopped leeks and red onions,Cook-Heat
+ysUibvVCpP8,validation,406,0,197,221,mix 2 tbsp of chili garlic sauce with the hoisin and keep it aside,Mix
+yxjnWx6TaQ8,validation,115,1,33,53,mix cornmeal flour salt pepper sugar and baking powder,Bake
+z6GDbQ7nqic,training,201,1,128,131,heat up the tomoatoe sauce,Idle
+zBexcthy_tA,validation,201,2,89,103,whisk the eggs,Mix
+zCumtEzm4TE,training,317,7,326,349,mix everything well  add the meat and mix again and put into fridge for 30 minutes,Mix
+zKS6PpS5WKQ,training,416,3,325,384,mix masala tikka and water and pour into the dal add some butter and cook,Cook-Heat
+zMrDtnzoSiw,training,409,7,198,209,cover to cook until 70% cooked,Cook-Heat
+zO7LIiIMVgk,training,104,0,86,90,mince some chives and keep them ready,Cut
+zW4yoTwjtJs,training,318,8,181,229,grill the ribs,Cook-Heat
+zYMelEXKars,training,216,4,145,170,cook the bratwursts on the grill,Cook-Heat
+zZysbuDEtWY,training,117,6,121,127,split two english muffins toast them and add butter salt and pepper,Idle
+z_ZHVTqbSZo,training,421,8,189,240,fold into cone shape and fill with potato mix and pinch top closed,Mix
+zcS2hLxZ-cI,training,314,1,59,78,boil water and add the noodles to it simmer and cook until the noodles are soft covering the lid,Cook-Heat
+02nUKT0A7uE,validation,224,1,78,87,add flour and bread crumbs to aluminum sheets,Mix
+0H_IfT2sDZ8,training,318,4,136,148,brush the ribs with the sauce,Idle
+0Jkcym1lGBc,training,324,2,35,58,poor broth into a pan then dilute with water,Cook-Heat
+0hb6NShH9hY,validation,314,4,165,167,place packed seaweed into the jar,Mix
+1-SJGQ2HLp8,training,205,6,210,235,stretch out and press the dough,Idle
+1Ihxcua2HBc,validation,218,7,179,189,crimp shut with fork,Idle
+1U5GzTal-2Y,training,308,7,245,252,add sauce to the top of the roll,Mix
+29Wkj1LqaK8,validation,410,5,151,180,place oil on the chapati and cover with flour,Mix
+2RW7l4zbS_k,training,308,0,7,23,place some steamed rice on a piece of seaweed,Mix
+2Rn2tM9Rgg8,training,403,8,414,418,add eggs,Mix
+2UY6Fztzpng,training,230,7,154,171,use skew the chicken and peppers and brush some oil on the grill,Cook-Heat
+2iWUUcW08ac,validation,108,5,278,294,pour the butter into the egg yolks,Cook-Heat
+3WXM2FAueb8,validation,127,8,194,197,roll up the burrito,Idle
+3t0DOJgK1vs,training,421,11,135,141,fill the cone with the filling,Idle
+4TjB1J4QoUQ,training,416,2,138,158,when the dal is soft move to a low flame,Idle
+4nxbRG6-sfw,validation,301,0,15,45,add salt rice wine soy sauce and corn starch to a bowl and mix,Mix
+5B1jpHgRetQ,training,316,3,101,116,take the kombu out of the water,Prep
+5B1jpHgRetQ,training,316,7,197,205,add miso to the strainer and place the strainer in the dashi stock,Mix
+5FOX31OK_pU,training,307,3,103,113,roll up and press down with the mat,Idle
+60TXip7-W-E,training,421,9,249,262,fill the cone with the filling,Idle
+7-FatJyHj_g,validation,305,3,55,80,add fish sauce ginger garlic paste sugar onion carrot and red pepper flakes to the lettuce and mix together,Mix
+7dUpBLA2C6I,training,213,3,43,58,add some parmesan cheese and keep whisking with low heat,Mix
+7h70U1m5hFg,training,127,5,124,129,roll the burrito up,Idle
+8X2wDyjl6T8,training,311,0,11,16,take out salmon from package,Prep
+9CUkuWWVSjE,training,115,7,317,348,dip the hot dog in the batter,Idle
+9RRHAydI_xk,training,406,7,153,169,roll the wrapper,Idle
+9RRHAydI_xk,training,406,9,214,244,place the filling on the wrap and roll up,Mix
+A4pTxrrBtMU,training,215,4,107,126,put butter garlic parsley salt and bread crumbs in a bowl and mix well,Mix
+A68bBM_5wUY,training,421,10,458,484,seal the samosa shut,Idle
+ACyY0jTrm5c,validation,403,0,41,58,add toasted sesame oil and black soy sauce to the noodles,Mix
+AcWeYhS3cDs,validation,317,1,37,44,add soy sauce and sugar,Season
+Acqpfz6lQc4,training,302,0,210,222,add the spring roll filling to the center of a the spring roll sheet,Mix
+Afp_1HegZOc,training,213,1,20,36,add a little bit mustard and two slices of ham on one piece of bread,Mix
+BGCW_PWhY9g,training,317,1,28,58,add minced garlic brown sugar soy sauce rice wine sesame oil honey and ground black pepper to a bowl,Mix
+BL8oJSnL4EE,training,208,8,162,174,pour gravy on top of the sausages,Cook-Heat
+Ba2xxUXJ90w,training,206,12,163,174,add the bacon to the pasta and toss,Mix
+D-Dkz8cX3Vg,training,116,3,191,199,roll out the pizza dough,Idle
+DBgap0YANhs,validation,409,7,417,434,add soaked raisins and fried onion on top of the rice,Mix
+DKk5IVcIWW8,training,109,4,66,90,in a saucepan heat some butter and add some hot sauce a pinch of sugar and black pepper,Cook-Heat
+Dp_khENsaUQ,training,410,6,37,50,flour again and begin to roll out,Idle
+Dr3rUEc1uVE,training,321,0,85,132,add soy sauce cornstarch wine vinegar sugar garlic ginger and chicken broth to a bowl and mix together,Mix
+DrM_ZiRvIro,training,115,6,393,410,dip the hot dog in the batter,Idle
+Eg89rR5s8e4,training,416,5,304,326,add fresh cream and stir the dal,Mix
+F564e476ULM,validation,115,0,51,80,tie a lobster tail with string and place in a pot of boiling water,Cook-Heat
+F564e476ULM,validation,115,2,109,158,remove the lobsters from the water and remove the shells,Idle
+FSWZXBbEyFw,validation,110,4,145,163,add anchovy paste worcestershire sauce olive oil and parmesan cheese and whisk it,Mix
+Fe4tO5vW9_E,training,114,3,72,82,after the garlic has cooked stir in the cream and heat up,Cook-Heat
+FtHLUsOntqI,training,325,3,232,236,add stock to the soup,Mix
+H6acK-N2wMs,validation,309,2,82,91,seal the edges,Idle
+HJBQ-NgQ9T0,training,224,3,163,197,remove the veal from the wrap and coat the meat with flour on both the sides,Season
+HvQ7M9ibS_8,training,410,6,292,301,add some clarified butter,Mix
+Ij-B7-rcK0Q,training,211,5,114,133,place the kale into a pot of water season with salt and boil,Cook-Heat
+Iq1Sn9vERcU,training,108,4,111,113,add butter and syrup on top,Mix
+JdDL-ekwq2A,training,401,4,131,135,add the chicken and mix the sauce,Mix
+KAQ6pA9r4wk,training,423,7,81,100,add soy sauce peanut butter sesame oil garlic fish sauce and turmeric to the blender,Mix
+KDwsw3XLhUo,training,209,3,143,181,add tomato puree worcestershire sauce and lamb stock and stir,Mix
+KTQeLdmlzBo,validation,127,3,223,246,roll up the burrito,Idle
+KpzFf81iax8,training,401,11,434,497,remove the lid and garnish with fresh coriander,Plate
+L3x9HDsfpBY,training,126,12,340,356,put the prepared mixture in the tacos,Mix
+LYj5-CdRIz0,validation,302,7,161,168,take a spring roll wrapper and put the some vegetable mixture on it,Prep
+LhrmwGxTLAE,training,218,8,291,307,using a glass cut circles into the dough,Cut
+LnlYlMuX1Cc,training,121,1,54,96,put some chopped cauliflower and onion and saute until the onion is brown and translucent,Cook-Heat
+LqCDIssigHo,training,119,3,67,74,add some barbecue sauce and tomato sauce to the mixture,Mix
+M4cDslY_qCg,training,110,1,39,49,chop 3 pieces of bread to small cubes and mix the cubes with the mixture,Cut
+MCtF5tRCRUk,validation,117,2,87,100,squeeze lemon juice into the sauce,Idle
+MIt0YvVC2iY,training,406,4,83,90,roll up the spring roll half way,Idle
+MOBlJBn0BFI,training,303,8,372,373,remove lid,Prep
+MTGYZIE9nUo,training,409,6,128,155,add the cheese red chili powder tumeric and cumin powder,Season
+Mm6Ay5ez6Ig,training,302,8,196,217,add the peas to the filling and toss,Mix
+Mm6Ay5ez6Ig,training,302,10,232,246,roll up the spring roll,Idle
+NK2xHVWojgY,training,301,1,43,53,add soy sauce and corn starch and mix,Season
+NTyhMGmuWik,validation,124,0,65,112,in pan take 1 pound ground beef add 1 finely chopped onions 2 cloves finely minced garlic cook 5 mins,Cook-Heat
+NujJqJUXSQY,training,104,2,36,46,add milk to the cup,Mix
+OEfzgobszUA,validation,127,2,31,40,when it is done take out and cover them up and let them steam in its heat for 15 mins,Cook-Heat
+OF-Zh5FrxGc,validation,204,7,292,311,pour in the vodka and tomato sauce,Cook-Heat
+OpURFOTdycE,validation,219,2,324,409,take all the shredded vegetables in a bowl add 4 tsp salt and mix well,Prep
+P7bsYTDILps,training,119,12,234,241,once it is baked let it rest for 10 minutes to set and then slice it,Idle
+PHpk4ITk-SE,validation,126,6,143,148,open the cover and reseal it and put it into the fridge,Idle
+PLqTyxMYgBg,training,107,4,113,127,melon ball a peeled potato using melon baller and put into boiling salted water and cook for 8  10 minutes,Cook-Heat
+P_eepz1z7H8,training,406,4,88,104,roll up the spring roll,Idle
+Pk88LQ7hxbg,validation,324,9,150,163,add soup stock snow peas and an egg,Mix
+QS0I7mLQIgc,training,122,9,207,231,when all veggies are cooked soft reduce heat to low and add salt and sugar per the taste and stir,Cook-Heat
+QYl_wwBKt18,validation,120,2,99,112,in a sauce pan add the evaporated skimmed milk chicken bouillon granules and stir over a medium heat until the milk boils,Cook-Heat
+QuHIxCOkTAo,training,418,8,334,362,add beans to the mixture,Mix
+R-EnNr_oH8A,validation,317,5,258,283,transfer the marinated beef meat into a container and refridgerate it,Idle
+R-_LEZ41Pt4,training,412,2,174,183,crack an egg into it and stir until the egg is completely cooked,Mix
+R96CUaMwGME,training,318,3,53,58,refridgerate the meat in the marinade,Idle
+RBsbedWWmUI,training,323,2,87,98,add hoisin sauce to the pork and mix,Mix
+RY10IUcz3bk,validation,106,0,87,112,add butter to the macaroni and stir,Mix
+Rc9kXItj6ic,training,204,4,118,134,add cooked and strained brown rice pasta into the sauce and mix it well,Mix
+Re46osq_NkI,validation,309,8,185,205,once they are browned pour some water and cover with a lid and cook,Cook-Heat
+S4z2gmtUzHE,training,222,0,25,39,scrub the mussels and rinse it and pull off any beards,Prep
+SDHOR15oWwU,training,203,2,84,94,once the onions get softened add some chopped mushrooms and stir,Cut
+SDHOR15oWwU,training,203,3,100,119,add tomato paste chopped tomatoes and chopped parsley stir and simmer,Cook-Heat
+SELBilV64sY,training,214,2,185,203,pour glaze on the foie gras,Cook-Heat
+TGY3iP4X34c,training,127,12,302,313,roll up the burrito,Idle
+TGY3iP4X34c,training,127,14,331,341,roll up the burrito,Idle
+TMpt-41UTOk,validation,218,2,138,162,grind the cooked meat mixture in a food processor,Cut
+TMpt-41UTOk,validation,218,11,354,358,with a glass or large cookie cutter cut circles and take the remaining dough,Cut
+TOle-ziRKN4,training,422,1,169,174,place the filling on the center of the wrapper,Mix
+TshGvn_QG_g,training,307,3,97,113,roll up the seaweed,Idle
+TsrTU3CJn2c,training,209,3,107,131,add some water or broth stir and cook,Cook-Heat
+TsrTU3CJn2c,training,209,6,161,173,chop potatoes submerge in water in a pan add salt and boil,Cook-Heat
+U8Mb5cr7JDQ,training,219,1,53,70,weigh the cabbage and prepare salt of 2% of its weight,Season
+UHmKlQ2OkTM,training,106,7,369,380,add a little bit more milk,Mix
+UZGqsSB9cSQ,training,317,1,75,101,add sliced asian pear soy sauce sesame oil onion and garlic to a blender,Mix
+UoP9ZJKqAh4,training,114,5,80,110,use a tablespoon to make balls out of the mashed potatoes,Mix
+UoP9ZJKqAh4,training,114,12,194,198,poke a skewer in the balls and serve on a plate,Plate
+VPFmudvabUg,validation,110,6,460,540,add sauce and bread toos and garnish with cheese and lettuce,Plate
+VcIF3HOI9wI,training,101,8,221,235,layer bacon lettuce tomato and toast,Cook-Heat
+We4NsM_moJQ,training,413,10,324,330,squeeze some sauce in it and cover the sandwich to serve,Plate
+WiliCz0XYVU,training,225,0,51,90,pour stock tomatoes meat and seasoning into a pot and stir,Season
+WlHWRPyA7_g,validation,302,6,135,154,place the wrapper and filling down and put paste on the edges,Mix
+Ws7JgPJsVjs,validation,308,5,115,140,place saran wrap and a mat on top of the roll and press the roll,Mix
+X1mE2IWeamI,training,404,0,2,17,pour boiled water to rice noodles,Cook-Heat
+X4GOx3EW3Rw,validation,319,8,212,240,to assemble the dish place a layer of lettuce leaves then arrange carrots tomatoes cucumber and a tbsp of sweetcorn,Plate
+XZIiNz19HWA,training,307,3,58,66,take the rolling mats and place the nori sheet on the mat with rice facing down,Prep
+XeXQ23fgS38,training,318,7,115,122,remove the teabag and moo,Prep
+YgFwFoqglKc,training,412,5,270,327,add the eggs bean sprouts and chopped scallions toss everything well and serve,Plate
+Z6c8hIW7bhI,training,325,4,242,251,now add hot sauce soy sauce stir fry sauce and hot sour sauce,Cook-Heat
+Z6c8hIW7bhI,training,325,5,282,295,give the boiling vegetable stock a stir add a salt to taste and cook the noodles,Cook-Heat
+ZcsshMf0NTI,training,227,4,140,185,then add tomatoes cucumber bell pepper celery and herbs and mix all the ingredients together well adding some more lime juice,Mix
+Zi0Ou5dfsWs,training,110,7,305,357,add the cooked croutons grated parmesan cheese and salad dressing,Mix
+ZvIXsbEUCa0,training,222,11,341,343,add some butter to the mussels,Mix
+_EtwHSuT4LA,training,302,5,208,223,place the filling towards the top of the wrapper,Mix
+_EtwHSuT4LA,training,302,6,226,234,roll the wrapper up halfway,Idle
+_GTwKEPmB-U,validation,210,5,174,180,scoop the batter on the pan,Cook-Heat
+_XxXWiOoyhY,training,319,10,348,365,place the egg on top,Mix
+__5RJw4UP1Y,training,203,4,52,54,add more breadcrumbs,Mix
+_rrJbjpCOXs,training,225,3,145,169,add whole wheat pasta diced tomatoes peas navy beans vegetable juice red pepper flakes and vegetable broth to the pan,Mix
+a5FoLWnEiAI,validation,416,5,342,360,add chopped tomatoes mix it well and cover,Mix
+a8oSlp9PCMg,training,109,3,370,418,add the wings to the sauce and mix to coat the wings,Season
+bAC0cZIQVOk,validation,119,6,357,375,pour some of the sauce onto the meat,Cook-Heat
+byZj4mfOJ2s,training,119,1,51,101,add some milk a beaten egg a spoon of soy sauce and some pepper,Mix
+c4WaDsqP38k,validation,302,5,82,93,roll up the spring roll,Idle
+c4WaDsqP38k,validation,302,6,93,98,seal the roll with water,Idle
+c9eELn4axpg,validation,101,1,66,88,cut a lime squeeze on the avocado and stir,Cut
+coYqrXsDPdU,training,106,4,93,108,add drips of worcestershire sauce and whisk and reduce heat to medium low,Mix
+cwsDQ7M5OTI,training,225,8,206,223,add one cup of elbow macaroni,Mix
+dB4SW9-y13U,training,321,9,272,285,add the chicken to the sauce and mix,Mix
+dI2WtKv1t_o,training,323,5,292,350,add meat and mix,Mix
+dI2WtKv1t_o,training,323,7,400,467,add frozen peas and eggs and mix,Mix
+dl4NvSA3hRI,training,412,3,192,222,add oyster sauce sugar and fish sauce to the wok,Mix
+dnrZJQmC05c,training,211,9,297,321,spoon onto a dish and add butter and green onion,Plate
+dsI9QVhmsGg,training,124,1,48,60,stuff the hot dog,Idle
+e2t_1Atddaw,training,319,3,138,143,add a little oyster sauce,Season
+e8PNg_-psR8,training,222,1,78,92,add corn starch to some soy sauce and stir well,Season
+edX_xmX6q0s,training,205,5,184,188,pour in the tomato sauce,Cook-Heat
+eyfZZWZwDOY,training,215,2,190,218,unfold and roll out the pastry,Idle
+eyfZZWZwDOY,training,215,9,373,378,brush the egg wash on top of the appetizers,Prep
+fOPF3x6c2WI,training,101,4,66,71,put some scrambled egg on top,Mix
+faFpytaIzI0,training,313,2,22,66,repeat the procedure for other sushis,Idle
+fetFXsc6G5s,training,419,12,258,284,for garlic naan grate 1 garlic clove on the rolled out dought and sprinkle flour gently roll it out further,Cut
+frCFxOt9390,training,405,10,239,245,replace the lid on the grill and cook,Cook-Heat
+g0KDpc1kSjo,training,302,1,118,130,roll up the spring roll half way,Idle
+hJzPVZf6JVo,training,303,6,277,355,add diced tofu and sauce,Mix
+hSsNOSjkWww,training,203,1,55,119,add an egg parsley and minced garlic and mix it,Mix
+hkVfzjA1HA0,validation,308,5,308,357,add the tartar mix to the salmon and tuna sushi rolls and put chopped chives on the top,Mix
+i0qYuhtSQHI,validation,213,2,77,95,add dijon mustard milk and salt to eggs and whisk it,Mix
+i4ZAwUoP8c4,training,221,9,171,175,add chopped vegetables and 1 tsp of ground caraway seeds to the soup,Mix
+iPJmzCZ3uwo,training,406,5,103,109,roll up the spring roll,Idle
+ioXqgVYG7Xc,training,404,1,74,121,finely chop chili mushrooms peppers carrots onions and bacon,Cut
+jRdA68GbUMg,training,117,6,222,251,add distilled vinegar to a pan of hot water and add eggs,Mix
+jhb9ExNemYk,training,112,4,151,153,the macaroni salad is ready to serve,Plate
+jnewhlK2USg,validation,308,5,293,333,roll it up and press firmly,Idle
+kD25U-pM1Qw,training,307,4,136,166,roll it up and press it firmly,Idle
+kEpB-PVlvVk,training,325,5,196,198,add corn starch water to the soup,Mix
+kEpB-PVlvVk,training,325,7,228,234,add black soy sauce sesame oil and the scallions,Season
+kWLYcM3uVVc,validation,116,3,44,45,put the cream cheese and pepperonis into the loaf,Mix
+khmRPBMz6do,training,308,6,180,202,add rice to the nori sheet and add sesame seeds,Mix
+khmRPBMz6do,training,308,7,202,227,add tuna mixture on the other side of nori and roll the nori,Mix
+l6Wblq6yIk0,training,321,9,214,225,add chicken and broccoli and toss,Mix
+lBnuFn9q3Xs,training,406,4,122,138,wrap up the spring roll,Idle
+lH7pgsnyGrI,validation,316,2,121,126,remove the bonito flakes,Prep
+lRwMt_eHjxU,validation,401,6,243,281,add some chopped tomatoes and mix it,Mix
+lgg6luYfQ1w,training,116,5,226,247,add mozzerella cheese on top of the sauce,Mix
+luDzsPatsGw,validation,214,4,226,327,dip the foie gras in the powder and place them in a deep pan,Cook-Heat
+nfYzqyureLo,training,222,2,81,123,discard the broken and bad mussels,Cut
+ny7G1uw36J0,training,413,5,347,352,place a piece of lettuce on top,Mix
+oRMqGMnK5mk,training,204,2,195,213,add 1 cup whole milk and keep whisking,Mix
+ofaghkdG2pU,training,222,6,217,245,mussels are ready add  cup of parsley and cilantro and mix it,Mix
+p_UKXct35jY,training,230,2,45,52,add 1/3 cup olive oil 2 tsp of tomato paste 5 finely chopped garlic cloves to and whisk to combine,Mix
+peld2w63tpM,validation,107,2,77,92,add the squid to the container put on the lid and shake so that the squid gets covered,Mix
+pz1pXfa208Y,training,117,6,105,123,pour the sauce on the toast and garnish with parsley and capers,Plate
+q65WrXiHpoo,training,215,2,104,138,add 4 tbsps savory garlic cream 1 tbsp lemon herb cooking crme and cup of butter blend for a minute,Cook-Heat
+qLygo7z5hn8,training,104,4,145,151,pull them off the heat and transfer to a plate,Cook-Heat
+qOB709GWcE8,training,124,4,199,219,now spread green relish and then add chopped white onions on it,Cut
+qndZKzNHpwc,training,308,6,323,343,place the mat over the roll and press down,Mix
+r-s3tFLCqxM,training,206,3,98,106,add pasta to the bacon with a little water and stir it,Mix
+r-s3tFLCqxM,training,206,4,107,116,add the sauce and keep on stirring until everything is coated,Season
+rT3Esab9zmU,training,127,2,62,71,add some corn starch to the water and mix well,Mix
+rXR5nuiXtZQ,training,403,4,105,176,add the noodles water sauce chili paste  and paprika to the wok and toss,Mix
+s9r-CxnCXkg,training,104,2,63,90,add a little salt to the eggs and stir to cook the eggs in the sauce pan,Cook-Heat
+sb58mkT8_ak,training,403,11,229,240,juice a lime,Idle
+so-RuJQY1d0,validation,409,10,355,444,repeat the same layers again,Idle
+tGaAAI3aAUs,validation,126,8,361,391,fill the taco shells and top with sour cream grated cheddar cheese and chopped lettuce,Cut
+tZF_WIdSQHM,training,305,4,283,307,when bubbles form stir in sugar,Mix
+uKoGb20Ngcs,training,405,10,486,501,add garam masala powder and mix the curry,Season
+uXbkxyyOEr4,training,306,4,197,207,remove the fried prawns and drain the excess oil using paper towel and serve,Idle
+um8-utUa9UI,training,316,0,130,140,bring the vegetable broth to boil remove from heat and add shiitake mushrooms cover it and rest it for twenty mins,Cook-Heat
+umveZyJ1h1s,training,219,10,442,465,press down hard using a plate and place a weight,Plate
+vDDeMg2dhEM,validation,302,9,257,307,wrap up the filling,Idle
+vUhoMXc7FJM,training,227,12,1014,1046,add quinoa mix and serve,Plate
+v_dkYNq8G9Y,validation,321,0,47,99,add chicken stock sugar vinegar hoisin sauce sesame oil cornstarch and mix,Mix
+yU7p2deHUEY,training,110,0,4,44,grate one clove of garlic and mix it with anchovy paste in a bowl,Cut
+ysRLGUndzgg,validation,325,7,489,506,ladle soup into the bowl and top with green onion,Mix
+z1S8WkUoQtU,training,102,4,112,120,dip the rings into the batter,Idle
+zWHu95io9B4,training,203,7,172,190,now add tomato paste dried basil black pepper and stir well,Mix
+zljhtdoqpv0,validation,107,3,142,164,take the coated calamari out of the flour and put them on a plate,Season
+zmEyQT7ifS8,training,110,7,221,239,add worcestershire sauce some grated parmesan cheese water and whisk thoroughly,Mix
+zukEQgbWdsY,training,101,9,247,254,add lettuce on top of the bacon,Mix
+05ZSU-5UkXw,validation,226,1,82,127,add tomatoes cucumbers chickpeas green onions and feta to a plate with lettuce,Plate
+0lkjIf5hZT4,training,127,2,34,37,place some beef in the same pot,Cook-Heat
+1Ihxcua2HBc,validation,218,10,256,258,remove from pan and serve,Plate
+1k64hSAAAd4,training,117,3,17,21,add pieces of english muffin and ham to the dish,Plate
+1mJeGeb-iew,training,112,5,145,172,add macaroni chicken carrots pineapple raisins pickles and onion to a bowl,Mix
+2HsWZdKKBGg,validation,225,5,307,347,add cooked pasta into the pan,Cook-Heat
+4JwUCS5JjfY,training,304,5,135,149,add feta cheese and parsley to the dish,Plate
+4gPBv7le5pw,training,122,8,339,344,add some basil,Season
+5E3kulJRzGY,training,405,4,187,205,add onion and the sauce and cover the pot,Cook-Heat
+5ZWUiD2OL04,training,205,5,144,162,sprinkle parmesan cheese and basal on top and pour oil on the crust,Plate
+65235CscqdQ,training,317,3,74,125,add the onions garlic and sliced beef to the bowl and mix them together,Mix
+7ebZWviUfUA,validation,108,0,15,30,add flour sugar baking powder and salt,Bake
+7zjwjGsVcLI,training,305,5,217,259,add daikon cabbage green onion minced garlic and the mixture to a large bowl and mix by hand,Mix
+88YovCsnMxs,validation,106,2,54,62,put the bread aside and prepare a pan heated with butter,Cook-Heat
+9-hB_1taG0o,training,225,4,200,206,place the pasta in the bowl,Mix
+9BNRMHGepS4,validation,119,5,133,194,add some barbecue sauce and place the meat in the loaf pan,Bake
+9guuyTr8EUg,validation,302,3,178,193,add the spice mixture and onions to the wok,Season
+Afp_1HegZOc,training,213,5,135,151,add some toasted sesame seeds olive oil and pepper and mix them,Season
+BL8oJSnL4EE,training,208,7,148,159,place the sausages on the mashed potatoes,Cook-Heat
+D-Dkz8cX3Vg,training,116,8,307,322,sprinkle cheese on top of the pizza,Plate
+EkuM7L31bMQ,validation,303,4,78,96,add water tofu cubes sprinkle and salt and cover,Season
+FiE1KczH4pc,training,316,0,203,225,add miso paste to a blender with water,Mix
+GJzuTXdVQcE,training,425,1,147,148,add urad dal to pan,Cook-Heat
+GJzuTXdVQcE,training,425,6,238,253,add sliced red onions to pan and mix,Cook-Heat
+HdVETeyupXE,validation,409,5,193,198,place the rice in the pot,Cook-Heat
+ID2ct1TlVuk,training,323,4,106,113,add rice to the wok,Cook-Heat
+JylDlRtH9Tc,validation,303,4,175,188,add the scallions to the pan and stir,Cook-Heat
+KDwsw3XLhUo,training,209,4,182,191,add thyme and simmer,Cook-Heat
+LQDP3xm8aRk,validation,208,12,368,426,add milk and mash potatoes,Mix
+NHFmZV7XNzc,training,229,3,72,83,add chopped onion parsley and chopped garlic cloves to a food processor and blend it until smooth,Mix
+OKyOqfAeARQ,training,409,7,165,220,add the rice to a greased bowl along with the vegetables,Mix
+PKcwRi9jh0E,training,114,5,205,226,put the mashed potatoes into a serving pan,Plate
+PKt_za_XfF8,training,120,2,41,51,add finely chopped onions into the melted butter and salt till it gets brown,Season
+PfupF0V3YYM,training,102,1,50,72,add paprika sugar garlic powder s=and salt to the bowl and mix,Season
+QWXlKD-XGCQ,training,405,6,256,270,cover and cook for 20 minutes,Cook-Heat
+QqepsJSi5fs,training,323,6,237,247,add rice to the wok,Cook-Heat
+Qsgz9Vr-5aU,training,209,1,101,116,add chopped onions carrots celery and add little salt and cook for about 6-8 minutes,Cook-Heat
+Qy366zq9vws,training,219,4,89,93,place crockery plate upside down on top press tight to hold the veggie tight and ferment for 4-5 days,Plate
+R-EnNr_oH8A,validation,317,7,326,389,put some grape seed oil into a pan add chopped onions and fry till translucent,Cook-Heat
+R5IAGR2SeaE,validation,228,1,51,71,add the chickpeas chickpea juice and cayenne pepper to the food processor,Season
+RY10IUcz3bk,validation,106,4,215,242,sprinkle cheese on top,Plate
+SDHOR15oWwU,training,203,0,39,63,add oil chopped onions chopped bacon and salt to pan,Season
+SOMsxGGSTUk,validation,403,0,41,56,place thai noodles in a bowl and pour water on top,Mix
+SZ7TtauNFRU,training,229,3,140,155,add garlic to the food processor and blend,Mix
+SlR-Yh3gebM,training,316,0,44,65,add nettle tea to a blender,Mix
+SsafTopywFo,training,122,1,73,92,add some oil to the pot and saute the onions and garlic,Cook-Heat
+TGY3iP4X34c,training,127,1,84,108,add pinto beans water and salt to a pot and boil,Cook-Heat
+TO_W2RYL2mA,validation,314,0,20,40,add onion garlic and ginger slice and chicken filet to a sauce pan and cook,Cook-Heat
+TgttBprZXDY,validation,112,1,118,122,add the vegetables pasta pepperoni and mozzarella cheese to a bowl,Mix
+UUlfKJ9M_pQ,training,121,4,159,183,add clam juice 2 potatoes and bacon,Cook-Heat
+UVHIuuQ0-nA,training,305,3,118,135,add salt to the vegetables and mix them,Season
+UkqQAynrM2g,validation,112,6,182,194,add herbs salt and pepper to the bowl and stir,Season
+VtuiYP8GIb8,training,212,6,97,120,add potatos to a large pot of water and salt and boil,Cook-Heat
+VtuiYP8GIb8,training,212,9,194,210,add meat mix to a deep dish and spread around,Plate
+W882NYaaiEs,training,106,5,264,291,add the pasta pancetta and sauce to a pot and stir,Cook-Heat
+WRtoMalV4Zo,training,221,7,187,208,pour water into the pot stir and cover the pot and wait for a few minutes,Cook-Heat
+X1e5zsLlbZo,training,304,5,128,140,add red onion and carrot to the wok,Cook-Heat
+XNbfYAZ__iU,training,409,1,80,144,add the spice mixture and stir fry,Cook-Heat
+XeXQ23fgS38,training,318,3,76,85,put the ribs into a pot of water and cook,Cook-Heat
+XeXQ23fgS38,training,318,6,105,113,add the moo teabag and galbi pieces to the pot,Cook-Heat
+Y4SijHJ02Zg,training,225,9,313,324,pour the soup into a serving bowl,Plate
+Y6VBdbmdjYw,training,404,1,145,216,add all of the ingredients into the pan and stir,Cook-Heat
+Y9tnBIxTbnw,training,319,3,137,141,add spinach to a pot of boiling water,Cook-Heat
+YMcabXHzylg,training,105,7,256,286,place the sauce in a hot pan and the wings and coat and top with sesame seeds,Season
+YZC_uXqB948,training,308,0,27,99,add chopped tuna sauerkraut fish eggs spicy mayonnaise and chili to a bowl and mix together,Mix
+Z6coaaI77PY,training,409,2,90,105,add cauliflower broccoli carrot potato and tomatoes to the pot,Cook-Heat
+_HtTUAmEqts,training,203,8,288,293,cover the sauce and cook,Cook-Heat
+_ilIn1kmNSA,validation,222,1,14,17,add onion pieces into the pot,Cook-Heat
+_j-0ElzS88Q,training,229,0,27,30,add fava beans to a bowl,Mix
+_xOx9hkJoBk,training,107,4,80,100,put the squid rings on a pan and cook the squid rings with oil poured on them,Cook-Heat
+a3ZvOvo49WE,training,216,1,115,208,add olive oil on the iron pan and sear the bratwurst,Cook-Heat
+arQZ2m0hMSU,training,405,6,184,192,add spice to the pan,Season
+bAC0cZIQVOk,validation,119,8,416,453,put the rest of the sauce on the meatloaf and cook again in the oven,Cook-Heat
+bqmkNRNd5yw,training,201,6,415,501,add some tomato sauce and parmesan cheese on top of chicken breast and cook it in the oven,Cook-Heat
+c96tGPyKB0c,training,205,3,142,156,add some basil leaves,Season
+cF45-iVw--w,validation,204,1,120,135,add vodka to the pot,Cook-Heat
+cVDsNLn2zc4,training,214,8,385,398,place a piece of bread onto a plate and add a piece of foie shallots and apple,Plate
+davq4bio878,training,314,0,8,14,add 2 cups of water to a pot,Cook-Heat
+e8PNg_-psR8,training,222,0,46,61,pour oil on the mussels and cook in an oven,Cook-Heat
+e8PNg_-psR8,training,222,5,181,215,pour the sauce on the mussels and cook the mussels in the oven,Cook-Heat
+frCFxOt9390,training,405,4,144,158,add the spice powder to it and blend,Season
+frCFxOt9390,training,405,6,167,195,pour in the sauce stir and cover the pot,Cook-Heat
+fr_02xrchH0,training,213,1,55,71,add butter 1 spoon salt to a heating pot and whisk well,Season
+hL0kuCIfFJI,training,412,4,163,177,add a little salt sesame seeds and stir,Season
+i4ZAwUoP8c4,training,221,10,176,199,add some more water and cook until carrots and parsnips are half tender add potatoes and cook with lid covered,Cook-Heat
+im-aWyUQGrg,validation,404,2,119,125,add the bok choy to the wok,Cook-Heat
+jT75QMjRkD0,validation,228,0,38,54,add sesame seeds salt pepper lemon juice and garlic to a blender,Season
+k6klZcQR2S0,training,302,0,143,182,add taro roots carrots wood ear mushrooms and garlic to the food processor and blend all together,Mix
+kGxmudExRVk,validation,316,0,37,53,add water and white miso to a blender,Mix
+kGxmudExRVk,validation,316,1,66,73,add matini to the blender,Mix
+khmRPBMz6do,training,308,5,131,170,add rice vinegar sugar and salt and mix them with rice,Season
+kpRcFx8JQl0,training,211,5,115,155,add the vegetables and butter to the blender and pulse,Mix
+lSq6y2F35ig,training,111,1,116,152,add celery grapes salt and pepper toss until well combine and add mayonnaise,Season
+lYiKwaclCZQ,training,423,5,163,186,put some washed mussels in the pan and cover to cook,Cook-Heat
+lhSHtL-fMYA,training,318,9,373,387,add water and duck to the pot,Cook-Heat
+lhSHtL-fMYA,training,318,10,387,398,add mushrooms sesame leaves and basil to the pot,Season
+lwdypoLpMW4,validation,225,3,217,224,pour the tomato puree into the pot,Cook-Heat
+mygg-vW_pRM,training,119,1,90,138,add one egg thyme pepper and ketchup to the meat and mix the ingredients together,Season
+ny7G1uw36J0,training,413,0,146,159,add mango to a blender,Mix
+nz_LHDf0uqE,validation,207,0,50,140,add potatoes salt and water to a pot and boil,Cook-Heat
+oNgVoSBrndw,training,229,1,86,130,add some cloves of garlic and overnight soaked chickpeas to food processor and blend all ingredients to form smooth paste,Mix
+odLBmYsUaHI,training,201,1,71,73,put the brussel sprouts in the oven,Cook-Heat
+olwrZ-zMOqU,training,224,5,561,570,place the veal from the pan onto a paper towel,Cook-Heat
+p-NnIyGFZVw,validation,423,3,155,175,place the noodles in a bowl and cover with boiling water,Cook-Heat
+p-PFp1c0FKs,validation,121,6,84,93,add wine to the pot,Cook-Heat
+pe64g9YAOtM,training,321,5,203,230,add the garlic ginger chicken and sauce to the pan,Cook-Heat
+qkluMpILLdQ,validation,211,3,180,191,add the green onions to the pot,Cook-Heat
+qxSUbk742Ag,training,222,1,191,203,put in pepper flakes and stir,Season
+rT3Esab9zmU,training,127,3,71,90,add some chopped jalapenos tomato paste to the pan and mix the ingredients,Cook-Heat
+rlHZ8xe9G10,training,209,2,176,207,add the water to the bouillon cube and add that to the pan,Cook-Heat
+ruKDS_jExs8,training,409,3,160,173,add some cumin seeds and pepper corns,Season
+sSO2wO-yaHw,validation,304,2,180,183,add wine to the wok,Cook-Heat
+sSO2wO-yaHw,validation,304,5,255,257,add bamboo to the wok,Cook-Heat
+sSO2wO-yaHw,validation,304,6,280,295,add the maggi sauce to the wok and stir,Cook-Heat
+so-RuJQY1d0,validation,409,4,107,135,add the marinated vegetables into the pan and mix evenly to cover the veggies,Cook-Heat
+so-RuJQY1d0,validation,409,8,275,296,put a layer of  rice to the bottom of the dish and sprinkle little garam masala over it,Plate
+tKsGWxiWWCg,validation,323,6,219,234,add pork and scallions to the wok,Cook-Heat
+twL5BU4aFCo,training,319,10,268,269,add rice to the pot,Cook-Heat
+umveZyJ1h1s,training,219,6,280,289,add diced onion and garlic to the bowl,Mix
+umveZyJ1h1s,training,219,8,389,412,transfer everything into a pyrex bowl,Mix
+v7U70gPylBA,training,221,0,23,40,pour 2 tbsp of olive oil in a pan and add diced 1 huge onion,Cook-Heat
+vEiWZHn2OiE,training,206,2,134,144,add shredded parmesan cheese pepper and heavy cream and whisk them,Season
+vHXLk-xtvQw,training,119,4,151,187,put the meat into the loaf pan,Bake
+v_dkYNq8G9Y,validation,321,6,227,248,add oil into a hot wok and add the green onion garlic and ginger,Cook-Heat
+v_dkYNq8G9Y,validation,321,7,273,293,add the sauce to the wok and stir,Cook-Heat
+vow-kxTPatc,training,419,1,114,132,add salt sugar and baking powder to flour,Bake
+vp_dOhmfGcs,validation,403,8,370,395,add the sauce to the wok and stir,Cook-Heat
+vw9FgztLKFc,training,215,1,74,101,add red wine thyme and escargots,Season
+w0FBc7-Acs8,training,419,0,30,74,add seasoning and liquid to the flour,Season
+wBxa_mAFRJU,training,230,0,20,25,add honey to a pan,Season
+wBxa_mAFRJU,training,230,5,44,51,add chunks of lamb onion and pepper to the skewer and heat in a pan,Cook-Heat
+wSXkTrTvI5o,training,213,4,146,155,sprinkle cheese on top,Plate
+wqpqx-Qm7lk,validation,119,3,187,244,add eggs the crackers salt and pepper mix,Season
+xS78EktJZZA,training,210,12,171,172,remove potatoes from the pan and place them on a plate,Idle
+y4y22RQH05c,validation,103,6,273,286,place the other patty on the cheese slices and remove them from the grill pan,Cook-Heat
+zEdAA9Oxpdw,training,219,3,151,203,add salt ground mustard seed brown sugar and stir,Season
+0-OWf7eul6w,training,214,2,83,95,cook a pot of mixed vegetables including lentils green onion and carrot with water,Cook-Heat
+0EuykeOvGg4,validation,310,5,350,362,cut away bloodline,Cut
+0Mz4NTozNXw,training,102,0,20,40,combine flour cornstarch instant mashed potatos and cayenne,Mix
+0uaKitJaqmI,validation,212,3,156,190,stir in flour thyme water beef bouillon cubes and worcestershire sauce,Cut
+0uaKitJaqmI,validation,212,8,270,306,stir in the nutmeg cream egg yolk butter salt and pepper,Mix
+1-SJGQ2HLp8,training,205,4,130,150,cut the dough into fourths and roll,Cut
+10dZTHlkb8w,validation,101,7,250,255,top the sandwiches with bread,Plate
+186EQzPPHW8,validation,208,7,346,387,plate the mashed potatoes with chives and add the sausages cabbage onion and gravy to the plate,Plate
+1BgVCXxPjIc,training,425,7,146,164,grate some cheese on the dosa fold the dosa and garnish with some cheese,Plate
+1k64hSAAAd4,training,117,2,15,17,spread butter on the dish,Plate
+1r7N-G4kYG8,training,122,5,169,174,stir the tomato and onion mixture in the pan,Mix
+1uoT5TjyWsU,training,113,3,126,139,spread hot sauce on one bread slice and add the grated cheese and top it with a bread slice,Plate
+2NsbFst90QQ,training,305,3,104,145,wash and chop the chives and then add to a bowl,Cut
+2Q-Nq6kxpfg,training,302,0,30,36,grate a carrot and zucchini,Cut
+2zFAZy0zSbw,validation,303,5,279,292,stir all of the ingredients in the pan,Mix
+3dUm-m3iFaI,validation,422,0,59,81,boil some water in a pan and add some wonton noodles and stir,Cook-Heat
+3t0DOJgK1vs,training,421,0,12,20,peel and cut the potatoes,Cut
+3t0DOJgK1vs,training,421,4,50,56,mix the flour oil and salt,Mix
+40UqljqGXXA,training,316,1,124,136,drain liquid out named dashi and add some soup base,Idle
+40UqljqGXXA,training,316,4,206,207,garnish the soup with green onion,Plate
+45mgcWx16mM,training,208,2,117,164,peel the skin of the potatoes cut them into pieces and add them to the water and cook,Cook-Heat
+4PAmIrh4heE,training,229,2,135,167,separate mint leaves from the stems,Cut
+4u1Cxoke6Co,training,207,6,141,144,garnish the fish and chips with a lemon wedge,Plate
+543n2SO_03E,training,214,1,100,113,season the liver,Season
+5B1jpHgRetQ,training,316,1,82,94,soak wakame in the water,Prep
+5I-_uJQ0t1o,training,107,4,319,376,mix some flour and black pepper and coat the squid rings with it,Season
+5VnaolWGIy4,validation,112,2,64,72,mix the grilled bacon with the pasta in a bowl,Mix
+5haTwcEIyE8,training,102,4,193,210,flip the onion rings over and bake in the oven,Bake
+5nh2CP22dgY,validation,209,10,345,378,spread some parmesan cheese on top,Plate
+62H65wNWMZo,training,212,6,109,112,once the gravy thickens take it off the heat and pour it to a baking dish,Bake
+6IN_mupBjh8,training,106,3,239,286,mix the pasta and add paprika,Mix
+6uttmRx2ovo,training,218,0,50,108,peel cut and boil the potatoes,Cook-Heat
+7-FatJyHj_g,validation,305,1,30,44,mix the lettuce with salt in a bowl,Mix
+720an9dDfkY,training,211,3,152,203,fry onions cabbage garlic and seasoning in a pan,Cook-Heat
+78dIqPhgnLs,training,401,0,57,108,heat some oil in the pot and add some cumin seeds chopped onions and salt and cook,Cook-Heat
+7PATXwoKFeI,training,211,3,96,121,cook the finely chopped cabbage and onion in the same skillet,Cook-Heat
+7dUpBLA2C6I,training,213,1,21,30,melt some butter and add some flour in a pot,Cook-Heat
+7ebZWviUfUA,validation,108,3,35,47,warm up milk,Cook-Heat
+7ghf2NpsdcM,training,301,8,262,282,mix the sauce with the chicken,Mix
+86Mb6cYFJig,validation,410,0,33,57,mix flour salt oil and water,Mix
+92cezdsHEwM,training,225,3,265,290,blend the beans with an immersion blender,Mix
+9K3HfJqsY-M,training,316,0,24,56,chop green onions and some soft tofu,Cut
+9iH8GK1pcEM,validation,116,5,97,124,spread a layer of pizza sauce and place grated cheese sliced pepperoni and fried bacon on top,Plate
+AGq4lnC_WVo,training,121,13,604,608,top the soup with some chopped parsley,Plate
+ALpzvKkohfQ,training,405,3,211,216,cover the the pot,Idle
+APKue3kxJmg,training,205,2,240,243,cover the dough,Idle
+AcWeYhS3cDs,validation,317,5,78,86,cover and refrigerate the beef,Idle
+Ay55c3jSbeI,training,230,5,307,318,slice the bell pepper,Cut
+CElmXCveb48,training,208,11,158,180,cook the pears in a pot with butter sugar mustard and pepper,Cook-Heat
+Ck3oNHsLqfk,training,214,8,235,263, plate the foie gras and pancakes over the salad and pour a little cherry sauce on top,Plate
+CrLSUUltW2A,training,421,6,297,317,heat the dough on pan,Cook-Heat
+D0EAxdmzjzE,training,124,4,167,180,cook sausages on the grill pan,Cook-Heat
+D1pNWjRvzFs,training,306,7,165,186,cut eggplant pumpkin and baby corn cover in batter and breadcrumbs and fry,Cook-Heat
+DBgap0YANhs,validation,409,5,362,370,mix fried onions with the rice,Mix
+DeP_lwBPvzw,training,406,3,108,112,drain the shrimp,Idle
+DrM_ZiRvIro,training,115,1,120,138,mix the canned corn with the milk mxiture,Mix
+DrXVuj1Qowo,validation,418,0,73,81,soak the channas in water and then transfer it into the pressure cooker,Prep
+DsKNKsXCLJw,training,114,10,208,223,mix the potatoes,Mix
+DwJpxm7RI3k,training,419,5,154,159,cover the dough,Idle
+EnP2j1caRVs,validation,318,0,11,43,soak and rinse the short ribs,Prep
+FXuAeiK2Y5Y,training,222,6,90,100,distribute the mussels on a baking tray,Bake
+Fe4tO5vW9_E,training,114,2,61,71,melt the butter and add garlic,Cook-Heat
+HbXjlFaPzOM,training,114,1,126,155,soak the potatoes  add some salt and boil it,Cook-Heat
+IJXdHAGqxhA,training,317,3,82,102,slice the green onions and add them along with the onions and beef to the soy sauce mixture,Cut
+IJXdHAGqxhA,training,317,5,118,123,cover the bowl with plastic wrap and place in fridge,Idle
+IPl_MdY9yNQ,training,218,9,276,291,fry the onions in a pan with salt pepper and herbs,Cook-Heat
+JAF3Bpy-AsY,training,318,1,75,90,combine water soy sauce and honey,Mix
+JPbFE731Y0c,validation,216,5,167,180,serve it with bun and potato chips,Plate
+KYoelaJY5LA,validation,225,5,147,157,top the soup with parsley and oil,Plate
+KgpkoZrOqck,training,321,7,418,470,heat the sesame oil ginger slice minced garlic green onion and chili pepper in the pan,Cut
+L-NOPLU4JOQ,training,419,3,167,170,cover the dough,Idle
+L3x9HDsfpBY,training,126,8,228,252,cook the steak on a pan and season some green onion with the sauce left,Cook-Heat
+L4tdvpago7s,training,318,8,326,364,grill the short ribs on both sides,Cook-Heat
+LnlYlMuX1Cc,training,121,2,101,129,mince two can of clams,Cut
+M4cDslY_qCg,training,110,6,138,163,toss the lettuce well in the sauce and take it out to serve with the homemade croutons,Plate
+Mm6Ay5ez6Ig,training,302,5,126,150,chop the green onion and add to the pan,Cut
+N1-rqFfCm9M,validation,422,8,138,153,drain and rinse the noodles and pour oyster sauce oil over it,Idle
+N6J2ZQYic_g,training,109,4,135,156,dip the wings in the sauce and place it on the baking sheet with foil,Bake
+NNEpaEq7OpI,training,116,4,215,244,cut the dough into squares and add tomato sauce pepperoni and cheese,Cut
+NWBh5-CfPHk,training,229,1,105,245,blend chickpeas and fava beans seperately without water and put it in a big bowl,Mix
+NYhsc9ikk4I,validation,109,4,224,243,flip the wings,Cook-Heat
+Nbl97Bp3Kzw,training,107,3,169,179,coat the squid in flour,Season
+NkU9HSI1S9k,training,325,4,222,227,garnish the soup with cilantro leaves,Plate
+NujJqJUXSQY,training,104,6,186,205,serve the scrambled eggs with the prepared toast,Plate
+O7nS_uu3CZo,training,214,2,70,73,flip the foie gras over,Cook-Heat
+OEguXgM-vbk,training,113,5,242,246,flip when browned,Cook-Heat
+OJB3_asB2rc,training,209,1,24,35,grate onion carrot and garlic into the pan,Cut
+OWtnI3m-p8g,validation,110,9,265,278,cut up the tomatos and add them to the salad,Cut
+P7bsYTDILps,training,119,9,176,188,mix tomato ketch up and barbeque sauce,Mix
+PNlctwVmbLY,validation,305,4,175,222,mix garlic ginger pepper flakes green onion and honey in a bowl,Mix
+RKhfv-spUaI,validation,124,1,54,88,mix flour oil salt and the yeast mixture together,Mix
+RUxugNYxFqg,validation,319,5,241,256,fry the carrots with oil and salt,Cook-Heat
+SDHOR15oWwU,training,203,9,258,267,combine melted butter fresh basil leaves chopped and garlic paste,Mix
+SHGY7kKeLq8,training,216,1,111,130,cook some chopped white onion with beer and the brat in a pan,Cook-Heat
+SKRTpHStvT8,training,406,0,41,48,boil shrimp in a pot and drain when finished,Idle
+SSmpg5gmTzc,training,126,4,254,283,heat the tortilla on a tortilla pan,Cook-Heat
+TF1iWaX2-DM,validation,102,4,135,145,cover with plastic wrap and let sit over night,Idle
+TGY3iP4X34c,training,127,2,126,150,blend cilantro onion tomato and jalapeno,Mix
+TmbdrTVJ_Mo,training,213,0,32,68,melt butter in a pan add 1 tbsp of all purpose flour whisk it and cook,Cook-Heat
+TmbdrTVJ_Mo,training,213,3,134,213,place toasted breads on a baking tray and put mustard and ham on top,Bake
+TsEyXJqB4vk,training,413,1,177,240,chop ginger garlic cilantro,Cut
+U10oixMc9_k,training,110,3,120,137,slice bread into pieces and place onto a baking tray,Bake
+U10oixMc9_k,training,110,9,220,246,top with dressing and parmesan cheese,Plate
+UGUF_9Rt9ZE,training,317,2,135,154,fry the beef slice and sprinkle sesame seeds over it,Cook-Heat
+UHmKlQ2OkTM,training,106,10,468,521,put the coated macaroni in a baking dish,Bake
+UoP9ZJKqAh4,training,114,3,51,65,stir the potato mixture with a spoon,Mix
+VRPRVTMmNwg,training,230,2,139,196,cut the chuck roast into cubes and pour the marinade over it,Bake
+Vi9BxQvpdpQ,training,418,4,160,181,heat up oil add cumin seeds onion and cook until onion gets golden brown,Cook-Heat
+VwBJ230pjSk,training,419,7,272,275,flip the naan to the other side,Cook-Heat
+Vyrq2i3R_Sk,training,209,6,241,246,add meat mixture to baking dish,Bake
+WWwcQ6kiKtA,training,126,0,87,130,mix the orange juice lime juice cumin seeds garlic cilantro salt and pepper in a bowl,Mix
+WXj9wVPWmj0,training,213,2,151,208,top with grated cheese and olive oil,Plate
+We4NsM_moJQ,training,413,3,165,174,peel and chop carrot and daikon into strips and put in a bowl,Cut
+WlHWRPyA7_g,validation,302,2,56,74,cook the wrapper,Cook-Heat
+WlkaUxBwURQ,validation,211,0,86,95,boil and strain the potatoes put them into a pan and mash,Cook-Heat
+X1e5zsLlbZo,training,304,0,13,27,cook udon noodles in boiling water,Cook-Heat
+X1e5zsLlbZo,training,304,7,155,170,drain the udon noodles,Idle
+X4T4XjWNUgc,training,314,1,131,161,wash the baky bok choy and chop it,Cut
+XEifm-iXMvs,validation,229,7,238,257,mix the cucumber garlic mint yogurt and black pepper,Mix
+Xp2HNiLabRI,training,113,5,131,137,sprinkle salt on the tomato slices and lay some spinach leaves on top that,Season
+XpZZ08wz_4A,training,228,6,134,148,peel the charred skin of the peppers and roughly chop them,Cut
+XrhAUrmnjaA,training,403,3,91,104,slice the bell pepper,Cut
+YMYNv3cZ9SE,validation,210,13,247,260,serve them with the bacon and scrambled eggs,Plate
+YRZ8zZElALQ,validation,307,2,193,219,cover with plastic wrap and the mat and flip over,Idle
+YX6v3tY7OPg,validation,213,1,42,56,top the bread with ham and add grated guerrier cheese,Plate
+YZC_uXqB948,training,308,2,148,187,cut the rolled sushi into 5 pieces plate them and serve,Plate
+ZLA9W7R4a_c,training,325,0,37,64,heat oil in a wok add some finely chopped garlic finely chopped chilies and saute,Cook-Heat
+ZQGfcC62Pys,validation,214,1,48,53,flip the foie gras over,Cook-Heat
+ZcsshMf0NTI,training,227,1,69,85,grate 1 head of cauliflower and chop 2 medium celery stocks,Cut
+_GTwKEPmB-U,validation,210,0,18,22,grate squeeze and add potato to a bowl,Cut
+__5RJw4UP1Y,training,203,9,105,119,combine the spaghetti and meatballs in a bowl,Mix
+_o3eKyNEECU,training,316,3,50,58,boil soup stock diluted with water in a pot,Cook-Heat
+_rrJbjpCOXs,training,225,4,171,177,garnish with feta cheese and fennel leaves,Plate
+a473xRKrDYU,training,109,2,68,85,flip the wings,Cook-Heat
+a5FoLWnEiAI,validation,416,3,201,248,heat a pan add butter oil cumin seeds coriander seeds and onion and stir,Cook-Heat
+aCkbw-aI4xU,validation,214,4,120,138,sprinkle some salt on top of the apples and add some butter,Season
+awlqmed2nwU,training,401,4,119,160,mix the spices and tomato puree in a bowl,Mix
+bQ3QYyFglc0,training,101,10,154,163,cover it with another piece of bread,Idle
+bpsKpmyexUs,training,222,0,206,236,prepare some healthy mussels that can close firmly,Prep
+bxgdUWKOwtQ,validation,421,11,556,570,drain on paper towel,Idle
+coYqrXsDPdU,training,106,0,24,38,heat some butter in a skillet  add flour and whisk it well,Cook-Heat
+dI2WtKv1t_o,training,323,2,130,185,stir and chop eggs in pan until fully cooked,Mix
+dXhZKrEUHEI,training,310,0,15,26,cut and peel the avocados,Cut
+dkvHu_2X9rs,training,116,9,199,211,garnish the baked pizza with parsley and drizzle with the balsamic vinegar sauce,Plate
+e7sUV8nqs3k,training,419,5,192,193,heat stove on high,Cook-Heat
+edX_xmX6q0s,training,205,1,50,70,chop some fresh parsley and garlic,Cut
+fIhIyOWIIz0,training,307,0,12,22,spread sushi rice on a piece of sushi wrapper,Plate
+fOPF3x6c2WI,training,101,5,74,76,cover the top with the other bun,Idle
+ffyHeyRpYvo,validation,208,1,27,34,melt some butter in another pan and chop some leeks put them in water and keep ready,Cut
+g5qy84ftuIw,training,227,3,190,200,slice the green onions and add them to the salad,Cut
+g5qy84ftuIw,training,227,5,212,216,chop the herbs,Cut
+hM3j1SlUQd8,training,308,1,67,76,spread rice onto the sheet,Plate
+haOViOps2ew,training,221,2,102,115,crush garlic caraway seeds and salt in a small bowl,Cut
+ho2JlRJp9rk,training,103,4,195,220,mix pickles onions and flour and deep fry,Cook-Heat
+i2bQ88Ci5p4,training,109,5,85,99,coat the chicken in flour and then the flour mixture,Season
+i8BjqgemuXo,training,213,4,153,168,cover it with another piece of bread and add more sauce on top,Idle
+imfl-NXiU8g,training,214,2,150,193,heat some duck fat in a pan add the apple and sprinkle sugar on top,Cook-Heat
+iq7aiv9MPvA,validation,126,3,277,279,cover it with another piece of tortilla,Idle
+jGC0VhFCk5Y,training,210,6,114,125,boil the potato ball in water,Cook-Heat
+jGnz9f_2A2Y,training,306,2,208,238,crush seaweed and chilies,Cut
+k3nRPKCyyVg,training,318,4,244,254,peel the ginkgo nuts and add to the beef,Cut
+k_PX3Pa5GdY,training,302,9,200,215,fold left side of wrapper over the top and then the right side then roll,Mix
+kj5y_71bsJM,training,120,0,46,69,peel and shred the potatoes,Cut
+kpRcFx8JQl0,training,211,3,82,90,chop the green onions and add them to a blender,Cut
+l2E5jHfAENY,training,224,1,136,144,coat the meat with the all purpose flour and shake off the excess flour,Season
+lKm5Ji1Fr4U,validation,122,0,61,80,heat some butter in a pan and add some cumin seeds chopped garlic and chopped onions,Cook-Heat
+ljyO7IaGWLY,validation,218,8,292,311,fold the dough over and press the edges together,Mix
+m20wLqgdmLY,training,101,0,52,71,combine the mayonnaise with dijon mustard grated lemon zest and pepper,Mix
+mrHTodOjHOc,training,222,6,381,388,garnish with some seaweed salad on top to serve,Plate
+mygg-vW_pRM,training,119,0,70,90,combine ground chuck oatmeal worcestershire sauce onions salt and chopped shallot in a bowl,Mix
+nUq_ZTqMbFI,training,206,1,103,109,grate some cheese in a bowl,Cut
+oNgVoSBrndw,training,229,0,60,86,combine chopped parsley cilantro and onion in the food processor and mix well until the ingredients are finely chopped,Mix
+oR2QDpoatcQ,validation,202,5,230,234,stir and cook it to simmer,Cook-Heat
+okvTq8gtr8c,training,301,0,77,110,mix the peanut butter dressing chili sauce and soy sauce,Mix
+pTjoGIvSfE8,validation,225,3,361,390,stir over medium heat until mixture comes to a boil,Cook-Heat
+pe64g9YAOtM,training,321,0,35,60,mix stock soy sauce hoisin sauce sugar vinegar and pepper,Mix
+pj-_TVHfrFg,training,310,3,72,101,trim edges to make even,Cut
+qH6kSDQMiFA,training,318,2,43,50,cut a knob of ginger and place in blender,Cut
+qRUbmEZ6oiA,training,319,1,77,82,cook spinach and eggplant in boiling water,Cook-Heat
+qmoqJRP5N6E,training,103,14,199,206,spread sauce mix on noodle bun place meat burger patty topped with cheese slice place fried bok choy leaves,Cut
+qpxPlQ0IfLk,training,110,10,222,249,cut the chicken breast and bread to small slices and put them with the lettuce,Cut
+rKtI8FQGhHo,validation,229,10,248,274,form the falafel balls and place them on a baking sheet,Bake
+rf_mGLJPnDk,validation,422,8,216,227,serve with char siew wonton soup and pickled green chilies,Plate
+rwYaDqXFH88,validation,103,6,335,395,slice the tomatoes spread the sauce on the burger base and place tomato and spinach on top,Cut
+rwZZ7d-AOgk,training,307,0,45,58,cut the piece of nori in half and place on top of the bamboo roller,Cut
+s99K_WyajB8,training,302,7,291,324,fry the spring rolls in oil and serve with ketchup,Cook-Heat
+s9r-CxnCXkg,training,104,5,204,220,melt some butter in the eggs and put the scrambled eggs on a piece of toast to serve,Plate
+sQl3bQ1rQUM,training,306,5,272,288,coat the shrimp in sunflower flour and the batter and place into the oil,Season
+tYg3lQ5aZv8,validation,309,1,59,62,boil water and add shiitake mushroom and steep till rehydrated,Cook-Heat
+u2U7VkXHtMU,training,227,4,186,225,mix everything and serve,Plate
+u7xQLvrmRUg,training,422,3,53,63,boil wonton and baby bok choy in it,Cook-Heat
+uFbAiNoQYQE,training,114,1,36,61,peel and cut the potatos,Cut
+uHv9xRooPMc,validation,313,4,110,146,garnish the salmon with a little sushi rice fish roe and thick soy sauce,Plate
+u_EbTnpbHRk,training,203,4,139,159,cover the bowl with plastic wrap and place in the refrigerator,Idle
+ulTKMWIQR30,training,116,0,3,17,combine pepperoni pizza sauce shredded cheese and stir them together,Mix
+uyr2mXqn3Yo,training,228,1,100,120,roast the bell pepper on a stove,Bake
+vHpqMItXGzg,training,109,2,67,89,coat each chicken piece with flour powder and egg mix simultaneously and place it on a plate,Season
+vPmMb42q16g,training,112,2,49,64,mix the pasta with tomatos cheese salami and pepperoni,Mix
+vmHAOH5UMFY,training,205,2,38,43,spread italian mozzarella cheese on top,Plate
+wR8Ybxpnbwc,validation,308,5,98,101,spread the cooked rice on the sheet of nori shiny side down,Plate
+xHr8X2Wpmno,validation,226,0,47,60,pick the ends off the verdalago,Cut
+xfiIOUS6FpQ,training,127,2,30,54,heat vegetable oil in a skillet add red onions red pepper minced garlic and minced jalapeno pepper and stir,Cook-Heat
+y-Jxli-JfPg,training,210,0,20,31,grate the potato and onion,Cut
+y0c17Wxj_TI,training,102,1,113,153,mix flour baking powder and salt in a bowl then coat the onions,Bake
+yWEq4_EG1us,validation,224,4,173,201,coat the pork in flour egg and breadcrumbs,Season
+zF3TOfktwd4,validation,308,0,5,23,prepare a piece of sushi seaweed wrapper,Prep
+zqTXQ-YqrgQ,validation,205,10,151,160,top with basil leaves,Plate
+-Ju39A-G0Dk,validation,225,1,134,143,pour the tomato puree in,Season
+-jZ_U3neOcI,training,422,1,9,12,add chopped pork neck bones,Mix
+-yfTO7V2d_E,training,122,2,146,154,pour in stock,Mix
+-lMphXmWvbk,training,223,2,153,167,add wine cover with cling film and place it in fridge,Mix
+-geDRZmY-E8,training,324,3,153,168,add the noodles and an egg to the boiling water,Cook-Heat
+-geDRZmY-E8,training,324,5,207,237,place the egg fish cake green onion and ika tenkasu on top of the noodles,Plate
+-lMphXmWvbk,training,223,7,300,318,add the beef broth wine marinade stock and the sachet,Mix
+-Ju39A-G0Dk,validation,225,9,295,314,pour the soup on the macaroni,Mix
+-lMphXmWvbk,training,223,1,137,152,place beef carrot garlic and the sachet in a big bowl,Idle
+-goI2-eJO1w,validation,124,3,198,200,add some apple cider vinegar to the pot,Season
+-yfTO7V2d_E,training,122,5,249,257,add basil leaves to the soup,Mix
+-ErPSunMfcs,validation,201,0,22,24,prepare some chicken cutlets and immense them in two beat eggs,Mix
+-AfxeTnCbVQ,training,301,0,26,54,cut chicken breasts pieces and add marinate with soy sauce cooking sherry and cornstarch,Cook-Heat
+-ORd4EBliqw,training,207,0,15,23,peel and cut the potato,Cut
+-eyDS81FADw,training,314,1,50,62,mix miso paste sake mirin and sesame oil,Mix
+-sQXBqu-_1w,training,323,5,134,136,mix the pork with the marinade,Mix
+-gJHzNJFTx4,training,425,7,158,168,flip the dosa over,Idle
+-gJHzNJFTx4,training,425,10,205,210,fold the dosa,Mix
+-AwyG1JcMp8,validation,309,1,101,117,place the filling on a wrapper and press the edges together,Mix
+-yfTO7V2d_E,training,122,8,480,508,add parmesan butter and milk to the soup,Mix
+-h8c5sLelZ4,training,405,7,168,200,add chopped tomatoes and cover the pot,Cook-Heat
+-GlSSp5ZOCQ,validation,121,8,158,180,add clams bacon heavy cream cayenne pepper and stir the soup,Season
+-geDRZmY-E8,training,324,0,120,123,boil the water,Cook-Heat
+-goI2-eJO1w,validation,124,4,233,265,simmer the hotdogs,Cook-Heat
+-xbTvALWCIg,training,311,5,262,271,spread the soy air on the plate,Plate
+-GlSSp5ZOCQ,validation,121,7,152,158,cut potato and add it to the chowder,Cut

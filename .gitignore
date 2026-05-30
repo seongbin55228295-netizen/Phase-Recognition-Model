@@ -35,3 +35,11 @@ Thumbs.db
 # 환경 변수
 .env
 .env.local
+
+# 검수용 임시 xlsx (편집 후 CSV로 변환 → 커밋, xlsx는 로컬 보관)
+processed/*.xlsx
+
+# 인증 비밀 (YouTube 쿠키 등). 절대 커밋 금지.
+secrets/
+cookies.txt
+*.cookies

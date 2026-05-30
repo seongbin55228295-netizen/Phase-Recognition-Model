@@ -1,0 +1,2418 @@
+{
+  "schema_version": 1,
+  "description": "Per-video metadata for frame_labels/*.csv. Training code reads this to split train/val and weight per-video losses.",
+  "boundary_width": 2,
+  "boundary_factor": 0.5,
+  "summary": {
+    "total_videos": 300,
+    "total_segments": 2333,
+    "total_frames_emitted": 90724,
+    "total_boundary_frames": 9282,
+    "subset_distribution": {
+      "validation": 84,
+      "training": 216
+    }
+  },
+  "videos": {
+    "-GlSSp5ZOCQ": {
+      "subset": "validation",
+      "recipe_type": 121,
+      "n_segments": 9,
+      "n_frames_total": 491,
+      "n_frames_emitted": 250,
+      "n_boundary_frames": 36
+    },
+    "-yfTO7V2d_E": {
+      "subset": "training",
+      "recipe_type": 122,
+      "n_segments": 10,
+      "n_frames_total": 1160,
+      "n_frames_emitted": 280,
+      "n_boundary_frames": 40
+    },
+    "05ZSU-5UkXw": {
+      "subset": "validation",
+      "recipe_type": 226,
+      "n_segments": 3,
+      "n_frames_total": 307,
+      "n_frames_emitted": 212,
+      "n_boundary_frames": 12
+    },
+    "0IuQKThr-pM": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 10,
+      "n_frames_total": 336,
+      "n_frames_emitted": 156,
+      "n_boundary_frames": 40
+    },
+    "0VaYabFg-6E": {
+      "subset": "training",
+      "recipe_type": 222,
+      "n_segments": 12,
+      "n_frames_total": 1168,
+      "n_frames_emitted": 366,
+      "n_boundary_frames": 48
+    },
+    "0hb6NShH9hY": {
+      "subset": "validation",
+      "recipe_type": 314,
+      "n_segments": 12,
+      "n_frames_total": 611,
+      "n_frames_emitted": 224,
+      "n_boundary_frames": 48
+    },
+    "0q38LzW-axY": {
+      "subset": "training",
+      "recipe_type": 306,
+      "n_segments": 5,
+      "n_frames_total": 622,
+      "n_frames_emitted": 222,
+      "n_boundary_frames": 20
+    },
+    "0uaKitJaqmI": {
+      "subset": "validation",
+      "recipe_type": 212,
+      "n_segments": 11,
+      "n_frames_total": 831,
+      "n_frames_emitted": 438,
+      "n_boundary_frames": 44
+    },
+    "10dZTHlkb8w": {
+      "subset": "validation",
+      "recipe_type": 101,
+      "n_segments": 9,
+      "n_frames_total": 719,
+      "n_frames_emitted": 218,
+      "n_boundary_frames": 34
+    },
+    "1Ihxcua2HBc": {
+      "subset": "validation",
+      "recipe_type": 218,
+      "n_segments": 11,
+      "n_frames_total": 596,
+      "n_frames_emitted": 426,
+      "n_boundary_frames": 44
+    },
+    "1MOHn-ARnD4": {
+      "subset": "training",
+      "recipe_type": 423,
+      "n_segments": 7,
+      "n_frames_total": 300,
+      "n_frames_emitted": 196,
+      "n_boundary_frames": 28
+    },
+    "1uoT5TjyWsU": {
+      "subset": "training",
+      "recipe_type": 113,
+      "n_segments": 6,
+      "n_frames_total": 480,
+      "n_frames_emitted": 240,
+      "n_boundary_frames": 24
+    },
+    "2NsbFst90QQ": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 11,
+      "n_frames_total": 608,
+      "n_frames_emitted": 474,
+      "n_boundary_frames": 44
+    },
+    "2Rn2tM9Rgg8": {
+      "subset": "training",
+      "recipe_type": 403,
+      "n_segments": 11,
+      "n_frames_total": 1207,
+      "n_frames_emitted": 348,
+      "n_boundary_frames": 44
+    },
+    "2SxbO4VAgN8": {
+      "subset": "validation",
+      "recipe_type": 201,
+      "n_segments": 7,
+      "n_frames_total": 823,
+      "n_frames_emitted": 404,
+      "n_boundary_frames": 28
+    },
+    "2TSFTzB0AyU": {
+      "subset": "training",
+      "recipe_type": 416,
+      "n_segments": 12,
+      "n_frames_total": 736,
+      "n_frames_emitted": 238,
+      "n_boundary_frames": 48
+    },
+    "2UY6Fztzpng": {
+      "subset": "training",
+      "recipe_type": 230,
+      "n_segments": 9,
+      "n_frames_total": 403,
+      "n_frames_emitted": 174,
+      "n_boundary_frames": 36
+    },
+    "3dUm-m3iFaI": {
+      "subset": "validation",
+      "recipe_type": 422,
+      "n_segments": 7,
+      "n_frames_total": 628,
+      "n_frames_emitted": 232,
+      "n_boundary_frames": 28
+    },
+    "3jDAyeKeYFA": {
+      "subset": "validation",
+      "recipe_type": 107,
+      "n_segments": 7,
+      "n_frames_total": 599,
+      "n_frames_emitted": 266,
+      "n_boundary_frames": 28
+    },
+    "3r8A4xCZgPQ": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 5,
+      "n_frames_total": 631,
+      "n_frames_emitted": 184,
+      "n_boundary_frames": 20
+    },
+    "4B6j3gYkvr4": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 5,
+      "n_frames_total": 675,
+      "n_frames_emitted": 194,
+      "n_boundary_frames": 20
+    },
+    "4JwUCS5JjfY": {
+      "subset": "training",
+      "recipe_type": 304,
+      "n_segments": 6,
+      "n_frames_total": 401,
+      "n_frames_emitted": 118,
+      "n_boundary_frames": 24
+    },
+    "4K9h7ojJYkc": {
+      "subset": "validation",
+      "recipe_type": 419,
+      "n_segments": 9,
+      "n_frames_total": 173,
+      "n_frames_emitted": 104,
+      "n_boundary_frames": 36
+    },
+    "4UDMcBe5D3A": {
+      "subset": "training",
+      "recipe_type": 310,
+      "n_segments": 4,
+      "n_frames_total": 396,
+      "n_frames_emitted": 118,
+      "n_boundary_frames": 16
+    },
+    "4apR0YypAGc": {
+      "subset": "validation",
+      "recipe_type": 324,
+      "n_segments": 4,
+      "n_frames_total": 307,
+      "n_frames_emitted": 130,
+      "n_boundary_frames": 16
+    },
+    "4zO87oc_r-c": {
+      "subset": "training",
+      "recipe_type": 108,
+      "n_segments": 9,
+      "n_frames_total": 358,
+      "n_frames_emitted": 198,
+      "n_boundary_frames": 36
+    },
+    "5E3kulJRzGY": {
+      "subset": "training",
+      "recipe_type": 405,
+      "n_segments": 5,
+      "n_frames_total": 677,
+      "n_frames_emitted": 236,
+      "n_boundary_frames": 20
+    },
+    "5Pa79r5Q-ZI": {
+      "subset": "validation",
+      "recipe_type": 219,
+      "n_segments": 8,
+      "n_frames_total": 466,
+      "n_frames_emitted": 108,
+      "n_boundary_frames": 30
+    },
+    "5haTwcEIyE8": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 5,
+      "n_frames_total": 481,
+      "n_frames_emitted": 240,
+      "n_boundary_frames": 20
+    },
+    "5yJz2Sc7T5k": {
+      "subset": "training",
+      "recipe_type": 107,
+      "n_segments": 5,
+      "n_frames_total": 486,
+      "n_frames_emitted": 228,
+      "n_boundary_frames": 20
+    },
+    "60TXip7-W-E": {
+      "subset": "training",
+      "recipe_type": 421,
+      "n_segments": 12,
+      "n_frames_total": 713,
+      "n_frames_emitted": 440,
+      "n_boundary_frames": 48
+    },
+    "6IN_mupBjh8": {
+      "subset": "training",
+      "recipe_type": 106,
+      "n_segments": 4,
+      "n_frames_total": 758,
+      "n_frames_emitted": 306,
+      "n_boundary_frames": 16
+    },
+    "6seOEuK0ojg": {
+      "subset": "validation",
+      "recipe_type": 401,
+      "n_segments": 14,
+      "n_frames_total": 913,
+      "n_frames_emitted": 232,
+      "n_boundary_frames": 56
+    },
+    "7-FatJyHj_g": {
+      "subset": "validation",
+      "recipe_type": 305,
+      "n_segments": 6,
+      "n_frames_total": 358,
+      "n_frames_emitted": 176,
+      "n_boundary_frames": 24
+    },
+    "7E8Lj_Ktfok": {
+      "subset": "validation",
+      "recipe_type": 310,
+      "n_segments": 9,
+      "n_frames_total": 436,
+      "n_frames_emitted": 228,
+      "n_boundary_frames": 36
+    },
+    "7PATXwoKFeI": {
+      "subset": "training",
+      "recipe_type": 211,
+      "n_segments": 8,
+      "n_frames_total": 476,
+      "n_frames_emitted": 312,
+      "n_boundary_frames": 32
+    },
+    "7Xw2utxQSK8": {
+      "subset": "training",
+      "recipe_type": 410,
+      "n_segments": 5,
+      "n_frames_total": 608,
+      "n_frames_emitted": 280,
+      "n_boundary_frames": 20
+    },
+    "7rXq0DYdPjs": {
+      "subset": "training",
+      "recipe_type": 126,
+      "n_segments": 6,
+      "n_frames_total": 523,
+      "n_frames_emitted": 254,
+      "n_boundary_frames": 24
+    },
+    "7zjwjGsVcLI": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 7,
+      "n_frames_total": 913,
+      "n_frames_emitted": 414,
+      "n_boundary_frames": 28
+    },
+    "8pYjtrt5Kbg": {
+      "subset": "training",
+      "recipe_type": 107,
+      "n_segments": 7,
+      "n_frames_total": 468,
+      "n_frames_emitted": 192,
+      "n_boundary_frames": 28
+    },
+    "91z7e22XGy8": {
+      "subset": "training",
+      "recipe_type": 218,
+      "n_segments": 9,
+      "n_frames_total": 640,
+      "n_frames_emitted": 252,
+      "n_boundary_frames": 36
+    },
+    "9BNRMHGepS4": {
+      "subset": "validation",
+      "recipe_type": 119,
+      "n_segments": 8,
+      "n_frames_total": 634,
+      "n_frames_emitted": 460,
+      "n_boundary_frames": 32
+    },
+    "9GIPE0aeVNI": {
+      "subset": "validation",
+      "recipe_type": 110,
+      "n_segments": 8,
+      "n_frames_total": 310,
+      "n_frames_emitted": 162,
+      "n_boundary_frames": 32
+    },
+    "9cDDAEsdb7A": {
+      "subset": "training",
+      "recipe_type": 114,
+      "n_segments": 9,
+      "n_frames_total": 642,
+      "n_frames_emitted": 286,
+      "n_boundary_frames": 36
+    },
+    "9r-OKNP1V60": {
+      "subset": "training",
+      "recipe_type": 114,
+      "n_segments": 6,
+      "n_frames_total": 382,
+      "n_frames_emitted": 206,
+      "n_boundary_frames": 24
+    },
+    "9zqwA2munL0": {
+      "subset": "training",
+      "recipe_type": 404,
+      "n_segments": 11,
+      "n_frames_total": 791,
+      "n_frames_emitted": 246,
+      "n_boundary_frames": 44
+    },
+    "A68bBM_5wUY": {
+      "subset": "training",
+      "recipe_type": 421,
+      "n_segments": 12,
+      "n_frames_total": 1208,
+      "n_frames_emitted": 558,
+      "n_boundary_frames": 48
+    },
+    "AEpS4UBE6ds": {
+      "subset": "training",
+      "recipe_type": 302,
+      "n_segments": 9,
+      "n_frames_total": 877,
+      "n_frames_emitted": 528,
+      "n_boundary_frames": 36
+    },
+    "AGq4lnC_WVo": {
+      "subset": "training",
+      "recipe_type": 121,
+      "n_segments": 14,
+      "n_frames_total": 1252,
+      "n_frames_emitted": 608,
+      "n_boundary_frames": 56
+    },
+    "AWVaYpPFJqk": {
+      "subset": "training",
+      "recipe_type": 405,
+      "n_segments": 6,
+      "n_frames_total": 1102,
+      "n_frames_emitted": 222,
+      "n_boundary_frames": 24
+    },
+    "Ap3g0IRcjzU": {
+      "subset": "training",
+      "recipe_type": 304,
+      "n_segments": 12,
+      "n_frames_total": 985,
+      "n_frames_emitted": 496,
+      "n_boundary_frames": 48
+    },
+    "B1YQYS9BMdk": {
+      "subset": "validation",
+      "recipe_type": 311,
+      "n_segments": 4,
+      "n_frames_total": 302,
+      "n_frames_emitted": 212,
+      "n_boundary_frames": 16
+    },
+    "BYoZz07Y_CY": {
+      "subset": "training",
+      "recipe_type": 307,
+      "n_segments": 12,
+      "n_frames_total": 582,
+      "n_frames_emitted": 402,
+      "n_boundary_frames": 48
+    },
+    "BrtC6jhKBp0": {
+      "subset": "training",
+      "recipe_type": 323,
+      "n_segments": 9,
+      "n_frames_total": 515,
+      "n_frames_emitted": 270,
+      "n_boundary_frames": 36
+    },
+    "C2cNcOXGyZA": {
+      "subset": "training",
+      "recipe_type": 201,
+      "n_segments": 9,
+      "n_frames_total": 471,
+      "n_frames_emitted": 376,
+      "n_boundary_frames": 36
+    },
+    "C4ROaIjK6Fs": {
+      "subset": "training",
+      "recipe_type": 314,
+      "n_segments": 7,
+      "n_frames_total": 483,
+      "n_frames_emitted": 284,
+      "n_boundary_frames": 28
+    },
+    "CWxjNRIKjA0": {
+      "subset": "validation",
+      "recipe_type": 120,
+      "n_segments": 5,
+      "n_frames_total": 371,
+      "n_frames_emitted": 86,
+      "n_boundary_frames": 18
+    },
+    "CYadKq5-FRg": {
+      "subset": "training",
+      "recipe_type": 316,
+      "n_segments": 7,
+      "n_frames_total": 422,
+      "n_frames_emitted": 218,
+      "n_boundary_frames": 28
+    },
+    "C_6yMh3tEQk": {
+      "subset": "training",
+      "recipe_type": 403,
+      "n_segments": 9,
+      "n_frames_total": 1059,
+      "n_frames_emitted": 420,
+      "n_boundary_frames": 36
+    },
+    "Cgyi5kaU7Qc": {
+      "subset": "training",
+      "recipe_type": 412,
+      "n_segments": 13,
+      "n_frames_total": 714,
+      "n_frames_emitted": 362,
+      "n_boundary_frames": 50
+    },
+    "CotdlwupDSI": {
+      "subset": "validation",
+      "recipe_type": 313,
+      "n_segments": 5,
+      "n_frames_total": 342,
+      "n_frames_emitted": 258,
+      "n_boundary_frames": 20
+    },
+    "CrLSUUltW2A": {
+      "subset": "training",
+      "recipe_type": 421,
+      "n_segments": 13,
+      "n_frames_total": 1502,
+      "n_frames_emitted": 864,
+      "n_boundary_frames": 52
+    },
+    "D4mU_NtbneA": {
+      "subset": "validation",
+      "recipe_type": 418,
+      "n_segments": 9,
+      "n_frames_total": 960,
+      "n_frames_emitted": 330,
+      "n_boundary_frames": 36
+    },
+    "D7K6_0gtpHQ": {
+      "subset": "validation",
+      "recipe_type": 222,
+      "n_segments": 6,
+      "n_frames_total": 552,
+      "n_frames_emitted": 248,
+      "n_boundary_frames": 22
+    },
+    "DViAejsp_rQ": {
+      "subset": "training",
+      "recipe_type": 425,
+      "n_segments": 5,
+      "n_frames_total": 201,
+      "n_frames_emitted": 130,
+      "n_boundary_frames": 20
+    },
+    "Dao0vasGPMQ": {
+      "subset": "validation",
+      "recipe_type": 105,
+      "n_segments": 5,
+      "n_frames_total": 414,
+      "n_frames_emitted": 160,
+      "n_boundary_frames": 20
+    },
+    "DeP_lwBPvzw": {
+      "subset": "training",
+      "recipe_type": 406,
+      "n_segments": 14,
+      "n_frames_total": 934,
+      "n_frames_emitted": 626,
+      "n_boundary_frames": 54
+    },
+    "DsKNKsXCLJw": {
+      "subset": "training",
+      "recipe_type": 114,
+      "n_segments": 12,
+      "n_frames_total": 487,
+      "n_frames_emitted": 288,
+      "n_boundary_frames": 48
+    },
+    "DzRIphFQ2Jc": {
+      "subset": "training",
+      "recipe_type": 324,
+      "n_segments": 10,
+      "n_frames_total": 376,
+      "n_frames_emitted": 192,
+      "n_boundary_frames": 40
+    },
+    "EA4EWlv6HUM": {
+      "subset": "training",
+      "recipe_type": 323,
+      "n_segments": 6,
+      "n_frames_total": 526,
+      "n_frames_emitted": 256,
+      "n_boundary_frames": 24
+    },
+    "EOc8Xiezg8U": {
+      "subset": "training",
+      "recipe_type": 117,
+      "n_segments": 8,
+      "n_frames_total": 388,
+      "n_frames_emitted": 128,
+      "n_boundary_frames": 32
+    },
+    "EzGGJLGgSl8": {
+      "subset": "training",
+      "recipe_type": 311,
+      "n_segments": 6,
+      "n_frames_total": 708,
+      "n_frames_emitted": 328,
+      "n_boundary_frames": 24
+    },
+    "F564e476ULM": {
+      "subset": "validation",
+      "recipe_type": 115,
+      "n_segments": 9,
+      "n_frames_total": 900,
+      "n_frames_emitted": 432,
+      "n_boundary_frames": 36
+    },
+    "F5NsOgJgz64": {
+      "subset": "training",
+      "recipe_type": 204,
+      "n_segments": 5,
+      "n_frames_total": 677,
+      "n_frames_emitted": 384,
+      "n_boundary_frames": 20
+    },
+    "FHvZgt3ExDI": {
+      "subset": "training",
+      "recipe_type": 205,
+      "n_segments": 5,
+      "n_frames_total": 927,
+      "n_frames_emitted": 670,
+      "n_boundary_frames": 20
+    },
+    "FNUumn079DM": {
+      "subset": "training",
+      "recipe_type": 110,
+      "n_segments": 13,
+      "n_frames_total": 1076,
+      "n_frames_emitted": 598,
+      "n_boundary_frames": 49
+    },
+    "Fp_d1SlbG_0": {
+      "subset": "training",
+      "recipe_type": 124,
+      "n_segments": 14,
+      "n_frames_total": 710,
+      "n_frames_emitted": 498,
+      "n_boundary_frames": 56
+    },
+    "G21LXiasKf4": {
+      "subset": "training",
+      "recipe_type": 103,
+      "n_segments": 6,
+      "n_frames_total": 596,
+      "n_frames_emitted": 316,
+      "n_boundary_frames": 24
+    },
+    "GXnzgRC3sd4": {
+      "subset": "validation",
+      "recipe_type": 306,
+      "n_segments": 6,
+      "n_frames_total": 217,
+      "n_frames_emitted": 110,
+      "n_boundary_frames": 24
+    },
+    "GaxyzK2mHqw": {
+      "subset": "training",
+      "recipe_type": 113,
+      "n_segments": 6,
+      "n_frames_total": 314,
+      "n_frames_emitted": 74,
+      "n_boundary_frames": 24
+    },
+    "GmWb7W7m2vs": {
+      "subset": "training",
+      "recipe_type": 412,
+      "n_segments": 14,
+      "n_frames_total": 858,
+      "n_frames_emitted": 360,
+      "n_boundary_frames": 53
+    },
+    "HXqC_xWsKkY": {
+      "subset": "training",
+      "recipe_type": 221,
+      "n_segments": 9,
+      "n_frames_total": 385,
+      "n_frames_emitted": 226,
+      "n_boundary_frames": 36
+    },
+    "HeG0xZ-U_4w": {
+      "subset": "training",
+      "recipe_type": 116,
+      "n_segments": 6,
+      "n_frames_total": 344,
+      "n_frames_emitted": 176,
+      "n_boundary_frames": 24
+    },
+    "IDiovuOcKW8": {
+      "subset": "validation",
+      "recipe_type": 228,
+      "n_segments": 5,
+      "n_frames_total": 870,
+      "n_frames_emitted": 340,
+      "n_boundary_frames": 20
+    },
+    "ILS3z1zpD8k": {
+      "subset": "training",
+      "recipe_type": 209,
+      "n_segments": 11,
+      "n_frames_total": 260,
+      "n_frames_emitted": 192,
+      "n_boundary_frames": 44
+    },
+    "IPl_MdY9yNQ": {
+      "subset": "training",
+      "recipe_type": 218,
+      "n_segments": 11,
+      "n_frames_total": 792,
+      "n_frames_emitted": 410,
+      "n_boundary_frames": 44
+    },
+    "IW096cyCuaY": {
+      "subset": "training",
+      "recipe_type": 107,
+      "n_segments": 4,
+      "n_frames_total": 725,
+      "n_frames_emitted": 346,
+      "n_boundary_frames": 16
+    },
+    "IdEZ7LvLZPE": {
+      "subset": "training",
+      "recipe_type": 104,
+      "n_segments": 4,
+      "n_frames_total": 394,
+      "n_frames_emitted": 92,
+      "n_boundary_frames": 16
+    },
+    "J7gBorrGvDU": {
+      "subset": "validation",
+      "recipe_type": 102,
+      "n_segments": 5,
+      "n_frames_total": 734,
+      "n_frames_emitted": 190,
+      "n_boundary_frames": 20
+    },
+    "JRycS8aNXBI": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 10,
+      "n_frames_total": 1232,
+      "n_frames_emitted": 662,
+      "n_boundary_frames": 40
+    },
+    "JylDlRtH9Tc": {
+      "subset": "validation",
+      "recipe_type": 303,
+      "n_segments": 7,
+      "n_frames_total": 468,
+      "n_frames_emitted": 230,
+      "n_boundary_frames": 28
+    },
+    "K16Rr-pPKKI": {
+      "subset": "training",
+      "recipe_type": 114,
+      "n_segments": 4,
+      "n_frames_total": 791,
+      "n_frames_emitted": 388,
+      "n_boundary_frames": 16
+    },
+    "KTQeLdmlzBo": {
+      "subset": "validation",
+      "recipe_type": 127,
+      "n_segments": 5,
+      "n_frames_total": 782,
+      "n_frames_emitted": 206,
+      "n_boundary_frames": 20
+    },
+    "Kkhvy9rQHaQ": {
+      "subset": "training",
+      "recipe_type": 106,
+      "n_segments": 7,
+      "n_frames_total": 641,
+      "n_frames_emitted": 130,
+      "n_boundary_frames": 28
+    },
+    "LH5lTHLMvXA": {
+      "subset": "training",
+      "recipe_type": 228,
+      "n_segments": 4,
+      "n_frames_total": 479,
+      "n_frames_emitted": 244,
+      "n_boundary_frames": 16
+    },
+    "LYj5-CdRIz0": {
+      "subset": "validation",
+      "recipe_type": 302,
+      "n_segments": 10,
+      "n_frames_total": 483,
+      "n_frames_emitted": 196,
+      "n_boundary_frames": 40
+    },
+    "LnlYlMuX1Cc": {
+      "subset": "training",
+      "recipe_type": 121,
+      "n_segments": 7,
+      "n_frames_total": 698,
+      "n_frames_emitted": 334,
+      "n_boundary_frames": 28
+    },
+    "LoeSv5enisE": {
+      "subset": "training",
+      "recipe_type": 228,
+      "n_segments": 3,
+      "n_frames_total": 670,
+      "n_frames_emitted": 402,
+      "n_boundary_frames": 12
+    },
+    "LrfB-u6Y7Vg": {
+      "subset": "training",
+      "recipe_type": 403,
+      "n_segments": 11,
+      "n_frames_total": 1322,
+      "n_frames_emitted": 750,
+      "n_boundary_frames": 44
+    },
+    "MCtF5tRCRUk": {
+      "subset": "validation",
+      "recipe_type": 117,
+      "n_segments": 10,
+      "n_frames_total": 774,
+      "n_frames_emitted": 366,
+      "n_boundary_frames": 40
+    },
+    "MIXkGU4TJp0": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 3,
+      "n_frames_total": 534,
+      "n_frames_emitted": 322,
+      "n_boundary_frames": 12
+    },
+    "MIt0YvVC2iY": {
+      "subset": "training",
+      "recipe_type": 406,
+      "n_segments": 8,
+      "n_frames_total": 373,
+      "n_frames_emitted": 132,
+      "n_boundary_frames": 32
+    },
+    "MTGYZIE9nUo": {
+      "subset": "training",
+      "recipe_type": 409,
+      "n_segments": 11,
+      "n_frames_total": 770,
+      "n_frames_emitted": 442,
+      "n_boundary_frames": 44
+    },
+    "Mc3pEWN0sTs": {
+      "subset": "training",
+      "recipe_type": 413,
+      "n_segments": 11,
+      "n_frames_total": 619,
+      "n_frames_emitted": 430,
+      "n_boundary_frames": 44
+    },
+    "MzOOayCmDkA": {
+      "subset": "training",
+      "recipe_type": 207,
+      "n_segments": 8,
+      "n_frames_total": 258,
+      "n_frames_emitted": 148,
+      "n_boundary_frames": 30
+    },
+    "Mzn6Q4gUDBo": {
+      "subset": "validation",
+      "recipe_type": 306,
+      "n_segments": 5,
+      "n_frames_total": 538,
+      "n_frames_emitted": 178,
+      "n_boundary_frames": 20
+    },
+    "Nbh64ntT3EM": {
+      "subset": "validation",
+      "recipe_type": 104,
+      "n_segments": 6,
+      "n_frames_total": 410,
+      "n_frames_emitted": 294,
+      "n_boundary_frames": 24
+    },
+    "Nbl97Bp3Kzw": {
+      "subset": "training",
+      "recipe_type": 107,
+      "n_segments": 6,
+      "n_frames_total": 622,
+      "n_frames_emitted": 286,
+      "n_boundary_frames": 24
+    },
+    "NkCbbwxEdXU": {
+      "subset": "training",
+      "recipe_type": 418,
+      "n_segments": 7,
+      "n_frames_total": 393,
+      "n_frames_emitted": 210,
+      "n_boundary_frames": 28
+    },
+    "NujJqJUXSQY": {
+      "subset": "training",
+      "recipe_type": 104,
+      "n_segments": 7,
+      "n_frames_total": 465,
+      "n_frames_emitted": 226,
+      "n_boundary_frames": 28
+    },
+    "O0dbSxAKljk": {
+      "subset": "training",
+      "recipe_type": 120,
+      "n_segments": 7,
+      "n_frames_total": 979,
+      "n_frames_emitted": 384,
+      "n_boundary_frames": 28
+    },
+    "OKyOqfAeARQ": {
+      "subset": "training",
+      "recipe_type": 409,
+      "n_segments": 10,
+      "n_frames_total": 502,
+      "n_frames_emitted": 362,
+      "n_boundary_frames": 40
+    },
+    "OSabGgdaQeM": {
+      "subset": "training",
+      "recipe_type": 221,
+      "n_segments": 5,
+      "n_frames_total": 480,
+      "n_frames_emitted": 180,
+      "n_boundary_frames": 20
+    },
+    "OUhxy5BANfk": {
+      "subset": "validation",
+      "recipe_type": 425,
+      "n_segments": 6,
+      "n_frames_total": 521,
+      "n_frames_emitted": 154,
+      "n_boundary_frames": 24
+    },
+    "OpURFOTdycE": {
+      "subset": "validation",
+      "recipe_type": 219,
+      "n_segments": 4,
+      "n_frames_total": 1195,
+      "n_frames_emitted": 968,
+      "n_boundary_frames": 16
+    },
+    "OsYU9W14guU": {
+      "subset": "training",
+      "recipe_type": 308,
+      "n_segments": 8,
+      "n_frames_total": 490,
+      "n_frames_emitted": 276,
+      "n_boundary_frames": 32
+    },
+    "P1OuArzyUl8": {
+      "subset": "training",
+      "recipe_type": 112,
+      "n_segments": 6,
+      "n_frames_total": 322,
+      "n_frames_emitted": 122,
+      "n_boundary_frames": 24
+    },
+    "P4FkXyKRwKk": {
+      "subset": "training",
+      "recipe_type": 206,
+      "n_segments": 5,
+      "n_frames_total": 202,
+      "n_frames_emitted": 68,
+      "n_boundary_frames": 20
+    },
+    "PHpk4ITk-SE": {
+      "subset": "validation",
+      "recipe_type": 126,
+      "n_segments": 10,
+      "n_frames_total": 885,
+      "n_frames_emitted": 408,
+      "n_boundary_frames": 40
+    },
+    "PLqTyxMYgBg": {
+      "subset": "training",
+      "recipe_type": 107,
+      "n_segments": 14,
+      "n_frames_total": 683,
+      "n_frames_emitted": 354,
+      "n_boundary_frames": 56
+    },
+    "PNlctwVmbLY": {
+      "subset": "validation",
+      "recipe_type": 305,
+      "n_segments": 6,
+      "n_frames_total": 643,
+      "n_frames_emitted": 430,
+      "n_boundary_frames": 24
+    },
+    "PTUxCvCz8Bc": {
+      "subset": "validation",
+      "recipe_type": 105,
+      "n_segments": 5,
+      "n_frames_total": 539,
+      "n_frames_emitted": 216,
+      "n_boundary_frames": 20
+    },
+    "PYjrGqPHGhY": {
+      "subset": "validation",
+      "recipe_type": 108,
+      "n_segments": 7,
+      "n_frames_total": 1132,
+      "n_frames_emitted": 558,
+      "n_boundary_frames": 28
+    },
+    "PfupF0V3YYM": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 7,
+      "n_frames_total": 604,
+      "n_frames_emitted": 288,
+      "n_boundary_frames": 28
+    },
+    "Pk88LQ7hxbg": {
+      "subset": "validation",
+      "recipe_type": 324,
+      "n_segments": 11,
+      "n_frames_total": 421,
+      "n_frames_emitted": 254,
+      "n_boundary_frames": 44
+    },
+    "PqyqB_FkWrQ": {
+      "subset": "training",
+      "recipe_type": 422,
+      "n_segments": 10,
+      "n_frames_total": 656,
+      "n_frames_emitted": 376,
+      "n_boundary_frames": 40
+    },
+    "PuOc9u9GjWU": {
+      "subset": "training",
+      "recipe_type": 107,
+      "n_segments": 6,
+      "n_frames_total": 561,
+      "n_frames_emitted": 260,
+      "n_boundary_frames": 24
+    },
+    "QVIrvIjknv4": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 9,
+      "n_frames_total": 839,
+      "n_frames_emitted": 782,
+      "n_boundary_frames": 36
+    },
+    "QepadF9vOdA": {
+      "subset": "training",
+      "recipe_type": 206,
+      "n_segments": 10,
+      "n_frames_total": 764,
+      "n_frames_emitted": 430,
+      "n_boundary_frames": 40
+    },
+    "Qy366zq9vws": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 6,
+      "n_frames_total": 289,
+      "n_frames_emitted": 158,
+      "n_boundary_frames": 24
+    },
+    "R96CUaMwGME": {
+      "subset": "training",
+      "recipe_type": 318,
+      "n_segments": 5,
+      "n_frames_total": 197,
+      "n_frames_emitted": 76,
+      "n_boundary_frames": 20
+    },
+    "RBsbedWWmUI": {
+      "subset": "training",
+      "recipe_type": 323,
+      "n_segments": 11,
+      "n_frames_total": 755,
+      "n_frames_emitted": 388,
+      "n_boundary_frames": 44
+    },
+    "RYaVRKzehns": {
+      "subset": "training",
+      "recipe_type": 222,
+      "n_segments": 6,
+      "n_frames_total": 450,
+      "n_frames_emitted": 264,
+      "n_boundary_frames": 24
+    },
+    "S07Fr83GcBI": {
+      "subset": "validation",
+      "recipe_type": 113,
+      "n_segments": 6,
+      "n_frames_total": 523,
+      "n_frames_emitted": 224,
+      "n_boundary_frames": 24
+    },
+    "S4At-rC5zNI": {
+      "subset": "training",
+      "recipe_type": 208,
+      "n_segments": 7,
+      "n_frames_total": 392,
+      "n_frames_emitted": 340,
+      "n_boundary_frames": 28
+    },
+    "Sg0RKVJm-94": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 7,
+      "n_frames_total": 638,
+      "n_frames_emitted": 298,
+      "n_boundary_frames": 28
+    },
+    "SjA7PFoZcNQ": {
+      "subset": "validation",
+      "recipe_type": 423,
+      "n_segments": 13,
+      "n_frames_total": 858,
+      "n_frames_emitted": 504,
+      "n_boundary_frames": 52
+    },
+    "SkPvNb9P7XQ": {
+      "subset": "training",
+      "recipe_type": 214,
+      "n_segments": 9,
+      "n_frames_total": 390,
+      "n_frames_emitted": 94,
+      "n_boundary_frames": 32
+    },
+    "T3v9c2m0ni0": {
+      "subset": "training",
+      "recipe_type": 425,
+      "n_segments": 9,
+      "n_frames_total": 371,
+      "n_frames_emitted": 168,
+      "n_boundary_frames": 36
+    },
+    "TMpt-41UTOk": {
+      "subset": "validation",
+      "recipe_type": 218,
+      "n_segments": 15,
+      "n_frames_total": 1126,
+      "n_frames_emitted": 494,
+      "n_boundary_frames": 60
+    },
+    "TO_W2RYL2mA": {
+      "subset": "validation",
+      "recipe_type": 314,
+      "n_segments": 7,
+      "n_frames_total": 253,
+      "n_frames_emitted": 146,
+      "n_boundary_frames": 28
+    },
+    "TOle-ziRKN4": {
+      "subset": "training",
+      "recipe_type": 422,
+      "n_segments": 8,
+      "n_frames_total": 1001,
+      "n_frames_emitted": 466,
+      "n_boundary_frames": 32
+    },
+    "T_o_T3LEYLY": {
+      "subset": "validation",
+      "recipe_type": 406,
+      "n_segments": 9,
+      "n_frames_total": 982,
+      "n_frames_emitted": 342,
+      "n_boundary_frames": 36
+    },
+    "TeB5y-QmIHY": {
+      "subset": "training",
+      "recipe_type": 115,
+      "n_segments": 9,
+      "n_frames_total": 419,
+      "n_frames_emitted": 116,
+      "n_boundary_frames": 36
+    },
+    "Tg0t1i7U0V4": {
+      "subset": "training",
+      "recipe_type": 111,
+      "n_segments": 4,
+      "n_frames_total": 1041,
+      "n_frames_emitted": 390,
+      "n_boundary_frames": 16
+    },
+    "TgttBprZXDY": {
+      "subset": "validation",
+      "recipe_type": 112,
+      "n_segments": 5,
+      "n_frames_total": 428,
+      "n_frames_emitted": 126,
+      "n_boundary_frames": 20
+    },
+    "U0jn_DI5ESg": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 5,
+      "n_frames_total": 367,
+      "n_frames_emitted": 80,
+      "n_boundary_frames": 18
+    },
+    "U1eHoriT_aI": {
+      "subset": "training",
+      "recipe_type": 423,
+      "n_segments": 5,
+      "n_frames_total": 306,
+      "n_frames_emitted": 84,
+      "n_boundary_frames": 20
+    },
+    "UGUF_9Rt9ZE": {
+      "subset": "training",
+      "recipe_type": 317,
+      "n_segments": 3,
+      "n_frames_total": 466,
+      "n_frames_emitted": 194,
+      "n_boundary_frames": 12
+    },
+    "UVHIuuQ0-nA": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 6,
+      "n_frames_total": 651,
+      "n_frames_emitted": 378,
+      "n_boundary_frames": 24
+    },
+    "U_yVc8Dl048": {
+      "subset": "validation",
+      "recipe_type": 325,
+      "n_segments": 13,
+      "n_frames_total": 660,
+      "n_frames_emitted": 340,
+      "n_boundary_frames": 52
+    },
+    "UkqQAynrM2g": {
+      "subset": "validation",
+      "recipe_type": 112,
+      "n_segments": 14,
+      "n_frames_total": 732,
+      "n_frames_emitted": 270,
+      "n_boundary_frames": 56
+    },
+    "UvuV9z3HkDo": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 8,
+      "n_frames_total": 482,
+      "n_frames_emitted": 276,
+      "n_boundary_frames": 32
+    },
+    "UzqlXpAAAWk": {
+      "subset": "training",
+      "recipe_type": 212,
+      "n_segments": 6,
+      "n_frames_total": 157,
+      "n_frames_emitted": 66,
+      "n_boundary_frames": 24
+    },
+    "V9GsyAcKk_c": {
+      "subset": "training",
+      "recipe_type": 211,
+      "n_segments": 4,
+      "n_frames_total": 219,
+      "n_frames_emitted": 150,
+      "n_boundary_frames": 16
+    },
+    "VPFmudvabUg": {
+      "subset": "validation",
+      "recipe_type": 110,
+      "n_segments": 7,
+      "n_frames_total": 1110,
+      "n_frames_emitted": 840,
+      "n_boundary_frames": 28
+    },
+    "VswrGW9b3ck": {
+      "subset": "training",
+      "recipe_type": 107,
+      "n_segments": 3,
+      "n_frames_total": 205,
+      "n_frames_emitted": 124,
+      "n_boundary_frames": 12
+    },
+    "VwtkHIturro": {
+      "subset": "validation",
+      "recipe_type": 211,
+      "n_segments": 7,
+      "n_frames_total": 545,
+      "n_frames_emitted": 308,
+      "n_boundary_frames": 28
+    },
+    "WAevYUItUAY": {
+      "subset": "training",
+      "recipe_type": 216,
+      "n_segments": 3,
+      "n_frames_total": 322,
+      "n_frames_emitted": 58,
+      "n_boundary_frames": 12
+    },
+    "WOQ0JhA3cOA": {
+      "subset": "training",
+      "recipe_type": 310,
+      "n_segments": 5,
+      "n_frames_total": 160,
+      "n_frames_emitted": 52,
+      "n_boundary_frames": 20
+    },
+    "WXnV0ACb808": {
+      "subset": "training",
+      "recipe_type": 229,
+      "n_segments": 5,
+      "n_frames_total": 318,
+      "n_frames_emitted": 214,
+      "n_boundary_frames": 17
+    },
+    "WlHWRPyA7_g": {
+      "subset": "validation",
+      "recipe_type": 302,
+      "n_segments": 9,
+      "n_frames_total": 440,
+      "n_frames_emitted": 336,
+      "n_boundary_frames": 36
+    },
+    "WlkaUxBwURQ": {
+      "subset": "validation",
+      "recipe_type": 211,
+      "n_segments": 6,
+      "n_frames_total": 576,
+      "n_frames_emitted": 172,
+      "n_boundary_frames": 24
+    },
+    "WmjLvnYi2hE": {
+      "subset": "training",
+      "recipe_type": 228,
+      "n_segments": 3,
+      "n_frames_total": 890,
+      "n_frames_emitted": 258,
+      "n_boundary_frames": 12
+    },
+    "X4DYlEkdEaQ": {
+      "subset": "training",
+      "recipe_type": 109,
+      "n_segments": 3,
+      "n_frames_total": 453,
+      "n_frames_emitted": 206,
+      "n_boundary_frames": 12
+    },
+    "XMX_DmycSY0": {
+      "subset": "training",
+      "recipe_type": 122,
+      "n_segments": 5,
+      "n_frames_total": 597,
+      "n_frames_emitted": 316,
+      "n_boundary_frames": 20
+    },
+    "Xornhv6aDF4": {
+      "subset": "training",
+      "recipe_type": 404,
+      "n_segments": 9,
+      "n_frames_total": 565,
+      "n_frames_emitted": 312,
+      "n_boundary_frames": 36
+    },
+    "XpZZ08wz_4A": {
+      "subset": "training",
+      "recipe_type": 228,
+      "n_segments": 9,
+      "n_frames_total": 394,
+      "n_frames_emitted": 296,
+      "n_boundary_frames": 36
+    },
+    "XsALTvYUTI8": {
+      "subset": "training",
+      "recipe_type": 106,
+      "n_segments": 4,
+      "n_frames_total": 400,
+      "n_frames_emitted": 94,
+      "n_boundary_frames": 16
+    },
+    "XudXzmE1E80": {
+      "subset": "training",
+      "recipe_type": 319,
+      "n_segments": 8,
+      "n_frames_total": 360,
+      "n_frames_emitted": 118,
+      "n_boundary_frames": 32
+    },
+    "Y4SijHJ02Zg": {
+      "subset": "training",
+      "recipe_type": 225,
+      "n_segments": 11,
+      "n_frames_total": 828,
+      "n_frames_emitted": 290,
+      "n_boundary_frames": 44
+    },
+    "YMYNv3cZ9SE": {
+      "subset": "validation",
+      "recipe_type": 210,
+      "n_segments": 14,
+      "n_frames_total": 587,
+      "n_frames_emitted": 346,
+      "n_boundary_frames": 56
+    },
+    "ZBKyj1frrAU": {
+      "subset": "training",
+      "recipe_type": 313,
+      "n_segments": 4,
+      "n_frames_total": 211,
+      "n_frames_emitted": 154,
+      "n_boundary_frames": 16
+    },
+    "ZcsshMf0NTI": {
+      "subset": "training",
+      "recipe_type": 227,
+      "n_segments": 7,
+      "n_frames_total": 703,
+      "n_frames_emitted": 314,
+      "n_boundary_frames": 28
+    },
+    "ZvIXsbEUCa0": {
+      "subset": "training",
+      "recipe_type": 222,
+      "n_segments": 13,
+      "n_frames_total": 799,
+      "n_frames_emitted": 336,
+      "n_boundary_frames": 52
+    },
+    "_AZ5jo3y7V4": {
+      "subset": "training",
+      "recipe_type": 210,
+      "n_segments": 5,
+      "n_frames_total": 1195,
+      "n_frames_emitted": 382,
+      "n_boundary_frames": 20
+    },
+    "_EtwHSuT4LA": {
+      "subset": "training",
+      "recipe_type": 302,
+      "n_segments": 12,
+      "n_frames_total": 708,
+      "n_frames_emitted": 334,
+      "n_boundary_frames": 48
+    },
+    "_H0Mmr15_zA": {
+      "subset": "training",
+      "recipe_type": 301,
+      "n_segments": 5,
+      "n_frames_total": 751,
+      "n_frames_emitted": 174,
+      "n_boundary_frames": 20
+    },
+    "_HYoidFnb5w": {
+      "subset": "training",
+      "recipe_type": 412,
+      "n_segments": 5,
+      "n_frames_total": 535,
+      "n_frames_emitted": 208,
+      "n_boundary_frames": 20
+    },
+    "_Nmu6ezDy-M": {
+      "subset": "training",
+      "recipe_type": 204,
+      "n_segments": 7,
+      "n_frames_total": 489,
+      "n_frames_emitted": 58,
+      "n_boundary_frames": 24
+    },
+    "_XxXWiOoyhY": {
+      "subset": "training",
+      "recipe_type": 319,
+      "n_segments": 11,
+      "n_frames_total": 981,
+      "n_frames_emitted": 476,
+      "n_boundary_frames": 44
+    },
+    "_eUYGNVVUD0": {
+      "subset": "training",
+      "recipe_type": 223,
+      "n_segments": 13,
+      "n_frames_total": 1139,
+      "n_frames_emitted": 508,
+      "n_boundary_frames": 52
+    },
+    "a-rB3f8lqEg": {
+      "subset": "training",
+      "recipe_type": 303,
+      "n_segments": 10,
+      "n_frames_total": 992,
+      "n_frames_emitted": 302,
+      "n_boundary_frames": 40
+    },
+    "a0g9OPuNcwI": {
+      "subset": "training",
+      "recipe_type": 319,
+      "n_segments": 9,
+      "n_frames_total": 444,
+      "n_frames_emitted": 232,
+      "n_boundary_frames": 36
+    },
+    "a4RwXrA1hiE": {
+      "subset": "validation",
+      "recipe_type": 324,
+      "n_segments": 8,
+      "n_frames_total": 302,
+      "n_frames_emitted": 144,
+      "n_boundary_frames": 32
+    },
+    "aH2TPCuSH5s": {
+      "subset": "training",
+      "recipe_type": 313,
+      "n_segments": 3,
+      "n_frames_total": 192,
+      "n_frames_emitted": 78,
+      "n_boundary_frames": 12
+    },
+    "abfhnSaZFlA": {
+      "subset": "validation",
+      "recipe_type": 309,
+      "n_segments": 6,
+      "n_frames_total": 926,
+      "n_frames_emitted": 440,
+      "n_boundary_frames": 24
+    },
+    "asoMkznFaCU": {
+      "subset": "training",
+      "recipe_type": 215,
+      "n_segments": 5,
+      "n_frames_total": 489,
+      "n_frames_emitted": 170,
+      "n_boundary_frames": 20
+    },
+    "awQYyYgulLw": {
+      "subset": "validation",
+      "recipe_type": 202,
+      "n_segments": 6,
+      "n_frames_total": 353,
+      "n_frames_emitted": 140,
+      "n_boundary_frames": 24
+    },
+    "b56WIxbLd1c": {
+      "subset": "training",
+      "recipe_type": 421,
+      "n_segments": 8,
+      "n_frames_total": 556,
+      "n_frames_emitted": 282,
+      "n_boundary_frames": 30
+    },
+    "bQ3QYyFglc0": {
+      "subset": "training",
+      "recipe_type": 101,
+      "n_segments": 11,
+      "n_frames_total": 544,
+      "n_frames_emitted": 192,
+      "n_boundary_frames": 44
+    },
+    "bczCfVC6HYU": {
+      "subset": "training",
+      "recipe_type": 311,
+      "n_segments": 7,
+      "n_frames_total": 403,
+      "n_frames_emitted": 158,
+      "n_boundary_frames": 28
+    },
+    "bmxWJNbqCk8": {
+      "subset": "validation",
+      "recipe_type": 208,
+      "n_segments": 6,
+      "n_frames_total": 295,
+      "n_frames_emitted": 88,
+      "n_boundary_frames": 24
+    },
+    "btikV_DUoCM": {
+      "subset": "validation",
+      "recipe_type": 209,
+      "n_segments": 12,
+      "n_frames_total": 1199,
+      "n_frames_emitted": 778,
+      "n_boundary_frames": 48
+    },
+    "bxgdUWKOwtQ": {
+      "subset": "validation",
+      "recipe_type": 421,
+      "n_segments": 12,
+      "n_frames_total": 1201,
+      "n_frames_emitted": 654,
+      "n_boundary_frames": 48
+    },
+    "byZj4mfOJ2s": {
+      "subset": "training",
+      "recipe_type": 119,
+      "n_segments": 5,
+      "n_frames_total": 681,
+      "n_frames_emitted": 418,
+      "n_boundary_frames": 20
+    },
+    "c9eELn4axpg": {
+      "subset": "validation",
+      "recipe_type": 101,
+      "n_segments": 11,
+      "n_frames_total": 705,
+      "n_frames_emitted": 370,
+      "n_boundary_frames": 44
+    },
+    "cDYCtBwin5g": {
+      "subset": "validation",
+      "recipe_type": 229,
+      "n_segments": 5,
+      "n_frames_total": 791,
+      "n_frames_emitted": 408,
+      "n_boundary_frames": 20
+    },
+    "cMzyB4m3VHY": {
+      "subset": "validation",
+      "recipe_type": 116,
+      "n_segments": 5,
+      "n_frames_total": 442,
+      "n_frames_emitted": 266,
+      "n_boundary_frames": 20
+    },
+    "cQ8mt5ACO0A": {
+      "subset": "validation",
+      "recipe_type": 304,
+      "n_segments": 9,
+      "n_frames_total": 1002,
+      "n_frames_emitted": 560,
+      "n_boundary_frames": 36
+    },
+    "cxijjHcz70Q": {
+      "subset": "training",
+      "recipe_type": 425,
+      "n_segments": 11,
+      "n_frames_total": 1128,
+      "n_frames_emitted": 570,
+      "n_boundary_frames": 44
+    },
+    "dC9gJsXAXGU": {
+      "subset": "training",
+      "recipe_type": 307,
+      "n_segments": 4,
+      "n_frames_total": 408,
+      "n_frames_emitted": 182,
+      "n_boundary_frames": 16
+    },
+    "dPQmCSYmwA8": {
+      "subset": "training",
+      "recipe_type": 210,
+      "n_segments": 11,
+      "n_frames_total": 623,
+      "n_frames_emitted": 196,
+      "n_boundary_frames": 44
+    },
+    "dXhZKrEUHEI": {
+      "subset": "training",
+      "recipe_type": 310,
+      "n_segments": 8,
+      "n_frames_total": 751,
+      "n_frames_emitted": 478,
+      "n_boundary_frames": 32
+    },
+    "dsI9QVhmsGg": {
+      "subset": "training",
+      "recipe_type": 124,
+      "n_segments": 4,
+      "n_frames_total": 336,
+      "n_frames_emitted": 122,
+      "n_boundary_frames": 16
+    },
+    "eHk6NSLGAkc": {
+      "subset": "validation",
+      "recipe_type": 202,
+      "n_segments": 12,
+      "n_frames_total": 660,
+      "n_frames_emitted": 246,
+      "n_boundary_frames": 46
+    },
+    "eWR6fgNWfqw": {
+      "subset": "training",
+      "recipe_type": 309,
+      "n_segments": 7,
+      "n_frames_total": 710,
+      "n_frames_emitted": 356,
+      "n_boundary_frames": 28
+    },
+    "f-h7OM5HM0Q": {
+      "subset": "training",
+      "recipe_type": 223,
+      "n_segments": 13,
+      "n_frames_total": 1216,
+      "n_frames_emitted": 446,
+      "n_boundary_frames": 52
+    },
+    "fAfk3DJ5Diw": {
+      "subset": "training",
+      "recipe_type": 321,
+      "n_segments": 7,
+      "n_frames_total": 629,
+      "n_frames_emitted": 428,
+      "n_boundary_frames": 25
+    },
+    "fIhIyOWIIz0": {
+      "subset": "training",
+      "recipe_type": 307,
+      "n_segments": 4,
+      "n_frames_total": 143,
+      "n_frames_emitted": 84,
+      "n_boundary_frames": 16
+    },
+    "fnbXolhuE7k": {
+      "subset": "validation",
+      "recipe_type": 416,
+      "n_segments": 10,
+      "n_frames_total": 751,
+      "n_frames_emitted": 270,
+      "n_boundary_frames": 40
+    },
+    "foB6bxhZYF0": {
+      "subset": "training",
+      "recipe_type": 229,
+      "n_segments": 6,
+      "n_frames_total": 765,
+      "n_frames_emitted": 360,
+      "n_boundary_frames": 24
+    },
+    "foTy--iKmQ0": {
+      "subset": "training",
+      "recipe_type": 111,
+      "n_segments": 7,
+      "n_frames_total": 810,
+      "n_frames_emitted": 450,
+      "n_boundary_frames": 28
+    },
+    "fznTL6TzsqI": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 12,
+      "n_frames_total": 1053,
+      "n_frames_emitted": 730,
+      "n_boundary_frames": 48
+    },
+    "gB6Fd4D697s": {
+      "subset": "training",
+      "recipe_type": 304,
+      "n_segments": 7,
+      "n_frames_total": 796,
+      "n_frames_emitted": 386,
+      "n_boundary_frames": 28
+    },
+    "gTqhgReBDw0": {
+      "subset": "validation",
+      "recipe_type": 210,
+      "n_segments": 7,
+      "n_frames_total": 354,
+      "n_frames_emitted": 214,
+      "n_boundary_frames": 28
+    },
+    "gswKIbddBHw": {
+      "subset": "training",
+      "recipe_type": 309,
+      "n_segments": 7,
+      "n_frames_total": 415,
+      "n_frames_emitted": 132,
+      "n_boundary_frames": 28
+    },
+    "hM3j1SlUQd8": {
+      "subset": "training",
+      "recipe_type": 308,
+      "n_segments": 5,
+      "n_frames_total": 247,
+      "n_frames_emitted": 78,
+      "n_boundary_frames": 20
+    },
+    "hSsNOSjkWww": {
+      "subset": "training",
+      "recipe_type": 203,
+      "n_segments": 5,
+      "n_frames_total": 544,
+      "n_frames_emitted": 282,
+      "n_boundary_frames": 20
+    },
+    "i0qYuhtSQHI": {
+      "subset": "validation",
+      "recipe_type": 213,
+      "n_segments": 10,
+      "n_frames_total": 468,
+      "n_frames_emitted": 250,
+      "n_boundary_frames": 40
+    },
+    "i2bQ88Ci5p4": {
+      "subset": "training",
+      "recipe_type": 109,
+      "n_segments": 9,
+      "n_frames_total": 486,
+      "n_frames_emitted": 146,
+      "n_boundary_frames": 36
+    },
+    "i9CMFh31Bs0": {
+      "subset": "validation",
+      "recipe_type": 219,
+      "n_segments": 5,
+      "n_frames_total": 1233,
+      "n_frames_emitted": 532,
+      "n_boundary_frames": 20
+    },
+    "ikmPrpgWQ5M": {
+      "subset": "validation",
+      "recipe_type": 401,
+      "n_segments": 7,
+      "n_frames_total": 368,
+      "n_frames_emitted": 224,
+      "n_boundary_frames": 28
+    },
+    "ioXqgVYG7Xc": {
+      "subset": "training",
+      "recipe_type": 404,
+      "n_segments": 13,
+      "n_frames_total": 581,
+      "n_frames_emitted": 308,
+      "n_boundary_frames": 52
+    },
+    "ivCUhv6Cm0Q": {
+      "subset": "training",
+      "recipe_type": 307,
+      "n_segments": 8,
+      "n_frames_total": 505,
+      "n_frames_emitted": 192,
+      "n_boundary_frames": 32
+    },
+    "jGnz9f_2A2Y": {
+      "subset": "training",
+      "recipe_type": 306,
+      "n_segments": 9,
+      "n_frames_total": 881,
+      "n_frames_emitted": 334,
+      "n_boundary_frames": 36
+    },
+    "k-aTILi_nLY": {
+      "subset": "training",
+      "recipe_type": 120,
+      "n_segments": 9,
+      "n_frames_total": 469,
+      "n_frames_emitted": 234,
+      "n_boundary_frames": 36
+    },
+    "k6klZcQR2S0": {
+      "subset": "training",
+      "recipe_type": 302,
+      "n_segments": 6,
+      "n_frames_total": 864,
+      "n_frames_emitted": 346,
+      "n_boundary_frames": 24
+    },
+    "kKI7R1WD6MU": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 4,
+      "n_frames_total": 782,
+      "n_frames_emitted": 436,
+      "n_boundary_frames": 16
+    },
+    "lYsEShMFTaw": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 5,
+      "n_frames_total": 905,
+      "n_frames_emitted": 614,
+      "n_boundary_frames": 20
+    },
+    "ln77pskM4Es": {
+      "subset": "training",
+      "recipe_type": 229,
+      "n_segments": 7,
+      "n_frames_total": 947,
+      "n_frames_emitted": 452,
+      "n_boundary_frames": 28
+    },
+    "lqDgvgDkphY": {
+      "subset": "training",
+      "recipe_type": 409,
+      "n_segments": 9,
+      "n_frames_total": 553,
+      "n_frames_emitted": 370,
+      "n_boundary_frames": 36
+    },
+    "luc3a5TQ6z4": {
+      "subset": "training",
+      "recipe_type": 114,
+      "n_segments": 5,
+      "n_frames_total": 282,
+      "n_frames_emitted": 198,
+      "n_boundary_frames": 20
+    },
+    "lwdypoLpMW4": {
+      "subset": "validation",
+      "recipe_type": 225,
+      "n_segments": 7,
+      "n_frames_total": 863,
+      "n_frames_emitted": 160,
+      "n_boundary_frames": 28
+    },
+    "m3kFrdCHitg": {
+      "subset": "validation",
+      "recipe_type": 413,
+      "n_segments": 6,
+      "n_frames_total": 182,
+      "n_frames_emitted": 118,
+      "n_boundary_frames": 24
+    },
+    "m88rF0rwHo8": {
+      "subset": "validation",
+      "recipe_type": 403,
+      "n_segments": 7,
+      "n_frames_total": 526,
+      "n_frames_emitted": 252,
+      "n_boundary_frames": 28
+    },
+    "mKIvvx1SwmQ": {
+      "subset": "training",
+      "recipe_type": 127,
+      "n_segments": 4,
+      "n_frames_total": 506,
+      "n_frames_emitted": 76,
+      "n_boundary_frames": 16
+    },
+    "mUk0FmDrBb8": {
+      "subset": "validation",
+      "recipe_type": 323,
+      "n_segments": 7,
+      "n_frames_total": 443,
+      "n_frames_emitted": 316,
+      "n_boundary_frames": 28
+    },
+    "nRageCYhbO8": {
+      "subset": "training",
+      "recipe_type": 406,
+      "n_segments": 9,
+      "n_frames_total": 816,
+      "n_frames_emitted": 448,
+      "n_boundary_frames": 36
+    },
+    "nqyO0ovASOg": {
+      "subset": "training",
+      "recipe_type": 120,
+      "n_segments": 4,
+      "n_frames_total": 603,
+      "n_frames_emitted": 370,
+      "n_boundary_frames": 16
+    },
+    "nzndQflXX-0": {
+      "subset": "training",
+      "recipe_type": 419,
+      "n_segments": 9,
+      "n_frames_total": 1101,
+      "n_frames_emitted": 376,
+      "n_boundary_frames": 36
+    },
+    "o2H6KyYNy3s": {
+      "subset": "training",
+      "recipe_type": 218,
+      "n_segments": 12,
+      "n_frames_total": 468,
+      "n_frames_emitted": 228,
+      "n_boundary_frames": 48
+    },
+    "o4gTZoW0SXI": {
+      "subset": "training",
+      "recipe_type": 412,
+      "n_segments": 5,
+      "n_frames_total": 429,
+      "n_frames_emitted": 214,
+      "n_boundary_frames": 20
+    },
+    "oP6PR4KfH0A": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 11,
+      "n_frames_total": 985,
+      "n_frames_emitted": 458,
+      "n_boundary_frames": 44
+    },
+    "oVPr2LAyhRM": {
+      "subset": "training",
+      "recipe_type": 111,
+      "n_segments": 10,
+      "n_frames_total": 754,
+      "n_frames_emitted": 236,
+      "n_boundary_frames": 38
+    },
+    "oYLrSflCI2g": {
+      "subset": "validation",
+      "recipe_type": 410,
+      "n_segments": 8,
+      "n_frames_total": 1266,
+      "n_frames_emitted": 288,
+      "n_boundary_frames": 32
+    },
+    "ofaghkdG2pU": {
+      "subset": "training",
+      "recipe_type": 222,
+      "n_segments": 7,
+      "n_frames_total": 684,
+      "n_frames_emitted": 252,
+      "n_boundary_frames": 28
+    },
+    "olwrZ-zMOqU": {
+      "subset": "training",
+      "recipe_type": 224,
+      "n_segments": 7,
+      "n_frames_total": 1228,
+      "n_frames_emitted": 532,
+      "n_boundary_frames": 28
+    },
+    "pYhiIrlXY7I": {
+      "subset": "training",
+      "recipe_type": 120,
+      "n_segments": 5,
+      "n_frames_total": 536,
+      "n_frames_emitted": 352,
+      "n_boundary_frames": 20
+    },
+    "pvGBm2epEo0": {
+      "subset": "training",
+      "recipe_type": 226,
+      "n_segments": 8,
+      "n_frames_total": 616,
+      "n_frames_emitted": 352,
+      "n_boundary_frames": 32
+    },
+    "pxQd53yvSaA": {
+      "subset": "validation",
+      "recipe_type": 306,
+      "n_segments": 5,
+      "n_frames_total": 356,
+      "n_frames_emitted": 200,
+      "n_boundary_frames": 20
+    },
+    "pz1pXfa208Y": {
+      "subset": "training",
+      "recipe_type": 117,
+      "n_segments": 7,
+      "n_frames_total": 267,
+      "n_frames_emitted": 190,
+      "n_boundary_frames": 26
+    },
+    "qRSZEN6g8jY": {
+      "subset": "validation",
+      "recipe_type": 314,
+      "n_segments": 14,
+      "n_frames_total": 687,
+      "n_frames_emitted": 382,
+      "n_boundary_frames": 56
+    },
+    "qmoqJRP5N6E": {
+      "subset": "training",
+      "recipe_type": 103,
+      "n_segments": 16,
+      "n_frames_total": 676,
+      "n_frames_emitted": 180,
+      "n_boundary_frames": 62
+    },
+    "qtyJmyLVclQ": {
+      "subset": "training",
+      "recipe_type": 114,
+      "n_segments": 8,
+      "n_frames_total": 799,
+      "n_frames_emitted": 470,
+      "n_boundary_frames": 32
+    },
+    "r1HcLnSTJHY": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 6,
+      "n_frames_total": 346,
+      "n_frames_emitted": 202,
+      "n_boundary_frames": 24
+    },
+    "r9hoMzxyfx8": {
+      "subset": "training",
+      "recipe_type": 305,
+      "n_segments": 4,
+      "n_frames_total": 1169,
+      "n_frames_emitted": 402,
+      "n_boundary_frames": 16
+    },
+    "rD33y9PjqU8": {
+      "subset": "training",
+      "recipe_type": 211,
+      "n_segments": 4,
+      "n_frames_total": 153,
+      "n_frames_emitted": 98,
+      "n_boundary_frames": 16
+    },
+    "s9r-CxnCXkg": {
+      "subset": "training",
+      "recipe_type": 104,
+      "n_segments": 8,
+      "n_frames_total": 650,
+      "n_frames_emitted": 286,
+      "n_boundary_frames": 32
+    },
+    "sJLapskS7KU": {
+      "subset": "training",
+      "recipe_type": 103,
+      "n_segments": 10,
+      "n_frames_total": 1069,
+      "n_frames_emitted": 568,
+      "n_boundary_frames": 40
+    },
+    "sJVn7H0pQRw": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 4,
+      "n_frames_total": 512,
+      "n_frames_emitted": 200,
+      "n_boundary_frames": 16
+    },
+    "sQl3bQ1rQUM": {
+      "subset": "training",
+      "recipe_type": 306,
+      "n_segments": 8,
+      "n_frames_total": 1034,
+      "n_frames_emitted": 376,
+      "n_boundary_frames": 32
+    },
+    "sTTECSIiL6I": {
+      "subset": "training",
+      "recipe_type": 308,
+      "n_segments": 8,
+      "n_frames_total": 809,
+      "n_frames_emitted": 394,
+      "n_boundary_frames": 32
+    },
+    "skrWT6xHVoI": {
+      "subset": "training",
+      "recipe_type": 120,
+      "n_segments": 5,
+      "n_frames_total": 383,
+      "n_frames_emitted": 242,
+      "n_boundary_frames": 20
+    },
+    "t9ry6TkD598": {
+      "subset": "training",
+      "recipe_type": 313,
+      "n_segments": 4,
+      "n_frames_total": 360,
+      "n_frames_emitted": 148,
+      "n_boundary_frames": 16
+    },
+    "tPLVNKgs8Lk": {
+      "subset": "validation",
+      "recipe_type": 108,
+      "n_segments": 5,
+      "n_frames_total": 453,
+      "n_frames_emitted": 244,
+      "n_boundary_frames": 20
+    },
+    "tQ6-_e59Zrk": {
+      "subset": "validation",
+      "recipe_type": 219,
+      "n_segments": 8,
+      "n_frames_total": 715,
+      "n_frames_emitted": 326,
+      "n_boundary_frames": 32
+    },
+    "tXfLb2JyZI0": {
+      "subset": "training",
+      "recipe_type": 410,
+      "n_segments": 5,
+      "n_frames_total": 521,
+      "n_frames_emitted": 152,
+      "n_boundary_frames": 20
+    },
+    "tYg3lQ5aZv8": {
+      "subset": "validation",
+      "recipe_type": 309,
+      "n_segments": 14,
+      "n_frames_total": 446,
+      "n_frames_emitted": 304,
+      "n_boundary_frames": 56
+    },
+    "twL5BU4aFCo": {
+      "subset": "training",
+      "recipe_type": 319,
+      "n_segments": 13,
+      "n_frames_total": 668,
+      "n_frames_emitted": 410,
+      "n_boundary_frames": 50
+    },
+    "uXbkxyyOEr4": {
+      "subset": "training",
+      "recipe_type": 306,
+      "n_segments": 5,
+      "n_frames_total": 490,
+      "n_frames_emitted": 254,
+      "n_boundary_frames": 20
+    },
+    "uek-TzOhu9I": {
+      "subset": "training",
+      "recipe_type": 306,
+      "n_segments": 5,
+      "n_frames_total": 369,
+      "n_frames_emitted": 196,
+      "n_boundary_frames": 20
+    },
+    "uf65nfh6X2U": {
+      "subset": "training",
+      "recipe_type": 409,
+      "n_segments": 14,
+      "n_frames_total": 618,
+      "n_frames_emitted": 318,
+      "n_boundary_frames": 56
+    },
+    "um8-utUa9UI": {
+      "subset": "training",
+      "recipe_type": 316,
+      "n_segments": 8,
+      "n_frames_total": 475,
+      "n_frames_emitted": 126,
+      "n_boundary_frames": 32
+    },
+    "umlod2kf3K8": {
+      "subset": "training",
+      "recipe_type": 311,
+      "n_segments": 6,
+      "n_frames_total": 1203,
+      "n_frames_emitted": 532,
+      "n_boundary_frames": 24
+    },
+    "umveZyJ1h1s": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 12,
+      "n_frames_total": 1196,
+      "n_frames_emitted": 566,
+      "n_boundary_frames": 48
+    },
+    "uq1uP-b7KxY": {
+      "subset": "training",
+      "recipe_type": 104,
+      "n_segments": 7,
+      "n_frames_total": 570,
+      "n_frames_emitted": 292,
+      "n_boundary_frames": 28
+    },
+    "vOJkQwF2eno": {
+      "subset": "training",
+      "recipe_type": 309,
+      "n_segments": 9,
+      "n_frames_total": 819,
+      "n_frames_emitted": 504,
+      "n_boundary_frames": 36
+    },
+    "vUhoMXc7FJM": {
+      "subset": "training",
+      "recipe_type": 227,
+      "n_segments": 13,
+      "n_frames_total": 2212,
+      "n_frames_emitted": 454,
+      "n_boundary_frames": 52
+    },
+    "vVZsj1t9R70": {
+      "subset": "validation",
+      "recipe_type": 325,
+      "n_segments": 11,
+      "n_frames_total": 1007,
+      "n_frames_emitted": 658,
+      "n_boundary_frames": 44
+    },
+    "vcfNpDtVqOw": {
+      "subset": "training",
+      "recipe_type": 205,
+      "n_segments": 10,
+      "n_frames_total": 200,
+      "n_frames_emitted": 116,
+      "n_boundary_frames": 40
+    },
+    "vow-kxTPatc": {
+      "subset": "training",
+      "recipe_type": 419,
+      "n_segments": 12,
+      "n_frames_total": 1098,
+      "n_frames_emitted": 472,
+      "n_boundary_frames": 48
+    },
+    "vpRz4jPFCmo": {
+      "subset": "training",
+      "recipe_type": 203,
+      "n_segments": 9,
+      "n_frames_total": 628,
+      "n_frames_emitted": 386,
+      "n_boundary_frames": 36
+    },
+    "vwtelJNe7ls": {
+      "subset": "training",
+      "recipe_type": 410,
+      "n_segments": 6,
+      "n_frames_total": 1076,
+      "n_frames_emitted": 466,
+      "n_boundary_frames": 24
+    },
+    "w7jJ8nsbbKI": {
+      "subset": "training",
+      "recipe_type": 114,
+      "n_segments": 7,
+      "n_frames_total": 198,
+      "n_frames_emitted": 116,
+      "n_boundary_frames": 28
+    },
+    "wURtxtH7i-Y": {
+      "subset": "training",
+      "recipe_type": 211,
+      "n_segments": 7,
+      "n_frames_total": 387,
+      "n_frames_emitted": 152,
+      "n_boundary_frames": 28
+    },
+    "wc9paq0uox4": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 6,
+      "n_frames_total": 860,
+      "n_frames_emitted": 350,
+      "n_boundary_frames": 24
+    },
+    "wiWB46xiIwU": {
+      "subset": "training",
+      "recipe_type": 108,
+      "n_segments": 7,
+      "n_frames_total": 510,
+      "n_frames_emitted": 266,
+      "n_boundary_frames": 28
+    },
+    "x3if1znl5Fg": {
+      "subset": "validation",
+      "recipe_type": 305,
+      "n_segments": 6,
+      "n_frames_total": 964,
+      "n_frames_emitted": 656,
+      "n_boundary_frames": 24
+    },
+    "xS78EktJZZA": {
+      "subset": "training",
+      "recipe_type": 210,
+      "n_segments": 13,
+      "n_frames_total": 421,
+      "n_frames_emitted": 142,
+      "n_boundary_frames": 50
+    },
+    "y0c17Wxj_TI": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 8,
+      "n_frames_total": 710,
+      "n_frames_emitted": 416,
+      "n_boundary_frames": 32
+    },
+    "y_gqHLza4Yk": {
+      "subset": "training",
+      "recipe_type": 210,
+      "n_segments": 9,
+      "n_frames_total": 632,
+      "n_frames_emitted": 312,
+      "n_boundary_frames": 36
+    },
+    "yizxI2Gf_ww": {
+      "subset": "validation",
+      "recipe_type": 419,
+      "n_segments": 7,
+      "n_frames_total": 662,
+      "n_frames_emitted": 474,
+      "n_boundary_frames": 28
+    },
+    "yohSEYq9tSo": {
+      "subset": "training",
+      "recipe_type": 207,
+      "n_segments": 6,
+      "n_frames_total": 435,
+      "n_frames_emitted": 170,
+      "n_boundary_frames": 24
+    },
+    "ysUibvVCpP8": {
+      "subset": "validation",
+      "recipe_type": 406,
+      "n_segments": 6,
+      "n_frames_total": 990,
+      "n_frames_emitted": 484,
+      "n_boundary_frames": 24
+    },
+    "z4vmfgk1My8": {
+      "subset": "training",
+      "recipe_type": 213,
+      "n_segments": 7,
+      "n_frames_total": 406,
+      "n_frames_emitted": 260,
+      "n_boundary_frames": 28
+    },
+    "zEdAA9Oxpdw": {
+      "subset": "training",
+      "recipe_type": 219,
+      "n_segments": 4,
+      "n_frames_total": 423,
+      "n_frames_emitted": 286,
+      "n_boundary_frames": 16
+    },
+    "zF3TOfktwd4": {
+      "subset": "validation",
+      "recipe_type": 308,
+      "n_segments": 9,
+      "n_frames_total": 691,
+      "n_frames_emitted": 564,
+      "n_boundary_frames": 36
+    },
+    "zWHu95io9B4": {
+      "subset": "training",
+      "recipe_type": 203,
+      "n_segments": 10,
+      "n_frames_total": 439,
+      "n_frames_emitted": 360,
+      "n_boundary_frames": 40
+    },
+    "zZysbuDEtWY": {
+      "subset": "training",
+      "recipe_type": 117,
+      "n_segments": 9,
+      "n_frames_total": 368,
+      "n_frames_emitted": 154,
+      "n_boundary_frames": 36
+    }
+  }
+}
