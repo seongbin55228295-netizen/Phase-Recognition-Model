@@ -62,7 +62,7 @@ CNN 기반 이미지 인코더(ResNet-50)와 Transformer 기반 텍스트 인코
 
 ### 자기회귀 추론
 
-각 시점 `t` 의 출력 ŷ_t 는 히스토리 버퍼에 추가되어 `t+1` 입력으로 재사용됩니다. 히스토리 길이 `k` 는 하이퍼파라미터이며 E3 실험에서 `k ∈ {0, 1, 3, 5}` 로 비교합니다 (`k=0` 은 이미지 단독 베이스라인).
+각 시점 `t` 의 출력 ŷ_t 는 히스토리 버퍼에 추가되어 `t+1` 입력으로 재사용됩니다. 히스토리 길이 `k` 는 하이퍼파라미터입니다 (`k=0` 은 이미지 단독 베이스라인과 동치).
 
 학습-추론 간 분포 차이(Exposure Bias)를 완화하기 위해 **Scheduled Sampling** 을 적용합니다. 학습 epoch 진행에 따라 정답 라벨 대신 모델 자신의 예측을 히스토리에 주입할 확률 `p` 를 `0 → 0.5` 로 선형 증가시킵니다.
 
@@ -72,14 +72,13 @@ CNN 기반 이미지 인코더(ResNet-50)와 Transformer 기반 텍스트 인코
 | TF + FR | 정답 히스토리 | 자기 예측 히스토리 | Exposure Bias 노출 |
 | SS + FR | 확률적 혼합 | 자기 예측 히스토리 | 완화 효과 검증 |
 
-### 융합 기법 변형 (E2 비교)
+### 융합 기법 변형
 
-동일 인코더·동일 분류 헤드 조건에서 세 가지 융합 구조를 직접 구현하여 정량 비교합니다.
+동일 인코더·동일 분류 헤드 조건에서 두 가지 융합 구조를 직접 구현해 정량 비교합니다.
 
 | 변형 | 핵심 연산 | 특징 |
 | --- | --- | --- |
 | **Co-attention** (주 제안) | 양방향 cross-attention 2층 | 두 모달 간 토큰 단위 상호참조, attention map 시각화로 해석 가능 |
-| **GMU** (Gated Multimodal Unit) | `z = g ⊙ h_img + (1−g) ⊙ h_text`, `g = σ(W·[h_img; h_text])` | 게이트 기반 적응적 가중합, 경량 |
 | **Concat** | `[pool(h_img); pool(h_text)]` 후 MLP | 단순 결합 베이스라인 |
 
 ### 손실 함수
@@ -136,7 +135,7 @@ Phase-Recognition-Model/
 │   ├── train.py                  # (예정) 학습 엔트리포인트
 │   └── evaluate.py               # (예정) 평가 엔트리포인트
 │
-├── experiments/                  # E1~E8 실험 설정 파일 (YAML 등)
+├── experiments/                  # 학습 변형별 YAML 설정
 ├── checkpoints/                  # 학습된 모델 가중치 (.gitignore)
 ├── reports/                      # 실험 결과 및 시각화 산출물
 │   ├── figures/                  #   학습 곡선, attention map, Grad-CAM 등
@@ -281,23 +280,76 @@ frame CSV 컬럼: `frame_index, frame_name, timestamp_sec, label, source, segmen
 
 ### 4. 학습
 
+#### 4.1 학습 사양 (베이스라인 기본값)
+
+런타임 단일 소스는 [experiments/baseline.yaml](experiments/baseline.yaml) 입니다. 아래 표는 그 값의 근거이며, 변형 YAML 들이 일부 키만 덮어씁니다.
+
+| 영역 | 결정 | 위치 |
+| --- | --- | --- |
+| **샘플 단위** | 영상당 1 윈도우 = 연속 64 프레임 (CSV 행 기준). 64프레임 미만(3/300 영상)은 tail-padding + `valid_mask=False` | [src/data/dataset.py](src/data/dataset.py) `window_size=64` |
+| **에폭당 윈도우 수** | 영상당 4 윈도우 (216 × 4 = 864 스텝/에폭 @ batch 8 → ~108 step) | YAML `data.num_windows_per_video=4` |
+| **배치 크기** | 8 (VRAM 16GB 기준, AMP on) | YAML `data.batch_size=8` |
+| **히스토리 포맷** | `"[t-3: Cut] [t-2: Mix] [t-1: Cook-Heat]"` (oldest first). 첫 시점은 `"[START]"`, 부분 prefix는 가용 토큰만 | [src/training/history.py](src/training/history.py) |
+| **기본 히스토리 길이 k** | 3 (configurable, `k=0`은 이미지 단독과 동치) | YAML `training.history_length=3` |
+| **BPTT** | 없음. 자기회귀 히스토리는 *문자열* 로만 전달되므로 prior prediction의 그래프가 끊김 (자동 detach) | [src/training/trainer.py](src/training/trainer.py) `_step_scheduled_sampling` |
+| **윈도우 처리** | TF (p=0): `(B×64, …)` 단일 forward — 빠름. SS (p>0): 시점별 sequential forward — prior pred 사용 필요. 자동 전환 | [src/training/trainer.py](src/training/trainer.py) |
+| **Scheduled Sampling** | `p: 0.0 → 0.5` 선형 ramp 10 epoch, 이후 고정. 각 prior 위치는 p 확률로 모델 예측, (1-p) 확률로 정답 라벨 (위치별 독립 샘플링) | YAML `training.scheduled_sampling`, [src/training/scheduled_sampling.py](src/training/scheduled_sampling.py) |
+| **옵티마이저** | AdamW, weight_decay=1e-4 | [scripts/train.py](scripts/train.py) `build_optimizer` |
+| **Differential LR** | 인코더(ResNet-50 backbone + DistilBERT body) 1e-5, 헤드(projection + fusion + classifier) 1e-4 | YAML `training.optimizer` |
+| **Grad clip** | global L2-norm 1.0 | YAML `training.grad_clip` |
+| **AMP** | CUDA 시 ON, CPU/MPS 시 자동 OFF | YAML `training.use_amp` |
+| **에폭 수** | 20 | YAML `training.epochs` |
+| **융합 모듈** | Co-attention 2층, 8 heads, FFN dim 2048, dropout 0.1 | YAML `model.fusion_kwargs`, [src/models/fusion/co_attention.py](src/models/fusion/co_attention.py) |
+| **분류 헤드** | 512 → 256 → 8, ReLU, dropout 0.1 | [src/models/classifier.py](src/models/classifier.py) |
+| **클래스 인덱스** | `Prep=0, Cut=1, Mix=2, Cook-Heat=3, Bake=4, Season=5, Plate=6, Idle=7` ([configs/action_class_prototypes.json](configs/action_class_prototypes.json) `labels` 순) | [src/data/labels.py](src/data/labels.py) |
+| **이미지 정규화** | ImageNet `mean=(0.485, 0.456, 0.406)`, `std=(0.229, 0.224, 0.225)` | [src/data/dataset.py](src/data/dataset.py) |
+| **학습 augmentation** | Resize 256 → RandomCrop 224 → HorizontalFlip(0.5) | [src/data/dataset.py](src/data/dataset.py) `build_train_transform` |
+| **검증 augmentation** | Resize 256 → CenterCrop 224 (random 요소 제거) | [src/data/dataset.py](src/data/dataset.py) `build_eval_transform` |
+| **텍스트 max len** | 64 토큰 (k=3 + `[START]` 여유 포함) | YAML `training.max_text_len` |
+| **손실** | CE × `sample_weight × valid_mask` — Soft Boundary 가중치는 전처리에서 이미 부여됨 | [src/training/trainer.py](src/training/trainer.py) `_weighted_ce` |
+| **검증 모드** | Free-Running (모델 자기 예측만으로 히스토리 구성, 정답 라벨 사용 금지) | [src/training/trainer.py](src/training/trainer.py) `evaluate` |
+| **체크포인트** | epoch 끝마다 `epoch_NNN.pt` + val frame_accuracy 최고치 갱신 시 `best.pt` | [scripts/train.py](scripts/train.py) |
+| **타겟 하드웨어** | 단일 GPU, VRAM ≥ 16 GB. 8~12 GB 시 `batch_size`·`num_windows_per_video` 하향 권장 | — |
+
+#### 4.2 실행
+
+본 프로젝트가 실제로 학습·비교하는 변형은 **4개 비교 축 × 총 7개 변형**입니다. 모든 변형은 [§4.1 학습 사양](#41-학습-사양-베이스라인-기본값)을 공유하고, 아래 표의 "핵심 변경" 키만 덮어씁니다.
+
+| 비교 축 | 의도 | 변형 | YAML | 핵심 변경 |
+| --- | --- | --- | --- | --- |
+| **모달 ablation** | 자기회귀·텍스트 도움 여부 | image-only | [image_only.yaml](experiments/image_only.yaml) | `model.type: image_only`, SS off |
+| | | 융합 (기준) | [baseline.yaml](experiments/baseline.yaml) | — |
+| **융합 기법** | Co-attention 채택 정당화 | Co-attention (기준) | [baseline.yaml](experiments/baseline.yaml) | — |
+| | | Concat | [fusion_concat.yaml](experiments/fusion_concat.yaml) | `model.fusion: concat` |
+| **Exposure Bias** | TF↔FR 분포 차이 입증·완화 | TF 학습 + TF 평가 (Oracle 상한) | [tf_oracle.yaml](experiments/tf_oracle.yaml) | SS p_end=0, `eval_mode: tf` |
+| | | TF 학습 + FR 평가 | [tf_freerun.yaml](experiments/tf_freerun.yaml) | SS p_end=0, `eval_mode: fr` |
+| | | SS 학습 + FR 평가 (기준) | [baseline.yaml](experiments/baseline.yaml) | — |
+| **SS 강도** | 완화 곡선 탐색 | p_end = 0.25 | [ss_low.yaml](experiments/ss_low.yaml) | `scheduled_sampling.p_end: 0.25` |
+| | | p_end = 0.5 (기준) | [baseline.yaml](experiments/baseline.yaml) | — |
+| | | p_end = 0.75 | [ss_high.yaml](experiments/ss_high.yaml) | `scheduled_sampling.p_end: 0.75` |
+
+기준(baseline) 한 번이 4개 비교 축의 기준점을 모두 채우므로 총 학습 회수는 **7회**입니다.
+
 ```bash
-# 기본 학습 (Co-attention 융합, Teacher Forcing)
-python scripts/train.py --config experiments/E1_baseline.yaml
+# 기준 — 4개 비교 축 공통 기준점
+python scripts/train.py --config experiments/baseline.yaml
 
-# E2 융합 기법 비교 (Co-attention / GMU / Concat)
-python scripts/train.py --config experiments/E2_fusion_coattn.yaml
-python scripts/train.py --config experiments/E2_fusion_gmu.yaml
-python scripts/train.py --config experiments/E2_fusion_concat.yaml
+# 모달 ablation
+python scripts/train.py --config experiments/image_only.yaml
 
-# E4 Exposure Bias (Teacher Forcing 학습 + Free-running 평가)
-python scripts/train.py --config experiments/E4_freerunning.yaml
+# 융합 기법 비교
+python scripts/train.py --config experiments/fusion_concat.yaml
 
-# E5 Scheduled Sampling
-python scripts/train.py --config experiments/E5_scheduled_sampling.yaml
+# Exposure Bias
+python scripts/train.py --config experiments/tf_oracle.yaml
+python scripts/train.py --config experiments/tf_freerun.yaml
+
+# Scheduled Sampling 강도
+python scripts/train.py --config experiments/ss_low.yaml
+python scripts/train.py --config experiments/ss_high.yaml
 ```
 
-체크포인트는 [checkpoints/](checkpoints/) 에 저장됩니다.
+체크포인트는 각 변형별로 [checkpoints/&lt;variant&gt;/](checkpoints/) 아래에 `epoch_NNN.pt` 및 `best.pt` 로 저장됩니다.
 
 ### 5. 평가
 
@@ -307,20 +359,19 @@ python scripts/evaluate.py --checkpoint checkpoints/<run_id>/best.pt --split tes
 
 평가 지표(Frame-level Accuracy, Macro F1, Segment IoU, Edit Distance, TF-FR Gap)와 시각화(Grad-CAM, Co-attention map)는 [reports/](reports/) 아래에 저장됩니다.
 
-## 실험 체계
-
-| ID | 주제 | 비교 축 |
-| --- | --- | --- |
-| E1 | 모달 Ablation | 이미지 단독 / 히스토리 단독 / 융합 |
-| E2 | 융합 기법 비교 | Co-attention / GMU / Concat |
-| E3 | 히스토리 길이 | k ∈ {0, 1, 3, 5} |
-| E4 | Exposure Bias | TF 학습+TF 평가 / TF 학습+FR 평가 / SS 학습+FR 평가 |
-| E5 | Scheduled Sampling 강도 | 샘플링 확률 스케줄 비교 |
-| E6 | 레시피 카테고리별 난이도 | 10개 카테고리별 성능 |
-| E7 | 도메인 일반화 | YouCook2 → EPIC-Kitchens 전이 |
-| E8 | 최종 통합 평가 | 전체 베스트 설정 검증 |
-
 ## 데이터셋 출처
 
 - **YouCook2**: Zhou et al., *Towards Automatic Learning of Procedures from Web Instructional Videos*, AAAI 2018. <http://youcook2.eecs.umich.edu/>
-- **EPIC-Kitchens**: Damen et al., *Scaling Egocentric Vision: The EPIC-KITCHENS Dataset*, ECCV 2018. (E7 도메인 일반화 평가용)
+- **EPIC-Kitchens**: Damen et al., *Scaling Egocentric Vision: The EPIC-KITCHENS Dataset*, ECCV 2018. (향후 작업의 도메인 일반화 평가용 후보 데이터셋)
+
+## 향후 작업
+
+본 학기 일정 안에서는 다루지 않지만, 자연스러운 후속 비교들입니다. 가성비 순서로 정리.
+
+| 주제 | 비교 축 | 추가 필요 작업 |
+| --- | --- | --- |
+| 히스토리 길이 ablation | k ∈ {0, 1, 3, 5} | YAML 1개씩만 추가 — 코드 변경 없음 |
+| 레시피 카테고리별 난이도 | recipe_type 그룹별 성능 | Evaluator 에 그룹 집계 코드 ~30 줄 (manifest 에 정보 이미 있음) |
+| 융합 기법 추가 변형 | GMU (게이트 기반 가중합) | `src/models/fusion/gmu.py` 작성 (~50 줄) + YAML 1 개 |
+| 최종 통합 평가 | 위 비교들의 최선 조합 재학습 | 비교 결과 확정 후 YAML 1 개 |
+| 도메인 일반화 | YouCook2 → EPIC-Kitchens 전이 평가 | 새 데이터셋 확보 + 라벨 매핑 + 전처리 파이프라인 일체 |

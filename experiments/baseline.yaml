@@ -1,0 +1,47 @@
+# Baseline run — Co-attention fusion + Scheduled Sampling (p_end=0.5) + Free-Running eval.
+# Serves as the reference point for every variant in this directory.
+name: baseline
+seed: 42
+eval_mode: fr
+
+data:
+  manifest_path: processed/frame_labels/_manifest.json
+  frames_root: data/frames
+  labels_root: processed/frame_labels
+  window_size: 64
+  batch_size: 8
+  num_windows_per_video: 4
+  num_workers: 4
+
+model:
+  type: phase_recognition
+  hidden_dim: 512
+  num_classes: 8
+  fusion: co_attention
+  text_model_name: distilbert-base-uncased
+  image_pretrained: true
+  classifier_dropout: 0.1
+  fusion_kwargs:
+    num_layers: 2
+    num_heads: 8
+    ffn_dim: 2048
+    dropout: 0.1
+
+training:
+  epochs: 20
+  history_length: 3
+  max_text_len: 64
+  use_amp: true
+  grad_clip: 1.0
+  optimizer:
+    encoder_lr: 1.0e-5
+    head_lr: 1.0e-4
+    weight_decay: 1.0e-4
+  scheduled_sampling:
+    p_start: 0.0
+    p_end: 0.5
+    ramp_epochs: 10
+
+checkpoint:
+  dir: checkpoints/baseline
+  save_every: 1

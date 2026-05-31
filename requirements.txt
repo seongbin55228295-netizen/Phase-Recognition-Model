@@ -1,0 +1,27 @@
+# Deep learning
+torch>=2.1
+torchvision>=0.16
+transformers>=4.40
+
+# Preprocessing (prototype-based semantic labeling)
+sentence-transformers>=2.7
+
+# Data handling
+pandas>=2.0
+numpy>=1.24
+Pillow>=10.0
+pyyaml>=6.0
+
+# Video / frame extraction
+yt-dlp>=2024.4
+opencv-python>=4.9
+ffmpeg-python>=0.2
+
+# Metrics & visualization
+scikit-learn>=1.4
+matplotlib>=3.7
+seaborn>=0.13
+
+# Training utilities
+tqdm>=4.66
+tensorboard>=2.16
