@@ -3,11 +3,21 @@
 Two paths:
   - Teacher-Forcing batch-flatten: when SS probability p == 0, all 64*B (image, history)
     pairs are forwarded in one batched call. Fast.
-  - Scheduled Sampling sequential: when p > 0, forward timestep-by-timestep, mixing prior
-    ground-truth labels with the model's own (detached) prior predictions in each history.
+  - Scheduled Sampling sequential: when p > 0, the image encoder is run ONCE on
+    all B*W images of the window (image features don't depend on history), and the
+    cached tokens are reused across the W timestep loop where only text encoder +
+    fusion + classifier run sequentially. Without this caching, the image encoder
+    (ResNet-50, by far the heaviest component) would run W=64 times per batch and
+    leave the GPU idle on B=4 micro-launches.
 
 Histories are token strings — no gradient flows through prior predictions (BPTT disabled).
 Soft Boundary weights from the per-frame CSV are applied to the per-position CE losses.
+
+Note on BatchNorm: with image-token caching, the image_encoder BN sees the larger
+B*W batch (one update per step) instead of W small B-sized updates. Forward outputs
+and running stats differ slightly from a literal sequential implementation, but the
+larger batch is generally more stable; gradient mathematics for image_encoder params
+is equivalent (sum of W backward passes == one backward with summed upstream grads).
 """
 from __future__ import annotations
 
@@ -109,12 +119,23 @@ class Trainer:
         Per-position SS sampling: when building history at time t, each prior position
         independently uses the model's prior prediction with probability p, otherwise the
         ground-truth label.
+
+        Image encoder is run once on all B*W images of the window; the cached image
+        tokens are sliced into the timestep loop. Only text encoder + fusion + classifier
+        run sequentially across W (which is unavoidable because histories depend on
+        previously-sampled predictions).
         """
         images = batch["images"].to(self.device)
         labels = batch["labels"].to(self.device)
         weights = batch["sample_weights"].to(self.device)
         valid = batch["valid_mask"].to(self.device).float()
         B, W = labels.shape
+
+        # Pre-encode all images for this window in a single batched call.
+        images_flat = images.reshape(B * W, *images.shape[2:])
+        with autocast(enabled=self.use_amp):
+            img_tokens_flat = self.model.encode_image(images_flat)        # (B*W, T, D)
+        img_tokens_all = img_tokens_flat.view(B, W, *img_tokens_flat.shape[1:])
 
         labels_cpu = labels.cpu().tolist()
         prior_pred_labels: list[list[str]] = [[] for _ in range(B)]
@@ -135,12 +156,13 @@ class Trainer:
                 histories.append(build_history_string(prior, self.history_length))
 
             input_ids, attn_mask = self._tokenize(histories)
-            images_t = images[:, t]
             labels_t = labels[:, t]
             weights_t = (weights[:, t] * valid[:, t])
 
             with autocast(enabled=self.use_amp):
-                logits_t = self.model(images_t, input_ids, attn_mask)
+                logits_t = self.model.forward_with_cached_image(
+                    img_tokens_all[:, t], input_ids, attn_mask
+                )
                 loss_t = self._weighted_ce(logits_t, labels_t, weights_t)
             total_loss = total_loss + loss_t
 
@@ -202,6 +224,13 @@ class Trainer:
             weights = batch["sample_weights"].to(self.device)
             valid = batch["valid_mask"].to(self.device).float()
             B, W = labels.shape
+
+            # Same image-token caching as the training SS path.
+            images_flat = images.reshape(B * W, *images.shape[2:])
+            with autocast(enabled=self.use_amp):
+                img_tokens_flat = self.model.encode_image(images_flat)
+            img_tokens_all = img_tokens_flat.view(B, W, *img_tokens_flat.shape[1:])
+
             labels_cpu = labels.cpu().tolist()
             prior_pred_labels: list[list[str]] = [[] for _ in range(B)]
 
@@ -216,7 +245,9 @@ class Trainer:
                     histories.append(build_history_string(prior, self.history_length))
                 input_ids, attn_mask = self._tokenize(histories)
                 with autocast(enabled=self.use_amp):
-                    logits_t = self.model(images[:, t], input_ids, attn_mask)
+                    logits_t = self.model.forward_with_cached_image(
+                        img_tokens_all[:, t], input_ids, attn_mask
+                    )
                 preds_t = logits_t.argmax(dim=-1).cpu().tolist()
                 labels_t = labels[:, t].cpu().tolist()
                 weights_t = (weights[:, t] * valid[:, t]).cpu().tolist()

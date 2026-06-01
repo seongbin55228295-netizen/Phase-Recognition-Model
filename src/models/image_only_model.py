@@ -29,12 +29,23 @@ class ImageOnlyModel(nn.Module):
             in_dim=hidden_dim, num_classes=num_classes, dropout=classifier_dropout
         )
 
+    def encode_image(self, image: torch.Tensor) -> torch.Tensor:
+        return self.image_encoder(image)
+
+    def forward_with_cached_image(
+        self,
+        img_tokens: torch.Tensor,
+        input_ids: torch.Tensor | None = None,       # ignored
+        attention_mask: torch.Tensor | None = None,  # ignored
+    ) -> torch.Tensor:
+        pooled = img_tokens.mean(dim=1)
+        return self.classifier(pooled)
+
     def forward(
         self,
         image: torch.Tensor,
         input_ids: torch.Tensor | None = None,       # ignored
         attention_mask: torch.Tensor | None = None,  # ignored
     ) -> torch.Tensor:
-        img_tokens = self.image_encoder(image)
-        pooled = img_tokens.mean(dim=1)
-        return self.classifier(pooled)
+        img_tokens = self.encode_image(image)
+        return self.forward_with_cached_image(img_tokens, input_ids, attention_mask)
