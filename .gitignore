@@ -18,6 +18,11 @@ data/frames/*
 YouCookII/features/feat_csv/
 YouCookII/features/feat_dat/
 
+# 클라우드 업로드용 임시 아카이브 (frames.tar 등) — 절대 커밋 금지
+*.tar
+*.tar.gz
+*.zip
+
 # 모델 체크포인트
 checkpoints/*
 !checkpoints/.gitkeep

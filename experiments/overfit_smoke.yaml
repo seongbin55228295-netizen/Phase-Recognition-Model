@@ -1,0 +1,63 @@
+# Intentional-overfit smoke test.
+# Goal: drive train_loss toward ~0 on a tiny 2-video subset to verify the
+# data pipeline, loss/mask wiring, fusion, and classifier are all functional
+# before launching real training. Validation metric is IGNORED here — the
+# val video exists only to satisfy the DataLoader contract.
+#
+# Pass criteria (rule of thumb):
+#   * train_loss drops > 50% within the first 5 epochs.
+#   * train_loss approaches ~0 (< 0.05) and val ignored by epoch ~40-50.
+#   * If train_loss plateaus high → bug somewhere (masking, label map,
+#     history tokenization, frozen params, etc.).
+#
+# Notes:
+#   - Scheduled Sampling is fully disabled (p_start=p_end=0) so the fast
+#     teacher-forcing forward path is used; this is the easiest target.
+#   - Augmentation (RandomCrop/Flip) is still on via the train transform;
+#     memorization still succeeds, it just takes more epochs.
+#   - LR is unchanged from baseline so we are exercising the real recipe.
+name: overfit_smoke
+seed: 42
+eval_mode: fr
+
+data:
+  manifest_path: processed/frame_labels/_manifest_overfit.json
+  frames_root: data/frames
+  labels_root: processed/frame_labels
+  window_size: 64
+  batch_size: 2
+  num_windows_per_video: 8
+  num_workers: 0
+
+model:
+  type: phase_recognition
+  hidden_dim: 512
+  num_classes: 8
+  fusion: co_attention
+  text_model_name: distilbert-base-uncased
+  image_pretrained: true
+  classifier_dropout: 0.1
+  fusion_kwargs:
+    num_layers: 2
+    num_heads: 8
+    ffn_dim: 2048
+    dropout: 0.1
+
+training:
+  epochs: 50
+  history_length: 3
+  max_text_len: 64
+  use_amp: true
+  grad_clip: 1.0
+  optimizer:
+    encoder_lr: 1.0e-5
+    head_lr: 1.0e-4
+    weight_decay: 1.0e-4
+  scheduled_sampling:
+    p_start: 0.0
+    p_end: 0.0
+    ramp_epochs: 1
+
+checkpoint:
+  dir: checkpoints/overfit_smoke
+  save_every: 10

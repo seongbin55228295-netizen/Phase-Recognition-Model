@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "description": "Overfit smoke-test manifest. Subset of 2 training + 1 validation video for the intentional-overfit sanity check (train_loss must drive toward ~0). The validation video exists only to satisfy the DataLoader; its metric is ignored during this test.",
+  "boundary_width": 2,
+  "boundary_factor": 0.5,
+  "summary": {
+    "total_videos": 3,
+    "total_segments": 24,
+    "total_frames_emitted": 628,
+    "total_boundary_frames": 96,
+    "subset_distribution": {
+      "validation": 1,
+      "training": 2
+    }
+  },
+  "videos": {
+    "0IuQKThr-pM": {
+      "subset": "training",
+      "recipe_type": 102,
+      "n_segments": 10,
+      "n_frames_total": 336,
+      "n_frames_emitted": 156,
+      "n_boundary_frames": 40
+    },
+    "0q38LzW-axY": {
+      "subset": "training",
+      "recipe_type": 306,
+      "n_segments": 5,
+      "n_frames_total": 622,
+      "n_frames_emitted": 222,
+      "n_boundary_frames": 20
+    },
+    "-GlSSp5ZOCQ": {
+      "subset": "validation",
+      "recipe_type": 121,
+      "n_segments": 9,
+      "n_frames_total": 491,
+      "n_frames_emitted": 250,
+      "n_boundary_frames": 36
+    }
+  }
+}
