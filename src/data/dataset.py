@@ -142,6 +142,7 @@ def build_dataloaders(
     batch_size: int = 8,
     num_windows_per_video: int = 1,
     num_workers: int = 4,
+    prefetch_factor: int = 4,
 ) -> tuple[DataLoader, DataLoader]:
     train_ds = PhaseRecognitionDataset(
         manifest_path, frames_root, labels_root,
@@ -157,12 +158,14 @@ def build_dataloaders(
         transform=build_eval_transform(),
         num_windows_per_video=1,
     )
-    train_loader = DataLoader(
-        train_ds, batch_size=batch_size, shuffle=True,
-        num_workers=num_workers, pin_memory=True, drop_last=False,
+    loader_kwargs = dict(
+        num_workers=num_workers,
+        pin_memory=True,
+        drop_last=False,
     )
-    val_loader = DataLoader(
-        val_ds, batch_size=batch_size, shuffle=False,
-        num_workers=num_workers, pin_memory=True, drop_last=False,
-    )
+    if num_workers > 0:
+        loader_kwargs["persistent_workers"] = True
+        loader_kwargs["prefetch_factor"] = prefetch_factor
+    train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=True, **loader_kwargs)
+    val_loader = DataLoader(val_ds, batch_size=batch_size, shuffle=False, **loader_kwargs)
     return train_loader, val_loader

@@ -27,7 +27,7 @@ data:
   window_size: 64
   batch_size: 2
   num_windows_per_video: 8
-  num_workers: 0
+  num_workers: 8
 
 model:
   type: phase_recognition
