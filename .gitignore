@@ -23,8 +23,9 @@ YouCookII/features/feat_dat/
 *.tar.gz
 *.zip
 
-# 모델 체크포인트
-checkpoints/*
+# 모델 체크포인트 — 가중치(.pt)는 너무 커서(개당 ~420MB) git 부적합 → Releases/외부 스토리지로 배포.
+# history.json은 commit (epoch별 메트릭, 시각화·분석·재현성에 필요, 수 KB).
+checkpoints/**/*.pt
 !checkpoints/.gitkeep
 
 # 실험 로그·시각화 산출물 (필요시 선택적으로 커밋)
