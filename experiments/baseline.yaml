@@ -44,4 +44,4 @@ training:
 
 checkpoint:
   dir: checkpoints/baseline
-  save_every: 1
+  save_every: 999   # only best.pt + history.json are persisted (avoid 8GB epoch_*.pt sprawl on the Network Volume)

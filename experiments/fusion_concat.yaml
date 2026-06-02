@@ -41,4 +41,4 @@ training:
 
 checkpoint:
   dir: checkpoints/fusion_concat
-  save_every: 1
+  save_every: 999

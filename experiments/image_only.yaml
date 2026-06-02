@@ -39,4 +39,4 @@ training:
 
 checkpoint:
   dir: checkpoints/image_only
-  save_every: 1
+  save_every: 999

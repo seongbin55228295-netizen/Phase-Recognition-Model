@@ -60,4 +60,4 @@ training:
 
 checkpoint:
   dir: checkpoints/overfit_smoke
-  save_every: 10
+  save_every: 999

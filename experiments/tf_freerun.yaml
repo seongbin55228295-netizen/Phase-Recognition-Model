@@ -45,4 +45,4 @@ training:
 
 checkpoint:
   dir: checkpoints/tf_freerun
-  save_every: 1
+  save_every: 999

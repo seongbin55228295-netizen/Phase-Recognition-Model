@@ -44,4 +44,4 @@ training:
 
 checkpoint:
   dir: checkpoints/ss_low
-  save_every: 1
+  save_every: 999

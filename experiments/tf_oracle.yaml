@@ -44,4 +44,4 @@ training:
 
 checkpoint:
   dir: checkpoints/tf_oracle
-  save_every: 1
+  save_every: 999
