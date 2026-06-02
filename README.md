@@ -287,12 +287,13 @@ frame CSV 컬럼: `frame_index, frame_name, timestamp_sec, label, source, segmen
 | 영역 | 결정 | 위치 |
 | --- | --- | --- |
 | **샘플 단위** | 영상당 1 윈도우 = 연속 64 프레임 (CSV 행 기준). 64프레임 미만(3/300 영상)은 tail-padding + `valid_mask=False` | [src/data/dataset.py](src/data/dataset.py) `window_size=64` |
-| **에폭당 윈도우 수** | 영상당 4 윈도우 (216 × 4 = 864 스텝/에폭 @ batch 8 → ~108 step) | YAML `data.num_windows_per_video=4` |
-| **배치 크기** | 8 (VRAM 16GB 기준, AMP on) | YAML `data.batch_size=8` |
+| **에폭당 윈도우 수** | 영상당 4 윈도우 (216 × 4 = 864 샘플/에폭 @ batch 4 → ~216 step) | YAML `data.num_windows_per_video=4` |
+| **배치 크기** | 4 (AMP on). SS 경로는 윈도우당 W=64 시점의 그래프가 누적되어 backward 메모리가 batch에 비례 곱셈으로 늘어남 — RTX 5090 32GB에서 batch=8 OOM 확인되어 4로 통일 (7 variants 비교 조건 동일화) | YAML `data.batch_size=4` |
+| **DataLoader 병렬화** | `num_workers=8`, `persistent_workers=True`, `prefetch_factor=4` — JPEG 디코드를 워커 풀로 분산해 GPU starvation 방지 | YAML `data.num_workers=8`, [src/data/dataset.py](src/data/dataset.py) `build_dataloaders` |
 | **히스토리 포맷** | `"[t-3: Cut] [t-2: Mix] [t-1: Cook-Heat]"` (oldest first). 첫 시점은 `"[START]"`, 부분 prefix는 가용 토큰만 | [src/training/history.py](src/training/history.py) |
 | **기본 히스토리 길이 k** | 3 (configurable, `k=0`은 이미지 단독과 동치) | YAML `training.history_length=3` |
 | **BPTT** | 없음. 자기회귀 히스토리는 *문자열* 로만 전달되므로 prior prediction의 그래프가 끊김 (자동 detach) | [src/training/trainer.py](src/training/trainer.py) `_step_scheduled_sampling` |
-| **윈도우 처리** | TF (p=0): `(B×64, …)` 단일 forward — 빠름. SS (p>0): 시점별 sequential forward — prior pred 사용 필요. 자동 전환 | [src/training/trainer.py](src/training/trainer.py) |
+| **윈도우 처리** | TF (p=0): `(B×64, …)` 단일 forward — 빠름. SS (p>0): 이미지 인코더는 윈도우당 **단일 호출로 캐싱** (`encode_image` on `B*W` 이미지) 후, 텍스트 인코더+융합+분류기만 시점별 sequential forward (history가 prior pred에 의존하므로 직렬 불가피). 캐싱 전 7.7s/it → 캐싱 후 3.2s/it 측정 | [src/training/trainer.py](src/training/trainer.py) `_step_scheduled_sampling`, [src/models/phase_recognition_model.py](src/models/phase_recognition_model.py) `forward_with_cached_image` |
 | **Scheduled Sampling** | `p: 0.0 → 0.5` 선형 ramp 10 epoch, 이후 고정. 각 prior 위치는 p 확률로 모델 예측, (1-p) 확률로 정답 라벨 (위치별 독립 샘플링) | YAML `training.scheduled_sampling`, [src/training/scheduled_sampling.py](src/training/scheduled_sampling.py) |
 | **옵티마이저** | AdamW, weight_decay=1e-4 | [scripts/train.py](scripts/train.py) `build_optimizer` |
 | **Differential LR** | 인코더(ResNet-50 backbone + DistilBERT body) 1e-5, 헤드(projection + fusion + classifier) 1e-4 | YAML `training.optimizer` |
@@ -308,8 +309,8 @@ frame CSV 컬럼: `frame_index, frame_name, timestamp_sec, label, source, segmen
 | **텍스트 max len** | 64 토큰 (k=3 + `[START]` 여유 포함) | YAML `training.max_text_len` |
 | **손실** | CE × `sample_weight × valid_mask` — Soft Boundary 가중치는 전처리에서 이미 부여됨 | [src/training/trainer.py](src/training/trainer.py) `_weighted_ce` |
 | **검증 모드** | Free-Running (모델 자기 예측만으로 히스토리 구성, 정답 라벨 사용 금지) | [src/training/trainer.py](src/training/trainer.py) `evaluate` |
-| **체크포인트** | epoch 끝마다 `epoch_NNN.pt` + val frame_accuracy 최고치 갱신 시 `best.pt` | [scripts/train.py](scripts/train.py) |
-| **타겟 하드웨어** | 단일 GPU, VRAM ≥ 16 GB. 8~12 GB 시 `batch_size`·`num_windows_per_video` 하향 권장 | — |
+| **체크포인트** | val frame_accuracy 최고치 갱신 시 `best.pt` (런마다 1개) + 학습 종료 시 `history.json` (epoch별 메트릭). `save_every=999`로 epoch별 weight 덤프는 비활성화 (변형당 ~8GB 디스크 사용 회피) | [scripts/train.py](scripts/train.py) |
+| **타겟 하드웨어** | 단일 GPU, VRAM ≥ 16 GB (batch=4 + AMP). 측정 환경: Runpod RTX 5090 (32GB), torch 2.8+cu128 / 2.10+cu128 — 양쪽 모두 Blackwell sm_120 정상 동작 확인 | — |
 
 #### 4.2 실행
 
@@ -349,7 +350,17 @@ python scripts/train.py --config experiments/ss_low.yaml
 python scripts/train.py --config experiments/ss_high.yaml
 ```
 
-체크포인트는 각 변형별로 [checkpoints/&lt;variant&gt;/](checkpoints/) 아래에 `epoch_NNN.pt` 및 `best.pt` 로 저장됩니다.
+각 변형은 [checkpoints/&lt;variant&gt;/](checkpoints/) 아래에 `best.pt` (val_acc 최고치, ~420MB) + `history.json` (epoch별 메트릭, 수 KB)을 남깁니다. `history.json`은 git에 commit되어 시각화·재현성에 활용되며, `best.pt`는 용량 사유로 git에서 제외(`checkpoints/**/*.pt`)되어 별도 배포(GitHub Releases 등)됩니다.
+
+#### 4.3 사전 점검 — 오버피팅 스모크 테스트
+
+본 학습 시작 전, 2개 영상만 사용해 의도적 과적합으로 train loss가 ~0에 수렴하는지 확인하는 [overfit_smoke.yaml](experiments/overfit_smoke.yaml)을 두었습니다. 데이터 로딩 / loss masking / history 토큰화 / fusion / classifier / gradient flow 전체 경로의 무결성을 ~3분 안에 검증.
+
+```bash
+python scripts/train.py --config experiments/overfit_smoke.yaml
+```
+
+합격 기준: 첫 5 epoch에서 train loss 50%↓, 40 epoch 안에 < 0.05. 안 떨어지면 본 학습 진입 금지. 사용 manifest는 [processed/frame_labels/_manifest_overfit.json](processed/frame_labels/_manifest_overfit.json) (2 training + 1 validation video, 후자는 DataLoader 충족용 — 메트릭 무시).
 
 ### 5. 평가
 
