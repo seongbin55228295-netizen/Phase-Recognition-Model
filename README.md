@@ -91,7 +91,7 @@ CNN 기반 이미지 인코더(ResNet-50)와 Transformer 기반 텍스트 인코
 ```
 Phase-Recognition-Model/
 ├── README.md
-├── requirements.txt              # Python 의존성 (작성 예정)
+├── requirements.txt              # Python 의존성
 ├── .gitignore
 │
 ├── YouCookII/                    # YouCook2 원본 데이터셋 (외부 다운로드, 수정 금지)
@@ -117,29 +117,35 @@ Phase-Recognition-Model/
 │   ├── reviewed_annotations.csv      #   수동 검수 완료 결과 (predicted_label = 확정 라벨)
 │   └── frame_labels/                 #   프레임 단위 라벨 (영상별 1 CSV, 학습 직접 입력) + _manifest.json (video 메타)
 │
-├── src/                          # 학습·평가용 코어 코드
-│   ├── data/                     #   Dataset, DataLoader, 샘플링
+├── src/                          # 학습·평가·추론 코어 코드
+│   ├── data/                     #   Dataset, DataLoader, 샘플링, labels
+│   ├── preprocessing/            #   frame_extraction.py (ffmpeg 프레임 추출, torchvision 불필요한 공용 모듈)
 │   ├── models/
 │   │   ├── encoders/             #   image_encoder.py (ResNet-50), text_encoder.py (DistilBERT)
-│   │   ├── fusion/               #   co_attention.py, gmu.py, concat.py
+│   │   ├── fusion/               #   co_attention.py, concat.py  (gmu.py 는 향후 작업, 미구현)
 │   │   └── classifier.py         #   MLP 분류 헤드 (512→256→8)
 │   ├── training/                 #   Trainer, Scheduled Sampling 스케줄러
 │   ├── evaluation/               #   Frame Acc, Macro F1, Segment IoU, Edit Distance
-│   └── utils/                    #   로깅, 시각화 (Grad-CAM, attention map)
+│   ├── inference/                #   Predictor(전체영상 Free-Running), 영상 다운로드/프레임 로딩, YouCook2 의사 GT
+│   └── utils/                    #   (예정) 로깅, 시각화 (Grad-CAM, attention map) — 현재 placeholder
 │
 ├── scripts/                      # 실행 가능한 파이프라인 스크립트
 │   ├── download_videos.py        # YouTube 영상 다운로드 (yt-dlp 래퍼, URL 은 YouCookII JSON 에서 직접 추출)
-│   ├── extract_frames.py         # 2 FPS 프레임 추출 (ffmpeg, 선별 300개 영상 대상)
+│   ├── extract_frames.py         # 2 FPS 프레임 추출 (선별 300개 대상, src/preprocessing 공용 함수 사용)
 │   ├── generate_annotation_labels.py   # 프로토타입 기반 자동 분류 + 검수 분기 (action_annotations.csv + review_queue.csv 동시 생성)
 │   ├── generate_frame_labels.py  # auto + reviewed → segment 통합 → 프레임 단위 라벨 + Soft Boundary 가중치 (frame_labels/ + _manifest.json)
-│   ├── train.py                  # (예정) 학습 엔트리포인트
-│   └── evaluate.py               # (예정) 평가 엔트리포인트
+│   ├── train.py                  # 학습 엔트리포인트
+│   ├── evaluate.py               # 전체영상 결정적 평가 (FR+TF, 변형당 reports/metrics/<variant>.json)
+│   ├── compare_variants.py       # 변형별 metrics → 4개 비교 축 표 생성 (reports/tables/)
+│   └── infer_video.py            # test 영상 추론 (--source youtube|youcook2 — 정성/정량)
 │
 ├── experiments/                  # 학습 변형별 YAML 설정
 ├── checkpoints/                  # 학습된 모델 가중치 (.gitignore)
 ├── reports/                      # 실험 결과 및 시각화 산출물
 │   ├── figures/                  #   학습 곡선, attention map, Grad-CAM 등
-│   ├── tables/                   #   실험 지표 표 (CSV/MD)
+│   ├── metrics/                  #   evaluate.py 변형별 평가 결과 (<variant>.json)
+│   ├── tables/                   #   compare_variants.py 비교 축 표 (CSV/MD)
+│   ├── inference/                #   infer_video.py 추론 산출물 (영상별 predictions/segments/timeline/metrics)
 │   └── logs/                     #   학습 로그
 └── notebooks/                    # EDA·결과 분석용 주피터 노트북
 ```
@@ -159,7 +165,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 주요 의존성 (예정)
+### 주요 의존성
 
 | 영역 | 라이브러리 |
 | --- | --- |
@@ -362,13 +368,51 @@ python scripts/train.py --config experiments/overfit_smoke.yaml
 
 합격 기준: 첫 5 epoch에서 train loss 50%↓, 40 epoch 안에 < 0.05. 안 떨어지면 본 학습 진입 금지. 사용 manifest는 [processed/frame_labels/_manifest_overfit.json](processed/frame_labels/_manifest_overfit.json) (2 training + 1 validation video, 후자는 DataLoader 충족용 — 메트릭 무시).
 
-### 5. 평가
+### 5. 평가 및 추론
+
+학습이 끝난 변형들은 두 축으로 검증한다 — (5.1) **선별 300개 내 검증셋** 정량 평가, (5.2) **선별 외 test 영상** 추론(정성/정량).
+
+#### 5.1 정량 평가 — 검증셋 전체영상 ([evaluate.py](scripts/evaluate.py))
+
+학습 중 검증(영상당 무작위 64프레임 1윈도우)과 달리, 각 영상을 **처음부터 끝까지** 결정적으로 자기회귀 추론해 segment 단위 지표가 의미를 갖도록 한다. 동일 가중치로 **FR(Free-Running)·TF(Teacher-Forcing) 두 체제**를 모두 평가하며, 노출편향 지표 `tf_fr_gap = frame_acc_TF − frame_acc_FR` 를 함께 산출한다.
 
 ```bash
-python scripts/evaluate.py --checkpoint checkpoints/<run_id>/best.pt --split test
+# 변형 1개 평가 → reports/metrics/<variant>.json
+python scripts/evaluate.py --config experiments/baseline.yaml
+#   옵션: --split {validation|training}  (기본 validation, 84영상)
+#         --limit N (앞 N개만; 스모크)   --chunk 128 (forward 청크 크기)
+
+# 나머지 변형(image_only / fusion_concat / tf_oracle / tf_freerun / ss_low / ss_high)도 각각 평가한 뒤,
+# 7개 결과를 §4.2 의 4개 비교 축 표로 집계 → reports/tables/
+python scripts/compare_variants.py
 ```
 
-평가 지표(Frame-level Accuracy, Macro F1, Segment IoU, Edit Distance, TF-FR Gap)와 시각화(Grad-CAM, Co-attention map)는 [reports/](reports/) 아래에 저장됩니다.
+- 체크포인트는 `--checkpoint` 가 아니라 YAML 의 `checkpoint.dir` 에서 `best.pt` 를 자동 탐색한다.
+- 지표: Frame Accuracy(sample_weight 가중), Macro F1, Segment IoU, Edit Score ([src/evaluation/metrics.py](src/evaluation/metrics.py)).
+- [compare_variants.py](scripts/compare_variants.py) 는 4개 비교 축 표(modal ablation / fusion / exposure bias / SS 강도) + `all_metrics.csv` 를 [reports/tables/](reports/) 에 쓴다.
+- 메트릭·롤아웃 로직은 torchvision 없이 단위 테스트된다: `python tests/test_metrics.py`, `python tests/test_evaluate_logic.py`.
+
+#### 5.2 test 영상 추론 ([infer_video.py](scripts/infer_video.py))
+
+선별 300개에 포함되지 않은 영상으로 일반화를 확인한다. 입력 종류는 `--source` 로 분기하지만 전처리·추론 경로는 동일하다(ffmpeg 2fps/짧은변 256 추출 → eval transform → **영상 전체 1시퀀스 Free-Running**).
+
+```bash
+# 임의 YouTube 영상 — 정성 (정답 없음): 예측 + 단계 타임라인
+python scripts/infer_video.py --source youtube --url "https://youtu.be/XXXX" \
+    --config experiments/baseline.yaml --checkpoint checkpoints/baseline/best.pt
+# 로컬 mp4 도 가능: --video clip.mp4
+
+# 선별 외 YouCook2 영상 — 정량: annotation 으로 의사 GT 복원 후 지표 산출
+python scripts/infer_video.py --source youcook2 --video-id <id> \
+    --config experiments/baseline.yaml --checkpoint checkpoints/baseline/best.pt
+# 여러 개 일괄: --video-list ids.txt
+```
+
+- 산출물은 [reports/inference/](reports/)`<name>/` 아래: `predictions.csv`, `segments.json`(예측 단계 타임라인), `timeline.png`, youcook2 는 `metrics.json` 추가.
+- **youcook2 정량평가의 GT 는 프로토타입 임베딩 자동 의사라벨**이다(§3.2 와 동일 매핑, 단 수동검수 없음). 즉 "사람 정답"이 아니라 "자동 라벨링과의 일치도"를 재는 것이므로 해석 시 유의한다.
+- 사전 요구: `ffmpeg`, `yt-dlp`(다운로드 시). YouCook2 영상은 annotation 의 `video_url` 로 자동 다운로드되며, 봇 차단 시 `--cookies` 로 우회(2(a) 절 참고).
+
+> 시각화(Grad-CAM, Co-attention attention map)는 [src/utils/](src/utils/) 에 예정되어 있으나 아직 미구현이다.
 
 ## 데이터셋 출처
 
