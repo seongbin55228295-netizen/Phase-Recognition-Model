@@ -15,12 +15,18 @@
 import csv
 import json
 import os
-import subprocess
 import shutil
+import sys
 from pathlib import Path
 
 # === 설정 ===
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+# 프레임 추출 로직 단일 출처: src/preprocessing/frame_extraction.py
+# (import-light 모듈 — torchvision 불필요. 추론 스크립트 scripts/infer_video.py 도 동일 함수 사용.)
+from src.preprocessing.frame_extraction import extract_frames as _extract_frames
+from src.preprocessing.frame_extraction import get_video_fps
 SELECTED_IDS_CONFIG = ROOT / "configs" / "selected_video_ids.json"
 ANNOTATIONS_JSON = ROOT / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
 FOODTYPE_PATH = ROOT / "YouCookII" / "label_foodtype.csv"
@@ -66,106 +72,12 @@ def find_video_file(video_id):
     return None
 
 
-def get_video_fps(video_path):
-    """원본 영상의 FPS 확인"""
-    cmd = [
-        "ffprobe",
-        "-v", "error",
-        "-select_streams", "v:0",
-        "-show_entries", "stream=r_frame_rate",
-        "-of", "csv=p=0",
-        video_path
-    ]
-    try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
-        if result.returncode == 0:
-            fps_str = result.stdout.strip()
-            if "/" in fps_str:
-                num, den = fps_str.split("/")
-                return float(num) / float(den)
-            return float(fps_str)
-    except:
-        pass
-    return None
-
-
 def extract_frames(video_path, output_dir):
-    """
-    ffmpeg로 2 FPS 프레임 추출
-    - fps 필터로 정확한 시간 간격 추출
-    - 짧은 변 기준 256px 리사이즈 (비율 유지)
-    - showinfo 필터로 프레임별 타임스탬프 기록
-    """
-    os.makedirs(output_dir, exist_ok=True)
-
-    # vf 필터 구성:
-    # 1) fps=2: 초당 2프레임 추출
-    # 2) scale: 짧은 변을 256px로 리사이즈 (비율 유지, 2의 배수로 맞춤)
-    # 3) showinfo: 각 프레임의 타임스탬프를 stderr에 출력
-    vf_filter = (
-        f"fps={FPS},"
-        f"scale='if(gt(iw,ih),-2,{RESIZE_SHORT})':'if(gt(iw,ih),{RESIZE_SHORT},-2)',"
-        f"showinfo"
+    """src/data/frame_extraction.py 의 공용 함수에 학습용 기본값(2fps/256px/q2)을 고정해 위임."""
+    return _extract_frames(
+        video_path, output_dir,
+        fps=FPS, image_quality=IMAGE_QUALITY, resize_short=RESIZE_SHORT,
     )
-
-    cmd = [
-        "ffmpeg",
-        "-i", video_path,
-        "-vf", vf_filter,
-        "-q:v", str(IMAGE_QUALITY),
-        "-start_number", "0",
-        os.path.join(output_dir, "frame_%06d.jpg"),
-        "-y",
-        "-loglevel", "info"   # showinfo 출력을 위해 info 레벨 필요
-    ]
-
-    try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
-
-        # 추출된 프레임 수 확인
-        frame_files = sorted([f for f in os.listdir(output_dir) if f.endswith(".jpg")])
-        frame_count = len(frame_files)
-
-        if frame_count == 0:
-            # 실패 시 빈 폴더 삭제
-            shutil.rmtree(output_dir, ignore_errors=True)
-            return False, result.stderr[:200] if result.stderr else "프레임 추출 실패"
-
-        # showinfo에서 타임스탬프 파싱
-        timestamps = []
-        for line in result.stderr.split("\n"):
-            if "pts_time:" in line:
-                try:
-                    pts_part = line.split("pts_time:")[1]
-                    pts_time = float(pts_part.split()[0])
-                    timestamps.append(pts_time)
-                except (IndexError, ValueError):
-                    continue
-
-        # 타임스탬프가 부족하면 계산으로 보완
-        if len(timestamps) < frame_count:
-            timestamps = [i / FPS for i in range(frame_count)]
-
-        # 타임스탬프 저장
-        timestamp_data = {}
-        for i, ts in enumerate(timestamps[:frame_count]):
-            frame_name = f"frame_{i:06d}.jpg"
-            timestamp_data[frame_name] = {
-                "frame_index": i,
-                "timestamp_sec": round(ts, 4),
-            }
-
-        with open(os.path.join(output_dir, "timestamps.json"), "w") as f:
-            json.dump(timestamp_data, f, indent=2)
-
-        return True, frame_count
-
-    except subprocess.TimeoutExpired:
-        shutil.rmtree(output_dir, ignore_errors=True)
-        return False, "타임아웃"
-    except Exception as e:
-        shutil.rmtree(output_dir, ignore_errors=True)
-        return False, str(e)
 
 
 def main():
