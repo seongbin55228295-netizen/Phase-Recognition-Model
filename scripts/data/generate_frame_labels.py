@@ -26,9 +26,9 @@ src/preprocessing/frame_labeling.py 에 있다.
   Soft Boundary: 각 segment 양 끝 ±boundary_width 프레임에 boundary_factor 곱
 
 [사용법]
-  python scripts/generate_frame_labels.py
-  python scripts/generate_frame_labels.py --boundary-width 2 --boundary-factor 0.5
-  python scripts/generate_frame_labels.py --dry-run
+  python scripts/data/generate_frame_labels.py
+  python scripts/data/generate_frame_labels.py --boundary-width 2 --boundary-factor 0.5
+  python scripts/data/generate_frame_labels.py --dry-run
 """
 import argparse
 import json
@@ -36,7 +36,7 @@ import shutil
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 # segment 병합·프레임 확장·Soft Boundary 로직 단일 출처:

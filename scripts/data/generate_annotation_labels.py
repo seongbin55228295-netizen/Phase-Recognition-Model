@@ -25,9 +25,9 @@ YouCook2 annotation 을 프로토타입 임베딩으로 자동 분류한 뒤,
   상수로 관리한다. 재조정 시 해당 상수를 직접 편집한다.
 
 [사용법]
-  python scripts/generate_annotation_labels.py
-  python scripts/generate_annotation_labels.py --sample-size 200  # 빠른 검증
-  python scripts/generate_annotation_labels.py --dry-run
+  python scripts/data/generate_annotation_labels.py
+  python scripts/data/generate_annotation_labels.py --sample-size 200  # 빠른 검증
+  python scripts/data/generate_annotation_labels.py --dry-run
 """
 import argparse
 import csv
@@ -36,7 +36,7 @@ from pathlib import Path
 
 from sentence_transformers import SentenceTransformer
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 # 분류·검수 분기 로직 단일 출처: src/preprocessing/annotation_labeling.py

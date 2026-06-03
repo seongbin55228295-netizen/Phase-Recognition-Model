@@ -1,12 +1,12 @@
 """Prototype-embedding annotation labeling logic.
 
 Single source of truth for turning raw YouCook2 annotation sentences into the
-8-class auto/review split that scripts/generate_annotation_labels.py writes out.
+8-class auto/review split that scripts/data/generate_annotation_labels.py writes out.
 
 Kept import-light: only numpy is imported here. The embedding model is *injected*
 (``build_class_vectors``/``score_rows`` take a ``model`` argument) rather than
 imported, so the routing/quality rules can be unit-tested without
-sentence-transformers. The thin CLI (scripts/generate_annotation_labels.py)
+sentence-transformers. The thin CLI (scripts/data/generate_annotation_labels.py)
 wires project paths, constructs the SentenceTransformer, and writes CSVs.
 
 Pipeline:

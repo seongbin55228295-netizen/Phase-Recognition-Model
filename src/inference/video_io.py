@@ -1,7 +1,7 @@
 """Raw-video acquisition and frame-tensor loading for inference.
 
 - download_video: fetch a single arbitrary URL (or a YouCook2 video_url) with
-  yt-dlp, mirroring the format selection used by scripts/download_videos.py.
+  yt-dlp, mirroring the format selection used by scripts/data/download_videos.py.
 - load_frame_tensors: read an extracted frame directory (frame_*.jpg +
   timestamps.json) and apply the eval transform, returning a sequence aligned by
   frame_index.
@@ -15,7 +15,7 @@ from pathlib import Path
 import torch
 from PIL import Image
 
-# Same format ladder as scripts/download_videos.py (<=480p mp4, audio merged).
+# Same format ladder as scripts/data/download_videos.py (<=480p mp4, audio merged).
 _YT_FORMAT = (
     "bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]/"
     "best[height<=480][ext=mp4]/best[height<=480]"

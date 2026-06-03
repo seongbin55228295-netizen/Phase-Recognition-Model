@@ -21,7 +21,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-# Mirrors AUTO_QUALITY_RULES in scripts/generate_annotation_labels.py.
+# Mirrors AUTO_QUALITY_RULES in src/preprocessing/annotation_labeling.py.
 GOOD_TOP1_MIN = 0.50
 GOOD_MARGIN_MIN = 0.05
 WEIGHT_GOOD = 1.0

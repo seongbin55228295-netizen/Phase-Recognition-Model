@@ -2,7 +2,7 @@
 
 This is the single source of truth for turning a raw video file into the
 2-FPS / short-side-256 JPEG frames the model was trained on. Both the training
-preprocessing entrypoint (scripts/extract_frames.py, which drives the selected
+preprocessing entrypoint (scripts/data/extract_frames.py, which drives the selected
 300 videos) and the inference entrypoint (scripts/infer_video.py, which handles
 arbitrary YouTube / held-out YouCook2 videos) call into this module so the pixel
 pipeline is byte-identical across train and test.

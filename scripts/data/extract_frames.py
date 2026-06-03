@@ -9,7 +9,7 @@
 카테고리(레시피명) 메타데이터는 data/external/YouCookII/annotations/*.json 과 label_foodtype.csv
 에서 즉석 lookup 한다.
 
-사용법: python scripts/extract_frames.py
+사용법: python scripts/data/extract_frames.py
 필요: ffmpeg 설치, configs/selected_video_ids.json, 다운로드된 영상
 """
 import csv
@@ -20,7 +20,7 @@ import sys
 from pathlib import Path
 
 # === 설정 ===
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 # 프레임 추출 로직 단일 출처: src/preprocessing/frame_extraction.py

@@ -1,7 +1,7 @@
 """Frame-level label generation logic (segment merge + Soft Boundary).
 
 Single source of truth for turning the auto/reviewed segment annotations into the
-per-frame training labels that scripts/generate_frame_labels.py writes out. Kept
+per-frame training labels that scripts/data/generate_frame_labels.py writes out. Kept
 import-light (pandas only) so the merge/partition/boundary-weighting logic can be
 unit-tested without torch/torchvision. The thin CLI wires project paths, builds
 the manifest, prints stats, and writes the per-video CSVs.
@@ -54,7 +54,7 @@ def assert_partition(acts: pd.DataFrame, reviewed: pd.DataFrame) -> None:
     if overlap:
         raise RuntimeError(
             f"action_annotations and reviewed_annotations overlap on {len(overlap)} keys. "
-            "Ensure scripts/generate_annotation_labels.py produced a clean acts/review partition "
+            "Ensure scripts/data/generate_annotation_labels.py produced a clean acts/review partition "
             "and that reviewed_annotations.csv contains only rows from review_queue.csv."
         )
 
