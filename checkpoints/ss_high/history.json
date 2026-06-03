@@ -1,0 +1,162 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.2721330608392431,
+    "ss_p": 0.07500000000000001,
+    "val_frame_accuracy": 0.35412000471531296,
+    "val_macro_f1": 0.15132179222943323,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 2,
+    "loss": 0.13142802108565102,
+    "ss_p": 0.15000000000000002,
+    "val_frame_accuracy": 0.349895518922684,
+    "val_macro_f1": 0.18825628313612586,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 3,
+    "loss": 0.14596836904414753,
+    "ss_p": 0.22499999999999998,
+    "val_frame_accuracy": 0.27482014388489207,
+    "val_macro_f1": 0.12449651183784904,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 4,
+    "loss": 0.15752307674834046,
+    "ss_p": 0.30000000000000004,
+    "val_frame_accuracy": 0.364466655178356,
+    "val_macro_f1": 0.21556080111719034,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 5,
+    "loss": 0.17191250211869677,
+    "ss_p": 0.375,
+    "val_frame_accuracy": 0.4029716343989194,
+    "val_macro_f1": 0.23992882141149144,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 6,
+    "loss": 0.19718597504026864,
+    "ss_p": 0.44999999999999996,
+    "val_frame_accuracy": 0.4242886178861789,
+    "val_macro_f1": 0.23327072765730927,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 7,
+    "loss": 0.2169248583642901,
+    "ss_p": 0.5249999999999999,
+    "val_frame_accuracy": 0.2990753283467813,
+    "val_macro_f1": 0.17378644645500904,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 8,
+    "loss": 0.24064043131481477,
+    "ss_p": 0.6000000000000001,
+    "val_frame_accuracy": 0.31035504712228085,
+    "val_macro_f1": 0.19256143807455006,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 9,
+    "loss": 0.29484378496616864,
+    "ss_p": 0.675,
+    "val_frame_accuracy": 0.3527693244065733,
+    "val_macro_f1": 0.21288837034543595,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 10,
+    "loss": 0.3762445030250735,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.3788015828151498,
+    "val_macro_f1": 0.19051827875402128,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 11,
+    "loss": 0.2999094366657453,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.4050181307755293,
+    "val_macro_f1": 0.24115534387850154,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 12,
+    "loss": 0.3082398698511331,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.32797118847539014,
+    "val_macro_f1": 0.25305012322784215,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 13,
+    "loss": 0.29743383859952344,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.3749642591639504,
+    "val_macro_f1": 0.19849608490034817,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 14,
+    "loss": 0.2883197366853879,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.38442573662056523,
+    "val_macro_f1": 0.2142495208267437,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 15,
+    "loss": 0.25957444637500937,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.37345877403143807,
+    "val_macro_f1": 0.2089257286681614,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 16,
+    "loss": 0.23943974842263413,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.37276173811606883,
+    "val_macro_f1": 0.2448931049814827,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 17,
+    "loss": 0.24710507840593007,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.3366124645564493,
+    "val_macro_f1": 0.19098298135721453,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 18,
+    "loss": 0.23267965613810374,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.4032531345306676,
+    "val_macro_f1": 0.2616472772625477,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 19,
+    "loss": 0.2176652999540818,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.3786707882534776,
+    "val_macro_f1": 0.19262833853042335,
+    "val_n_positions": 5376
+  },
+  {
+    "epoch": 20,
+    "loss": 0.19694519129068846,
+    "ss_p": 0.75,
+    "val_frame_accuracy": 0.4480670176034414,
+    "val_macro_f1": 0.24053292999778514,
+    "val_n_positions": 5376
+  }
+]
