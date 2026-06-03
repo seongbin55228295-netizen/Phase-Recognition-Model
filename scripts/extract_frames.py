@@ -6,7 +6,7 @@
 - 실패 시 불완전 폴더 정리
 
 대상 영상은 configs/selected_video_ids.json 의 300개 ID 를 기준으로 하며,
-카테고리(레시피명) 메타데이터는 YouCookII/annotations/*.json 과 label_foodtype.csv
+카테고리(레시피명) 메타데이터는 data/external/YouCookII/annotations/*.json 과 label_foodtype.csv
 에서 즉석 lookup 한다.
 
 사용법: python scripts/extract_frames.py
@@ -28,9 +28,9 @@ sys.path.insert(0, str(ROOT))
 from src.preprocessing.frame_extraction import extract_frames as _extract_frames
 from src.preprocessing.frame_extraction import get_video_fps
 SELECTED_IDS_CONFIG = ROOT / "configs" / "selected_video_ids.json"
-ANNOTATIONS_JSON = ROOT / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
-FOODTYPE_PATH = ROOT / "YouCookII" / "label_foodtype.csv"
-VIDEO_DIR = str(ROOT / "data" / "videos")
+ANNOTATIONS_JSON = ROOT / "data" / "external" / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
+FOODTYPE_PATH = ROOT / "data" / "external" / "YouCookII" / "label_foodtype.csv"
+VIDEO_DIR = str(ROOT / "data" / "raw")
 FRAMES_DIR = str(ROOT / "data" / "frames")
 STATS_FILE = str(ROOT / "reports" / "logs" / "frame_extraction_stats.json")
 FPS = 2
@@ -64,7 +64,7 @@ def load_selected_videos():
 
 
 def find_video_file(video_id):
-    """data/videos/ 평탄 구조(download_videos.py 산출물)에서 영상 파일 탐색."""
+    """data/raw/ 평탄 구조(download_videos.py 산출물)에서 영상 파일 탐색."""
     for ext in (".mp4", ".mkv", ".webm"):
         path = os.path.join(VIDEO_DIR, f"{video_id}{ext}")
         if os.path.exists(path):

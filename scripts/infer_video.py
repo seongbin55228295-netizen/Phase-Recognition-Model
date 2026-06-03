@@ -48,7 +48,7 @@ from src.evaluation import frame_accuracy, macro_f1
 from src.inference import Predictor, build_youcook2_gt, download_video, load_frame_tensors
 from src.inference.youcook2_gt import load_entry
 
-DEFAULT_ANNOTATIONS = ROOT / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
+DEFAULT_ANNOTATIONS = ROOT / "data" / "external" / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
 DEFAULT_PROTOTYPES = ROOT / "configs" / "action_class_prototypes.json"
 SELECTED_IDS = ROOT / "configs" / "selected_video_ids.json"
 
@@ -77,7 +77,7 @@ def parse_args() -> argparse.Namespace:
 
     # common
     p.add_argument("--out-dir", default=None, help="Output root (default reports/inference/).")
-    p.add_argument("--videos-dir", default=str(ROOT / "data" / "videos"),
+    p.add_argument("--videos-dir", default=str(ROOT / "data" / "raw"),
                    help="Where downloaded mp4s are cached / looked up.")
     p.add_argument("--device", default=None, help="cuda|cpu (default: auto).")
     p.add_argument("--image-batch-size", type=int, default=64)

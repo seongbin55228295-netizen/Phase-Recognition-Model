@@ -11,12 +11,12 @@ env/
 .ipynb_checkpoints/
 
 # 대용량 원본·중간 데이터
-data/videos/*
+data/raw/*
 data/frames/*
-!data/videos/.gitkeep
+!data/raw/.gitkeep
 !data/frames/.gitkeep
-YouCookII/features/feat_csv/
-YouCookII/features/feat_dat/
+data/external/YouCookII/features/feat_csv/
+data/external/YouCookII/features/feat_dat/
 
 # 클라우드 업로드용 임시 아카이브 (frames.tar 등) — 절대 커밋 금지
 *.tar
@@ -43,7 +43,7 @@ Thumbs.db
 .env.local
 
 # 검수용 임시 xlsx (편집 후 CSV로 변환 → 커밋, xlsx는 로컬 보관)
-processed/*.xlsx
+data/processed/*.xlsx
 
 # 인증 비밀 (YouTube 쿠키 등). 절대 커밋 금지.
 secrets/

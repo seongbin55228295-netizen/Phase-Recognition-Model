@@ -6,16 +6,16 @@ YouCook2 annotation 을 프로토타입 임베딩으로 자동 분류한 뒤,
 담당하고, 분류·검수 분기 로직은 src/preprocessing/annotation_labeling.py 에 있다.
 
 [입력]
-  YouCookII/annotations/youcookii_annotations_trainval.json  ← 원본 annotation
-  processed/failed_downloads.json                            ← 다운로드 실패 영상 제외 필터
+  data/external/YouCookII/annotations/youcookii_annotations_trainval.json  ← 원본 annotation
+  data/processed/failed_downloads.json                       ← 다운로드 실패 영상 제외 필터
   configs/action_class_prototypes.json                       ← 8개 클래스 프로토타입 문장
 
 [출력]
-  processed/action_annotations.csv
+  data/processed/action_annotations.csv
     컬럼: video_id, subset, recipe_type, segment_id,
           segment_start, segment_end, sentence,
           predicted_label, label_quality, recommended_sample_weight
-  processed/review_queue.csv
+  data/processed/review_queue.csv
     컬럼: video_id, subset, recipe_type, segment_id,
           segment_start, segment_end, sentence,
           predicted_label, review_reason, suggested_issue
@@ -54,10 +54,10 @@ from src.preprocessing.annotation_labeling import (
 )
 
 PROTOTYPES_PATH = ROOT / "configs" / "action_class_prototypes.json"
-ANNOTATIONS_JSON = ROOT / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
-FAILED_DOWNLOADS = ROOT / "processed" / "failed_downloads.json"
-ACTS_OUT = ROOT / "processed" / "action_annotations.csv"
-REVIEW_OUT = ROOT / "processed" / "review_queue.csv"
+ANNOTATIONS_JSON = ROOT / "data" / "external" / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
+FAILED_DOWNLOADS = ROOT / "data" / "processed" / "failed_downloads.json"
+ACTS_OUT = ROOT / "data" / "processed" / "action_annotations.csv"
+REVIEW_OUT = ROOT / "data" / "processed" / "review_queue.csv"
 
 DEFAULT_SAMPLE_SIZE = "all"
 DEFAULT_SEED = 42

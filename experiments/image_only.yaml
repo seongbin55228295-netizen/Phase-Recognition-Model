@@ -7,9 +7,9 @@ seed: 42
 eval_mode: fr
 
 data:
-  manifest_path: processed/frame_labels/_manifest.json
+  manifest_path: data/processed/frame_labels/_manifest.json
   frames_root: data/frames
-  labels_root: processed/frame_labels
+  labels_root: data/processed/frame_labels
   window_size: 64
   batch_size: 4
   num_windows_per_video: 4

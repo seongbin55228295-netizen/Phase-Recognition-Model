@@ -2,7 +2,7 @@
 YouCook2 영상 다운로드 스크립트 (Windows 호환)
 사전 설치: pip install yt-dlp / 시스템에 ffmpeg
 
-다운로드 대상 URL 은 YouCookII/annotations/youcookii_annotations_trainval.json 의
+다운로드 대상 URL 은 data/external/YouCookII/annotations/youcookii_annotations_trainval.json 의
 각 항목 video_url 필드에서 직접 추출한다 (별도 매니페스트 파일 불필요).
 
 YouTube 봇 차단 우회를 위해 cookies.txt(Netscape 포맷)를 사용할 수 있다.
@@ -25,10 +25,10 @@ from pathlib import Path
 
 # === 설정 ===
 ROOT = Path(__file__).resolve().parents[1]
-ANNOTATIONS_JSON = ROOT / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
-OUTPUT_DIR = str(ROOT / "data" / "videos")                       # 영상 저장 폴더
+ANNOTATIONS_JSON = ROOT / "data" / "external" / "YouCookII" / "annotations" / "youcookii_annotations_trainval.json"
+OUTPUT_DIR = str(ROOT / "data" / "raw")                          # 영상 저장 폴더 (원본 mp4)
 LOG_FILE = str(ROOT / "reports" / "logs" / "download_log.txt")   # 로그 파일
-FAILED_FILE = str(ROOT / "processed" / "failed_downloads.json")  # 실패 목록 (JSON)
+FAILED_FILE = str(ROOT / "data" / "processed" / "failed_downloads.json")  # 실패 목록 (JSON)
 DEFAULT_COOKIES_PATH = ROOT / "secrets" / "cookies.txt"          # 기본 쿠키 경로 (.gitignore)
 
 

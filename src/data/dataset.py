@@ -50,9 +50,9 @@ class PhaseRecognitionDataset(Dataset):
     """Window-based dataset.
 
     Args:
-        manifest_path: processed/frame_labels/_manifest.json
+        manifest_path: data/processed/frame_labels/_manifest.json
         frames_root:   data/frames/ (each video -> <vid>/frame_NNNNNN.jpg)
-        labels_root:   processed/frame_labels/ (each video -> <vid>.csv)
+        labels_root:   data/processed/frame_labels/ (each video -> <vid>.csv)
         subset:        'training' or 'validation' (read from manifest)
         window_size:   number of consecutive emitted frames per sample
         num_windows_per_video: epoch-length multiplier (1 window/video by default)
