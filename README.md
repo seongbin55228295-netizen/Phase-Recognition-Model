@@ -119,7 +119,10 @@ Phase-Recognition-Model/
 │
 ├── src/                          # 학습·평가·추론 코어 코드
 │   ├── data/                     #   Dataset, DataLoader, 샘플링, labels
-│   ├── preprocessing/            #   frame_extraction.py (ffmpeg 프레임 추출, torchvision 불필요한 공용 모듈)
+│   ├── preprocessing/            #   라벨링·프레임 추출 코어 로직 (torchvision 불필요, 단위 테스트 대상)
+│   │                             #     frame_extraction.py   (ffmpeg 2fps/256 프레임 추출)
+│   │                             #     annotation_labeling.py (프로토타입 분류 + 검수 분기 규칙)
+│   │                             #     frame_labeling.py      (segment 병합 + Soft Boundary)
 │   ├── models/
 │   │   ├── encoders/             #   image_encoder.py (ResNet-50), text_encoder.py (DistilBERT)
 │   │   ├── fusion/               #   co_attention.py, concat.py  (gmu.py 는 향후 작업, 미구현)
@@ -132,8 +135,8 @@ Phase-Recognition-Model/
 ├── scripts/                      # 실행 가능한 파이프라인 스크립트
 │   ├── download_videos.py        # YouTube 영상 다운로드 (yt-dlp 래퍼, URL 은 YouCookII JSON 에서 직접 추출)
 │   ├── extract_frames.py         # 2 FPS 프레임 추출 (선별 300개 대상, src/preprocessing 공용 함수 사용)
-│   ├── generate_annotation_labels.py   # 프로토타입 기반 자동 분류 + 검수 분기 (action_annotations.csv + review_queue.csv 동시 생성)
-│   ├── generate_frame_labels.py  # auto + reviewed → segment 통합 → 프레임 단위 라벨 + Soft Boundary 가중치 (frame_labels/ + _manifest.json)
+│   ├── generate_annotation_labels.py   # 프로토타입 기반 자동 분류 + 검수 분기 (얇은 CLI; 로직은 src/preprocessing/annotation_labeling.py)
+│   ├── generate_frame_labels.py  # auto + reviewed → segment 통합 → 프레임 라벨 + Soft Boundary (얇은 CLI; 로직은 src/preprocessing/frame_labeling.py)
 │   ├── train.py                  # 학습 엔트리포인트
 │   ├── evaluate.py               # 전체영상 결정적 평가 (FR+TF, 변형당 reports/metrics/<variant>.json)
 │   ├── compare_variants.py       # 변형별 metrics → 4개 비교 축 표 생성 (reports/tables/)
@@ -390,7 +393,7 @@ python scripts/compare_variants.py
 - 체크포인트는 `--checkpoint` 가 아니라 YAML 의 `checkpoint.dir` 에서 `best.pt` 를 자동 탐색한다.
 - 지표: Frame Accuracy(비가중 대표값 — `tf_fr_gap` 산출 기준, sample_weight 가중값 `frame_accuracy_weighted` 도 병기), Macro F1, Segment IoU, Edit Score ([src/evaluation/metrics.py](src/evaluation/metrics.py)).
 - [compare_variants.py](scripts/compare_variants.py) 는 4개 비교 축 표(modal ablation / fusion / exposure bias / SS 강도) + `all_metrics.csv` 를 [reports/tables/](reports/) 에 쓴다.
-- 메트릭·롤아웃 로직은 torchvision 없이 단위 테스트된다: `python tests/test_metrics.py`, `python tests/test_evaluate_logic.py`.
+- 핵심 로직은 torchvision 없이 단위 테스트된다: `python tests/test_metrics.py`, `python tests/test_evaluate_logic.py` (메트릭·롤아웃), `python tests/test_preprocessing_labeling.py` (라벨링 분기·Soft Boundary 가중치).
 
 #### 5.2 test 영상 추론 ([infer_video.py](scripts/infer_video.py))
 
