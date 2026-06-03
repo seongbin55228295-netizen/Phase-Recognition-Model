@@ -388,7 +388,7 @@ python scripts/compare_variants.py
 ```
 
 - 체크포인트는 `--checkpoint` 가 아니라 YAML 의 `checkpoint.dir` 에서 `best.pt` 를 자동 탐색한다.
-- 지표: Frame Accuracy(sample_weight 가중), Macro F1, Segment IoU, Edit Score ([src/evaluation/metrics.py](src/evaluation/metrics.py)).
+- 지표: Frame Accuracy(비가중 대표값 — `tf_fr_gap` 산출 기준, sample_weight 가중값 `frame_accuracy_weighted` 도 병기), Macro F1, Segment IoU, Edit Score ([src/evaluation/metrics.py](src/evaluation/metrics.py)).
 - [compare_variants.py](scripts/compare_variants.py) 는 4개 비교 축 표(modal ablation / fusion / exposure bias / SS 강도) + `all_metrics.csv` 를 [reports/tables/](reports/) 에 쓴다.
 - 메트릭·롤아웃 로직은 torchvision 없이 단위 테스트된다: `python tests/test_metrics.py`, `python tests/test_evaluate_logic.py`.
 
