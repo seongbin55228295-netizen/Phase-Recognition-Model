@@ -7,9 +7,12 @@ Two input types share one pipeline; --source selects the branch:
 
   --source youtube  : arbitrary YouTube URL or local mp4. No ground truth -> qualitative
                       outputs only (per-frame predictions + phase timeline).
-  --source youcook2 : a held-out YouCook2 video_id. Ground truth is reconstructed
-                      from its annotations via prototype embeddings (the same mapping
-                      used to build the training labels) -> quantitative metrics too.
+  --source youcook2 : a held-out YouCook2 video_id. The raw video is taken from a
+                      local file <videos-dir>/<video_id>.<ext> if present (fully
+                      offline; --no-download enforces this), otherwise downloaded via
+                      the annotation's video_url. Ground truth is reconstructed from
+                      its annotations via prototype embeddings (the same mapping used
+                      to build the training labels) -> quantitative metrics too.
 
 Examples
 --------
@@ -23,6 +26,11 @@ Examples
 
   # held-out YouCook2 (quantitative; downloads via the annotation's video_url)
   python scripts/infer_video.py --source youcook2 --video-id <youcook2_id> \
+      --config experiments/baseline.yaml --checkpoint checkpoints/baseline/best.pt
+
+  # held-out YouCook2 from a pre-downloaded local file data/raw/<youcook2_id>.mp4
+  # (rename the downloaded file to the video_id; no network needed)
+  python scripts/infer_video.py --source youcook2 --video-id <youcook2_id> --no-download \
       --config experiments/baseline.yaml --checkpoint checkpoints/baseline/best.pt
 
 Outputs land in --out-dir (default reports/inference/<name>/):
@@ -69,16 +77,21 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--name", help="[youtube] Output name (default: derived from url/file).")
 
     # youcook2 source
-    p.add_argument("--video-id", help="[youcook2] A single held-out YouCook2 video_id.")
+    p.add_argument("--video-id", help="[youcook2] A single held-out YouCook2 video_id "
+                   "(also the expected local filename stem under --videos-dir).")
     p.add_argument("--video-list", help="[youcook2] Text file of video_ids (one per line) for batch eval.")
     p.add_argument("--annotations-json", default=str(DEFAULT_ANNOTATIONS))
     p.add_argument("--prototypes", default=str(DEFAULT_PROTOTYPES))
     p.add_argument("--cookies", default=None, help="cookies.txt for yt-dlp (bot-block bypass).")
+    p.add_argument("--no-download", action="store_true",
+                   help="[youcook2] Use only a local <videos-dir>/<video_id>.<ext>; "
+                        "error instead of downloading if it is missing.")
 
     # common
     p.add_argument("--out-dir", default=None, help="Output root (default reports/inference/).")
     p.add_argument("--videos-dir", default=str(ROOT / "data" / "raw"),
-                   help="Where downloaded mp4s are cached / looked up.")
+                   help="[youcook2] dir holding local videos named <video_id>.<ext>; "
+                        "used as-is if found, otherwise the download target.")
     p.add_argument("--device", default=None, help="cuda|cpu (default: auto).")
     p.add_argument("--image-batch-size", type=int, default=64)
     p.add_argument("--fps", type=int, default=2)
@@ -180,9 +193,26 @@ def compute_metrics(merged: pd.DataFrame) -> dict:
 
 # ------------------------------------------------------------------------- runner
 
+# Extensions yt-dlp / users may save a local video under.
+_LOCAL_VIDEO_EXTS = (".mp4", ".mkv", ".webm", ".mov", ".m4v", ".avi")
+
+
+def find_local_video(videos_dir: Path, video_id: str) -> Path | None:
+    """Locate a locally-saved video named <video_id>.<ext> in videos_dir.
+
+    Lets a held-out YouCook2 video be inferred fully offline (no yt-dlp): just
+    drop the file as <videos-dir>/<video_id>.mp4 (or .mkv/.webm/...).
+    """
+    for ext in _LOCAL_VIDEO_EXTS:
+        cand = videos_dir / f"{video_id}{ext}"
+        if cand.exists():
+            return cand
+    return None
+
+
 def resolve_video(args, name: str, *, source: str, video_id: str | None,
                   videos_dir: Path, work_dir: Path) -> Path:
-    """Return a local mp4 path, downloading if needed."""
+    """Return a local video path, downloading only if no local file is found."""
     if source == "youtube":
         if args.video:
             path = Path(args.video)
@@ -193,17 +223,24 @@ def resolve_video(args, name: str, *, source: str, video_id: str | None,
             raise SystemExit("youtube source needs --url or --video.")
         return download_video(args.url, work_dir, video_id=name, cookies=args.cookies)
 
-    # youcook2: prefer a cached mp4, else download from the annotation's video_url
-    cached = videos_dir / f"{video_id}.mp4"
-    if cached.exists():
-        print(f"  using cached video: {cached}")
-        return cached
+    # youcook2: prefer a local file named <video_id>.<ext> under --videos-dir
+    # (any of _LOCAL_VIDEO_EXTS), else download from the annotation's video_url.
+    local = find_local_video(videos_dir, video_id)
+    if local is not None:
+        print(f"  using local video: {local}")
+        return local
+    if args.no_download:
+        raise FileNotFoundError(
+            f"no local video '{video_id}.<{'/'.join(e[1:] for e in _LOCAL_VIDEO_EXTS)}>' "
+            f"in {videos_dir}/ and --no-download is set."
+        )
     entry = load_entry(video_id, args.annotations_json)
     if entry is None:
         raise KeyError(f"{video_id} not in {args.annotations_json}")
     url = entry.get("video_url")
     if not url:
         raise ValueError(f"{video_id} has no video_url in annotations")
+    print(f"  no local file in {videos_dir}/; downloading via annotation video_url ...")
     return download_video(url, videos_dir, video_id=video_id, cookies=args.cookies)
 
 
