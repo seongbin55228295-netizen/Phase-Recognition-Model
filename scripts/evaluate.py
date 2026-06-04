@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -188,6 +189,15 @@ def main() -> None:
 
     from src.data.dataset import build_eval_transform  # heavy (torchvision)
     from src.models import build_tokenizer
+
+    # The FR rollout runs one frame at a time (batch=1): a tiny tokenize + forward
+    # + .item() sync per frame. That is launch/dispatch-bound, so torch's default
+    # intra-op + tokenizer thread pools cause CPU oversubscription where fork/join
+    # contention dominates per-step time (~20x slower; user>>real). Cap to a single
+    # thread — results are byte-identical, this is purely a speed fix. (train.py is
+    # left alone: it uses large batches that genuinely benefit from many threads.)
+    torch.set_num_threads(1)
+    os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
     for stream in (sys.stdout, sys.stderr):  # Windows cp949 console safety
         try:
